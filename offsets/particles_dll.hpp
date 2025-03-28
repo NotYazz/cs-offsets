@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-23 05:22:39.903484800 UTC
+// 2025-03-28 01:32:03.303966 UTC
 
 #pragma once
 
@@ -1064,7 +1064,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_vecMin = 0x1C8; // Vector
                 constexpr std::ptrdiff_t m_vecMax = 0x1D4; // Vector
                 constexpr std::ptrdiff_t m_nFieldOutput = 0x1E0; // ParticleAttributeIndex_t
-                constexpr std::ptrdiff_t m_randomnessParameters = 0x1E4; // 
+                constexpr std::ptrdiff_t m_randomnessParameters = 0x1E4; // CRandomNumberGeneratorParameters
             }
             // Parent: CParticleFunctionInitializer
             // Field count: 10
@@ -1140,7 +1140,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_LocalCoordinateSystemSpeedMin = 0x490; // CPerParticleVecInput
                 constexpr std::ptrdiff_t m_LocalCoordinateSystemSpeedMax = 0xB08; // CPerParticleVecInput
                 constexpr std::ptrdiff_t m_bIgnoreDT = 0x1180; // bool
-                constexpr std::ptrdiff_t m_randomnessParameters = 0x1184; // 
+                constexpr std::ptrdiff_t m_randomnessParameters = 0x1184; // CRandomNumberGeneratorParameters
             }
             // Parent: CParticleFunctionOperator
             // Field count: 7
@@ -1226,7 +1226,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flDiffuseClamp = 0x1530; // CParticleCollectionRendererFloatInput
                 constexpr std::ptrdiff_t m_nLightingControlPoint = 0x1690; // int32
                 constexpr std::ptrdiff_t m_nSelfIllumPerParticle = 0x1694; // ParticleAttributeIndex_t
-                constexpr std::ptrdiff_t m_nOutputBlendMode = 0x1698; // 
+                constexpr std::ptrdiff_t m_nOutputBlendMode = 0x1698; // ParticleOutputBlendMode_t
                 constexpr std::ptrdiff_t m_bGammaCorrectVertexColors = 0x169C; // bool
                 constexpr std::ptrdiff_t m_bSaturateColorPreAlphaBlend = 0x169D; // bool
                 constexpr std::ptrdiff_t m_flAddSelfAmount = 0x16A0; // CParticleCollectionRendererFloatInput
@@ -1779,7 +1779,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nFieldOutput = 0x1CC; // ParticleAttributeIndex_t
                 constexpr std::ptrdiff_t m_vecOutputMin = 0x1D0; // Vector
                 constexpr std::ptrdiff_t m_vecOutputMax = 0x1DC; // Vector
-                constexpr std::ptrdiff_t m_randomnessParameters = 0x1E8; // 
+                constexpr std::ptrdiff_t m_randomnessParameters = 0x1E8; // CRandomNumberGeneratorParameters
             }
             // Parent: CParticleFunctionOperator
             // Field count: 8
@@ -2320,7 +2320,7 @@ namespace cs2_dumper {
             // MGetKV3ClassDefaults
             // MParticleCustomFieldDefaultValue
             namespace CParticleVecInput {
-                constexpr std::ptrdiff_t m_nType = 0x10; // ParticleVecType_t
+                constexpr std::ptrdiff_t m_nType = 0x10; // 
                 constexpr std::ptrdiff_t m_vLiteralValue = 0x14; // Vector
                 constexpr std::ptrdiff_t m_LiteralColor = 0x20; // Color
                 constexpr std::ptrdiff_t m_NamedValue = 0x28; // CParticleNamedValueRef
@@ -2719,7 +2719,7 @@ namespace cs2_dumper {
             namespace ParticleNamedValueSource_t {
                 constexpr std::ptrdiff_t m_Name = 0x0; // CUtlString
                 constexpr std::ptrdiff_t m_IsPublic = 0x8; // bool
-                constexpr std::ptrdiff_t m_ValueType = 0xC; // PulseValueType_t
+                constexpr std::ptrdiff_t m_ValueType = 0xC; // 
                 constexpr std::ptrdiff_t m_DefaultConfig = 0x10; // ParticleNamedValueConfiguration_t
                 constexpr std::ptrdiff_t m_NamedConfigs = 0x48; // CUtlVector<ParticleNamedValueConfiguration_t>
             }
@@ -2916,7 +2916,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_vecMax = 0x840; // CPerParticleVecInput
                 constexpr std::ptrdiff_t m_nControlPointNumber = 0xEB8; // int32
                 constexpr std::ptrdiff_t m_bLocalSpace = 0xEBC; // bool
-                constexpr std::ptrdiff_t m_randomnessParameters = 0xEC0; // 
+                constexpr std::ptrdiff_t m_randomnessParameters = 0xEC0; // CRandomNumberGeneratorParameters
             }
             // Parent: CParticleFunctionPreEmission
             // Field count: 2
@@ -3211,7 +3211,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nFieldInput = 0x1D8; // ParticleAttributeIndex_t
                 constexpr std::ptrdiff_t m_vOffsetMin = 0x1DC; // Vector
                 constexpr std::ptrdiff_t m_vOffsetMax = 0x1E8; // Vector
-                constexpr std::ptrdiff_t m_randomnessParameters = 0x1F4; // 
+                constexpr std::ptrdiff_t m_randomnessParameters = 0x1F4; // CRandomNumberGeneratorParameters
             }
             // Parent: CParticleFunctionInitializer
             // Field count: 5
@@ -3671,7 +3671,7 @@ namespace cs2_dumper {
             // MPropertyCustomEditor
             namespace CParticleVariableRef {
                 constexpr std::ptrdiff_t m_variableName = 0x0; // CKV3MemberNameWithStorage
-                constexpr std::ptrdiff_t m_variableType = 0x38; // PulseValueType_t
+                constexpr std::ptrdiff_t m_variableType = 0x38; // 
             }
             // Parent: CParticleFunctionOperator
             // Field count: 6
@@ -4616,7 +4616,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_TransformInput = 0xEB8; // CParticleTransformInput
                 constexpr std::ptrdiff_t m_bLocalCoords = 0xF20; // bool
                 constexpr std::ptrdiff_t m_bProportional = 0xF21; // bool
-                constexpr std::ptrdiff_t m_randomnessParameters = 0xF24; // 
+                constexpr std::ptrdiff_t m_randomnessParameters = 0xF24; // CRandomNumberGeneratorParameters
             }
             // Parent: CParticleFunctionInitializer
             // Field count: 2
@@ -5217,7 +5217,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace C_OP_RenderStandardLight {
-                constexpr std::ptrdiff_t m_nLightType = 0x210; // ParticleLightTypeChoiceList_t
+                constexpr std::ptrdiff_t m_nLightType = 0x210; // 
                 constexpr std::ptrdiff_t m_vecColorScale = 0x218; // CParticleCollectionVecInput
                 constexpr std::ptrdiff_t m_nColorBlendType = 0x890; // ParticleColorBlendType_t
                 constexpr std::ptrdiff_t m_flIntensity = 0x898; // CParticleCollectionFloatInput

@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-23 05:22:39.903484800 UTC
+// 2025-03-28 01:32:03.303966 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -2005,7 +2005,7 @@ pub mod cs2_dumper {
                 pub const m_boneNames: usize = 0x20; // CUtlVector<CUtlString>
                 pub const m_indexNames: usize = 0x38; // CUtlVector<uint16>
                 pub const m_indexHash: usize = 0x50; // CUtlVector<uint16>
-                pub const m_bindPose: usize = 0x68; // CUtlVector<matrix3x4a_t>
+                pub const m_bindPose: usize = 0x68; // 
                 pub const m_parts: usize = 0x80; // CUtlVector<VPhysXBodyPart_t>
                 pub const m_constraints2: usize = 0x98; // CUtlVector<VPhysXConstraint2_t>
                 pub const m_joints: usize = 0xB0; // CUtlVector<VPhysXJoint_t>
@@ -2230,7 +2230,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod MaterialGroup_t {
                 pub const m_name: usize = 0x0; // CUtlString
-                pub const m_materials: usize = 0x8; // 
+                pub const m_materials: usize = 0x8; // CUtlVector<CStrongHandle<InfoForResourceTypeIMaterial2>>
             }
             // Parent: None
             // Field count: 4
@@ -2956,7 +2956,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CHitBoxSetList {
-                pub const m_HitBoxSets: usize = 0x0; // CUtlVector<CHitBoxSet>
+                pub const m_HitBoxSets: usize = 0x0; // 
             }
             // Parent: None
             // Field count: 1
@@ -3082,7 +3082,7 @@ pub mod cs2_dumper {
                 pub const m_rootToWorld: usize = 0x10; // matrix3x4a_t
                 pub const m_bBonesInWorldSpace: usize = 0x40; // bool
                 pub const m_boneSetupMask: usize = 0x48; // CUtlVector<uint32>
-                pub const m_boneTransforms: usize = 0x60; // CUtlVector<matrix3x4a_t>
+                pub const m_boneTransforms: usize = 0x60; // 
                 pub const m_flexControllers: usize = 0x78; // CUtlVector<float32>
                 pub const m_SnapshotType: usize = 0x90; // AnimationSnapshotType_t
                 pub const m_bHasDecodeDump: usize = 0x94; // bool
@@ -4056,7 +4056,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CAddUpdateNode {
-                pub const m_footMotionTiming: usize = 0x8C; // 
+                pub const m_footMotionTiming: usize = 0x8C; // BinaryNodeChildOption
                 pub const m_bApplyToFootMotion: usize = 0x90; // bool
                 pub const m_bApplyChannelsSeparately: usize = 0x91; // bool
                 pub const m_bUseModelSpace: usize = 0x92; // bool
@@ -4224,7 +4224,7 @@ pub mod cs2_dumper {
             pub mod CHitBoxSet {
                 pub const m_name: usize = 0x0; // CUtlString
                 pub const m_nNameHash: usize = 0x8; // uint32
-                pub const m_HitBoxes: usize = 0x10; // CUtlVector<CHitBox>
+                pub const m_HitBoxes: usize = 0x10; // 
                 pub const m_SourceFilename: usize = 0x28; // CUtlString
             }
             // Parent: None
@@ -4236,7 +4236,7 @@ pub mod cs2_dumper {
                 pub const m_nChainIndex: usize = 0x0; // int32
                 pub const m_SolverSettings: usize = 0x4; // IKSolverSettings_t
                 pub const m_TargetSettings: usize = 0x10; // IKTargetSettings_t
-                pub const m_DebugSetting: usize = 0x38; // SolveIKChainAnimNodeDebugSetting
+                pub const m_DebugSetting: usize = 0x38; // 
                 pub const m_flDebugNormalizedValue: usize = 0x3C; // float32
                 pub const m_vDebugOffset: usize = 0x40; // VectorAligned
             }
@@ -5004,7 +5004,7 @@ pub mod cs2_dumper {
                 pub const m_paramsModified: usize = 0x8; // CUtlVector<CAnimParamHandle>
                 pub const m_proxyReadParams: usize = 0x20; // CUtlVector<int32>
                 pub const m_proxyWriteParams: usize = 0x38; // CUtlVector<int32>
-                pub const m_eScriptType: usize = 0x50; // AnimScriptType
+                pub const m_eScriptType: usize = 0x50; // 
             }
             // Parent: None
             // Field count: 11
@@ -5506,7 +5506,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CSubtractUpdateNode {
-                pub const m_footMotionTiming: usize = 0x8C; // 
+                pub const m_footMotionTiming: usize = 0x8C; // BinaryNodeChildOption
                 pub const m_bApplyToFootMotion: usize = 0x90; // bool
                 pub const m_bApplyChannelsSeparately: usize = 0x91; // bool
                 pub const m_bUseModelSpace: usize = 0x92; // bool
@@ -5584,7 +5584,7 @@ pub mod cs2_dumper {
                 pub const m_nWeightListIndex: usize = 0x8C; // int32
                 pub const m_flRootMotionBlend: usize = 0x90; // float32
                 pub const m_blendSpace: usize = 0x94; // BoneMaskBlendSpace
-                pub const m_footMotionTiming: usize = 0x98; // 
+                pub const m_footMotionTiming: usize = 0x98; // BinaryNodeChildOption
                 pub const m_bUseBlendScale: usize = 0x9C; // bool
                 pub const m_blendValueSource: usize = 0xA0; // AnimValueSource
                 pub const m_hBlendParameter: usize = 0xA4; // CAnimParamHandle
@@ -5643,7 +5643,7 @@ pub mod cs2_dumper {
                 pub const m_pTagManagerUpdater: usize = 0x68; // CSmartPtr<CAnimTagManagerUpdater>
                 pub const m_scriptManager: usize = 0x70; // CSmartPtr<CAnimScriptManager>
                 pub const m_settings: usize = 0x78; // CAnimGraphSettingsManager
-                pub const m_pStaticPoseCache: usize = 0xA8; // CSmartPtr<CStaticPoseCacheBuilder>
+                pub const m_pStaticPoseCache: usize = 0xA8; // 
                 pub const m_pSkeleton: usize = 0xB0; // CSmartPtr<CAnimSkeleton>
                 pub const m_rootNodePath: usize = 0xB8; // CAnimNodePath
             }

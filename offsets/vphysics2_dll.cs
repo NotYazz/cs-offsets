@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-23 05:22:39.903484800 UTC
+// 2025-03-28 01:32:03.303966 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: vphysics2.dll
@@ -168,11 +168,11 @@ namespace CS2Dumper.Schemas {
             public const nint m_MorphSetData = 0x578; // CUtlVector<uint8>
             public const nint m_VertexMaps = 0x590; // CUtlVector<FeVertexMapDesc_t>
             public const nint m_VertexMapValues = 0x5A8; // CUtlVector<uint8>
-            public const nint m_Effects = 0x5C0; // 
+            public const nint m_Effects = 0x5C0; // CUtlVector<FeEffectDesc_t>
             public const nint m_LockToParent = 0x5D8; // CUtlVector<FeCtrlOffset_t>
             public const nint m_LockToGoal = 0x5F0; // CUtlVector<uint16>
             public const nint m_SkelParents = 0x608; // 
-            public const nint m_DynNodeWindBases = 0x620; // CUtlVector<FeNodeWindBase_t>
+            public const nint m_DynNodeWindBases = 0x620; // 
             public const nint m_flInternalPressure = 0x638; // float32
             public const nint m_flDefaultTimeDilation = 0x63C; // float32
             public const nint m_flWindage = 0x640; // float32

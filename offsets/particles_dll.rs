@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-23 05:22:39.903484800 UTC
+// 2025-03-28 01:32:03.303966 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -1138,7 +1138,7 @@ pub mod cs2_dumper {
                 pub const m_vecMin: usize = 0x1C8; // Vector
                 pub const m_vecMax: usize = 0x1D4; // Vector
                 pub const m_nFieldOutput: usize = 0x1E0; // ParticleAttributeIndex_t
-                pub const m_randomnessParameters: usize = 0x1E4; // 
+                pub const m_randomnessParameters: usize = 0x1E4; // CRandomNumberGeneratorParameters
             }
             // Parent: CParticleFunctionInitializer
             // Field count: 10
@@ -1214,7 +1214,7 @@ pub mod cs2_dumper {
                 pub const m_LocalCoordinateSystemSpeedMin: usize = 0x490; // CPerParticleVecInput
                 pub const m_LocalCoordinateSystemSpeedMax: usize = 0xB08; // CPerParticleVecInput
                 pub const m_bIgnoreDT: usize = 0x1180; // bool
-                pub const m_randomnessParameters: usize = 0x1184; // 
+                pub const m_randomnessParameters: usize = 0x1184; // CRandomNumberGeneratorParameters
             }
             // Parent: CParticleFunctionOperator
             // Field count: 7
@@ -1300,7 +1300,7 @@ pub mod cs2_dumper {
                 pub const m_flDiffuseClamp: usize = 0x1530; // CParticleCollectionRendererFloatInput
                 pub const m_nLightingControlPoint: usize = 0x1690; // int32
                 pub const m_nSelfIllumPerParticle: usize = 0x1694; // ParticleAttributeIndex_t
-                pub const m_nOutputBlendMode: usize = 0x1698; // 
+                pub const m_nOutputBlendMode: usize = 0x1698; // ParticleOutputBlendMode_t
                 pub const m_bGammaCorrectVertexColors: usize = 0x169C; // bool
                 pub const m_bSaturateColorPreAlphaBlend: usize = 0x169D; // bool
                 pub const m_flAddSelfAmount: usize = 0x16A0; // CParticleCollectionRendererFloatInput
@@ -1853,7 +1853,7 @@ pub mod cs2_dumper {
                 pub const m_nFieldOutput: usize = 0x1CC; // ParticleAttributeIndex_t
                 pub const m_vecOutputMin: usize = 0x1D0; // Vector
                 pub const m_vecOutputMax: usize = 0x1DC; // Vector
-                pub const m_randomnessParameters: usize = 0x1E8; // 
+                pub const m_randomnessParameters: usize = 0x1E8; // CRandomNumberGeneratorParameters
             }
             // Parent: CParticleFunctionOperator
             // Field count: 8
@@ -2394,7 +2394,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             // MParticleCustomFieldDefaultValue
             pub mod CParticleVecInput {
-                pub const m_nType: usize = 0x10; // ParticleVecType_t
+                pub const m_nType: usize = 0x10; // 
                 pub const m_vLiteralValue: usize = 0x14; // Vector
                 pub const m_LiteralColor: usize = 0x20; // Color
                 pub const m_NamedValue: usize = 0x28; // CParticleNamedValueRef
@@ -2793,7 +2793,7 @@ pub mod cs2_dumper {
             pub mod ParticleNamedValueSource_t {
                 pub const m_Name: usize = 0x0; // CUtlString
                 pub const m_IsPublic: usize = 0x8; // bool
-                pub const m_ValueType: usize = 0xC; // PulseValueType_t
+                pub const m_ValueType: usize = 0xC; // 
                 pub const m_DefaultConfig: usize = 0x10; // ParticleNamedValueConfiguration_t
                 pub const m_NamedConfigs: usize = 0x48; // CUtlVector<ParticleNamedValueConfiguration_t>
             }
@@ -2990,7 +2990,7 @@ pub mod cs2_dumper {
                 pub const m_vecMax: usize = 0x840; // CPerParticleVecInput
                 pub const m_nControlPointNumber: usize = 0xEB8; // int32
                 pub const m_bLocalSpace: usize = 0xEBC; // bool
-                pub const m_randomnessParameters: usize = 0xEC0; // 
+                pub const m_randomnessParameters: usize = 0xEC0; // CRandomNumberGeneratorParameters
             }
             // Parent: CParticleFunctionPreEmission
             // Field count: 2
@@ -3285,7 +3285,7 @@ pub mod cs2_dumper {
                 pub const m_nFieldInput: usize = 0x1D8; // ParticleAttributeIndex_t
                 pub const m_vOffsetMin: usize = 0x1DC; // Vector
                 pub const m_vOffsetMax: usize = 0x1E8; // Vector
-                pub const m_randomnessParameters: usize = 0x1F4; // 
+                pub const m_randomnessParameters: usize = 0x1F4; // CRandomNumberGeneratorParameters
             }
             // Parent: CParticleFunctionInitializer
             // Field count: 5
@@ -3745,7 +3745,7 @@ pub mod cs2_dumper {
             // MPropertyCustomEditor
             pub mod CParticleVariableRef {
                 pub const m_variableName: usize = 0x0; // CKV3MemberNameWithStorage
-                pub const m_variableType: usize = 0x38; // PulseValueType_t
+                pub const m_variableType: usize = 0x38; // 
             }
             // Parent: CParticleFunctionOperator
             // Field count: 6
@@ -4690,7 +4690,7 @@ pub mod cs2_dumper {
                 pub const m_TransformInput: usize = 0xEB8; // CParticleTransformInput
                 pub const m_bLocalCoords: usize = 0xF20; // bool
                 pub const m_bProportional: usize = 0xF21; // bool
-                pub const m_randomnessParameters: usize = 0xF24; // 
+                pub const m_randomnessParameters: usize = 0xF24; // CRandomNumberGeneratorParameters
             }
             // Parent: CParticleFunctionInitializer
             // Field count: 2
@@ -5291,7 +5291,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod C_OP_RenderStandardLight {
-                pub const m_nLightType: usize = 0x210; // ParticleLightTypeChoiceList_t
+                pub const m_nLightType: usize = 0x210; // 
                 pub const m_vecColorScale: usize = 0x218; // CParticleCollectionVecInput
                 pub const m_nColorBlendType: usize = 0x890; // ParticleColorBlendType_t
                 pub const m_flIntensity: usize = 0x898; // CParticleCollectionFloatInput

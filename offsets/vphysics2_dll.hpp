@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-23 05:22:39.903484800 UTC
+// 2025-03-28 01:32:03.303966 UTC
 
 #pragma once
 
@@ -173,11 +173,11 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_MorphSetData = 0x578; // CUtlVector<uint8>
                 constexpr std::ptrdiff_t m_VertexMaps = 0x590; // CUtlVector<FeVertexMapDesc_t>
                 constexpr std::ptrdiff_t m_VertexMapValues = 0x5A8; // CUtlVector<uint8>
-                constexpr std::ptrdiff_t m_Effects = 0x5C0; // 
+                constexpr std::ptrdiff_t m_Effects = 0x5C0; // CUtlVector<FeEffectDesc_t>
                 constexpr std::ptrdiff_t m_LockToParent = 0x5D8; // CUtlVector<FeCtrlOffset_t>
                 constexpr std::ptrdiff_t m_LockToGoal = 0x5F0; // CUtlVector<uint16>
                 constexpr std::ptrdiff_t m_SkelParents = 0x608; // 
-                constexpr std::ptrdiff_t m_DynNodeWindBases = 0x620; // CUtlVector<FeNodeWindBase_t>
+                constexpr std::ptrdiff_t m_DynNodeWindBases = 0x620; // 
                 constexpr std::ptrdiff_t m_flInternalPressure = 0x638; // float32
                 constexpr std::ptrdiff_t m_flDefaultTimeDilation = 0x63C; // float32
                 constexpr std::ptrdiff_t m_flWindage = 0x640; // float32

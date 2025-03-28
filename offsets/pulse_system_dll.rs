@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-23 05:22:39.903484800 UTC
+// 2025-03-28 01:32:03.303966 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -862,7 +862,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CPulse_DomainValue {
-                pub const m_nType: usize = 0x0; // 
+                pub const m_nType: usize = 0x0; // PulseDomainValueType_t
                 pub const m_Value: usize = 0x8; // CGlobalSymbol
                 pub const m_ExpectedRuntimeType: usize = 0x10; // CGlobalSymbol
             }

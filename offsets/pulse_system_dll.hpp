@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-23 05:22:39.903484800 UTC
+// 2025-03-28 01:32:03.303966 UTC
 
 #pragma once
 
@@ -855,7 +855,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace CPulse_DomainValue {
-                constexpr std::ptrdiff_t m_nType = 0x0; // 
+                constexpr std::ptrdiff_t m_nType = 0x0; // PulseDomainValueType_t
                 constexpr std::ptrdiff_t m_Value = 0x8; // CGlobalSymbol
                 constexpr std::ptrdiff_t m_ExpectedRuntimeType = 0x10; // CGlobalSymbol
             }

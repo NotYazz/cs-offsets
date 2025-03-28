@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-23 05:22:39.903484800 UTC
+// 2025-03-28 01:32:03.303966 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: particles.dll
@@ -1059,7 +1059,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_vecMin = 0x1C8; // Vector
             public const nint m_vecMax = 0x1D4; // Vector
             public const nint m_nFieldOutput = 0x1E0; // ParticleAttributeIndex_t
-            public const nint m_randomnessParameters = 0x1E4; // 
+            public const nint m_randomnessParameters = 0x1E4; // CRandomNumberGeneratorParameters
         }
         // Parent: CParticleFunctionInitializer
         // Field count: 10
@@ -1135,7 +1135,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_LocalCoordinateSystemSpeedMin = 0x490; // CPerParticleVecInput
             public const nint m_LocalCoordinateSystemSpeedMax = 0xB08; // CPerParticleVecInput
             public const nint m_bIgnoreDT = 0x1180; // bool
-            public const nint m_randomnessParameters = 0x1184; // 
+            public const nint m_randomnessParameters = 0x1184; // CRandomNumberGeneratorParameters
         }
         // Parent: CParticleFunctionOperator
         // Field count: 7
@@ -1221,7 +1221,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flDiffuseClamp = 0x1530; // CParticleCollectionRendererFloatInput
             public const nint m_nLightingControlPoint = 0x1690; // int32
             public const nint m_nSelfIllumPerParticle = 0x1694; // ParticleAttributeIndex_t
-            public const nint m_nOutputBlendMode = 0x1698; // 
+            public const nint m_nOutputBlendMode = 0x1698; // ParticleOutputBlendMode_t
             public const nint m_bGammaCorrectVertexColors = 0x169C; // bool
             public const nint m_bSaturateColorPreAlphaBlend = 0x169D; // bool
             public const nint m_flAddSelfAmount = 0x16A0; // CParticleCollectionRendererFloatInput
@@ -1774,7 +1774,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_nFieldOutput = 0x1CC; // ParticleAttributeIndex_t
             public const nint m_vecOutputMin = 0x1D0; // Vector
             public const nint m_vecOutputMax = 0x1DC; // Vector
-            public const nint m_randomnessParameters = 0x1E8; // 
+            public const nint m_randomnessParameters = 0x1E8; // CRandomNumberGeneratorParameters
         }
         // Parent: CParticleFunctionOperator
         // Field count: 8
@@ -2315,7 +2315,7 @@ namespace CS2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MParticleCustomFieldDefaultValue
         public static class CParticleVecInput {
-            public const nint m_nType = 0x10; // ParticleVecType_t
+            public const nint m_nType = 0x10; // 
             public const nint m_vLiteralValue = 0x14; // Vector
             public const nint m_LiteralColor = 0x20; // Color
             public const nint m_NamedValue = 0x28; // CParticleNamedValueRef
@@ -2714,7 +2714,7 @@ namespace CS2Dumper.Schemas {
         public static class ParticleNamedValueSource_t {
             public const nint m_Name = 0x0; // CUtlString
             public const nint m_IsPublic = 0x8; // bool
-            public const nint m_ValueType = 0xC; // PulseValueType_t
+            public const nint m_ValueType = 0xC; // 
             public const nint m_DefaultConfig = 0x10; // ParticleNamedValueConfiguration_t
             public const nint m_NamedConfigs = 0x48; // CUtlVector<ParticleNamedValueConfiguration_t>
         }
@@ -2911,7 +2911,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_vecMax = 0x840; // CPerParticleVecInput
             public const nint m_nControlPointNumber = 0xEB8; // int32
             public const nint m_bLocalSpace = 0xEBC; // bool
-            public const nint m_randomnessParameters = 0xEC0; // 
+            public const nint m_randomnessParameters = 0xEC0; // CRandomNumberGeneratorParameters
         }
         // Parent: CParticleFunctionPreEmission
         // Field count: 2
@@ -3206,7 +3206,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_nFieldInput = 0x1D8; // ParticleAttributeIndex_t
             public const nint m_vOffsetMin = 0x1DC; // Vector
             public const nint m_vOffsetMax = 0x1E8; // Vector
-            public const nint m_randomnessParameters = 0x1F4; // 
+            public const nint m_randomnessParameters = 0x1F4; // CRandomNumberGeneratorParameters
         }
         // Parent: CParticleFunctionInitializer
         // Field count: 5
@@ -3666,7 +3666,7 @@ namespace CS2Dumper.Schemas {
         // MPropertyCustomEditor
         public static class CParticleVariableRef {
             public const nint m_variableName = 0x0; // CKV3MemberNameWithStorage
-            public const nint m_variableType = 0x38; // PulseValueType_t
+            public const nint m_variableType = 0x38; // 
         }
         // Parent: CParticleFunctionOperator
         // Field count: 6
@@ -4611,7 +4611,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_TransformInput = 0xEB8; // CParticleTransformInput
             public const nint m_bLocalCoords = 0xF20; // bool
             public const nint m_bProportional = 0xF21; // bool
-            public const nint m_randomnessParameters = 0xF24; // 
+            public const nint m_randomnessParameters = 0xF24; // CRandomNumberGeneratorParameters
         }
         // Parent: CParticleFunctionInitializer
         // Field count: 2
@@ -5212,7 +5212,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class C_OP_RenderStandardLight {
-            public const nint m_nLightType = 0x210; // ParticleLightTypeChoiceList_t
+            public const nint m_nLightType = 0x210; // 
             public const nint m_vecColorScale = 0x218; // CParticleCollectionVecInput
             public const nint m_nColorBlendType = 0x890; // ParticleColorBlendType_t
             public const nint m_flIntensity = 0x898; // CParticleCollectionFloatInput
