@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-28 01:32:03.303966 UTC
+// 2025-03-31 23:09:26.096718400 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: particles.dll
@@ -787,7 +787,7 @@ namespace CS2Dumper.Schemas {
         // MPropertyCustomEditor
         // MParticleCustomFieldDefaultValue
         public static class CParticleModelInput {
-            public const nint m_nType = 0x10; // ParticleModelType_t
+            public const nint m_nType = 0x10; // 
             public const nint m_NamedValue = 0x18; // CParticleNamedValueRef
             public const nint m_nControlPoint = 0x58; // int32
         }
@@ -1234,7 +1234,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_bTintByGlobalLight = 0x1C29; // bool
             public const nint m_nPerParticleAlphaReference = 0x1C2C; // SpriteCardPerParticleScale_t
             public const nint m_nPerParticleAlphaRefWindow = 0x1C30; // SpriteCardPerParticleScale_t
-            public const nint m_nAlphaReferenceType = 0x1C34; // 
+            public const nint m_nAlphaReferenceType = 0x1C34; // ParticleAlphaReferenceType_t
             public const nint m_flAlphaReferenceSoftness = 0x1C38; // CParticleCollectionRendererFloatInput
             public const nint m_flSourceAlphaValueToMapToZero = 0x1D98; // CParticleCollectionRendererFloatInput
             public const nint m_flSourceAlphaValueToMapToOne = 0x1EF8; // CParticleCollectionRendererFloatInput
@@ -1242,7 +1242,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_bRefractSolid = 0x2059; // bool
             public const nint m_flRefractAmount = 0x2060; // CParticleCollectionRendererFloatInput
             public const nint m_nRefractBlurRadius = 0x21C0; // int32
-            public const nint m_nRefractBlurType = 0x21C4; // 
+            public const nint m_nRefractBlurType = 0x21C4; // BlurFilterType_t
             public const nint m_bOnlyRenderInEffectsBloomPass = 0x21C8; // bool
             public const nint m_bOnlyRenderInEffectsWaterPass = 0x21C9; // bool
             public const nint m_bUseMixedResolutionRendering = 0x21CA; // bool
@@ -2714,7 +2714,7 @@ namespace CS2Dumper.Schemas {
         public static class ParticleNamedValueSource_t {
             public const nint m_Name = 0x0; // CUtlString
             public const nint m_IsPublic = 0x8; // bool
-            public const nint m_ValueType = 0xC; // 
+            public const nint m_ValueType = 0xC; // PulseValueType_t
             public const nint m_DefaultConfig = 0x10; // ParticleNamedValueConfiguration_t
             public const nint m_NamedConfigs = 0x48; // CUtlVector<ParticleNamedValueConfiguration_t>
         }
@@ -3666,7 +3666,7 @@ namespace CS2Dumper.Schemas {
         // MPropertyCustomEditor
         public static class CParticleVariableRef {
             public const nint m_variableName = 0x0; // CKV3MemberNameWithStorage
-            public const nint m_variableType = 0x38; // 
+            public const nint m_variableType = 0x38; // PulseValueType_t
         }
         // Parent: CParticleFunctionOperator
         // Field count: 6
@@ -5212,7 +5212,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class C_OP_RenderStandardLight {
-            public const nint m_nLightType = 0x210; // 
+            public const nint m_nLightType = 0x210; // ParticleLightTypeChoiceList_t
             public const nint m_vecColorScale = 0x218; // CParticleCollectionVecInput
             public const nint m_nColorBlendType = 0x890; // ParticleColorBlendType_t
             public const nint m_flIntensity = 0x898; // CParticleCollectionFloatInput

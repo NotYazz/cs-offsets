@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-28 01:32:03.303966 UTC
+// 2025-03-31 23:09:26.096718400 UTC
 
 #pragma once
 
@@ -792,7 +792,7 @@ namespace cs2_dumper {
             // MPropertyCustomEditor
             // MParticleCustomFieldDefaultValue
             namespace CParticleModelInput {
-                constexpr std::ptrdiff_t m_nType = 0x10; // ParticleModelType_t
+                constexpr std::ptrdiff_t m_nType = 0x10; // 
                 constexpr std::ptrdiff_t m_NamedValue = 0x18; // CParticleNamedValueRef
                 constexpr std::ptrdiff_t m_nControlPoint = 0x58; // int32
             }
@@ -1239,7 +1239,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bTintByGlobalLight = 0x1C29; // bool
                 constexpr std::ptrdiff_t m_nPerParticleAlphaReference = 0x1C2C; // SpriteCardPerParticleScale_t
                 constexpr std::ptrdiff_t m_nPerParticleAlphaRefWindow = 0x1C30; // SpriteCardPerParticleScale_t
-                constexpr std::ptrdiff_t m_nAlphaReferenceType = 0x1C34; // 
+                constexpr std::ptrdiff_t m_nAlphaReferenceType = 0x1C34; // ParticleAlphaReferenceType_t
                 constexpr std::ptrdiff_t m_flAlphaReferenceSoftness = 0x1C38; // CParticleCollectionRendererFloatInput
                 constexpr std::ptrdiff_t m_flSourceAlphaValueToMapToZero = 0x1D98; // CParticleCollectionRendererFloatInput
                 constexpr std::ptrdiff_t m_flSourceAlphaValueToMapToOne = 0x1EF8; // CParticleCollectionRendererFloatInput
@@ -1247,7 +1247,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bRefractSolid = 0x2059; // bool
                 constexpr std::ptrdiff_t m_flRefractAmount = 0x2060; // CParticleCollectionRendererFloatInput
                 constexpr std::ptrdiff_t m_nRefractBlurRadius = 0x21C0; // int32
-                constexpr std::ptrdiff_t m_nRefractBlurType = 0x21C4; // 
+                constexpr std::ptrdiff_t m_nRefractBlurType = 0x21C4; // BlurFilterType_t
                 constexpr std::ptrdiff_t m_bOnlyRenderInEffectsBloomPass = 0x21C8; // bool
                 constexpr std::ptrdiff_t m_bOnlyRenderInEffectsWaterPass = 0x21C9; // bool
                 constexpr std::ptrdiff_t m_bUseMixedResolutionRendering = 0x21CA; // bool
@@ -2719,7 +2719,7 @@ namespace cs2_dumper {
             namespace ParticleNamedValueSource_t {
                 constexpr std::ptrdiff_t m_Name = 0x0; // CUtlString
                 constexpr std::ptrdiff_t m_IsPublic = 0x8; // bool
-                constexpr std::ptrdiff_t m_ValueType = 0xC; // 
+                constexpr std::ptrdiff_t m_ValueType = 0xC; // PulseValueType_t
                 constexpr std::ptrdiff_t m_DefaultConfig = 0x10; // ParticleNamedValueConfiguration_t
                 constexpr std::ptrdiff_t m_NamedConfigs = 0x48; // CUtlVector<ParticleNamedValueConfiguration_t>
             }
@@ -3671,7 +3671,7 @@ namespace cs2_dumper {
             // MPropertyCustomEditor
             namespace CParticleVariableRef {
                 constexpr std::ptrdiff_t m_variableName = 0x0; // CKV3MemberNameWithStorage
-                constexpr std::ptrdiff_t m_variableType = 0x38; // 
+                constexpr std::ptrdiff_t m_variableType = 0x38; // PulseValueType_t
             }
             // Parent: CParticleFunctionOperator
             // Field count: 6
@@ -5217,7 +5217,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace C_OP_RenderStandardLight {
-                constexpr std::ptrdiff_t m_nLightType = 0x210; // 
+                constexpr std::ptrdiff_t m_nLightType = 0x210; // ParticleLightTypeChoiceList_t
                 constexpr std::ptrdiff_t m_vecColorScale = 0x218; // CParticleCollectionVecInput
                 constexpr std::ptrdiff_t m_nColorBlendType = 0x890; // ParticleColorBlendType_t
                 constexpr std::ptrdiff_t m_flIntensity = 0x898; // CParticleCollectionFloatInput

@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-28 01:32:03.303966 UTC
+// 2025-03-31 23:09:26.096718400 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -866,7 +866,7 @@ pub mod cs2_dumper {
             // MPropertyCustomEditor
             // MParticleCustomFieldDefaultValue
             pub mod CParticleModelInput {
-                pub const m_nType: usize = 0x10; // ParticleModelType_t
+                pub const m_nType: usize = 0x10; // 
                 pub const m_NamedValue: usize = 0x18; // CParticleNamedValueRef
                 pub const m_nControlPoint: usize = 0x58; // int32
             }
@@ -1313,7 +1313,7 @@ pub mod cs2_dumper {
                 pub const m_bTintByGlobalLight: usize = 0x1C29; // bool
                 pub const m_nPerParticleAlphaReference: usize = 0x1C2C; // SpriteCardPerParticleScale_t
                 pub const m_nPerParticleAlphaRefWindow: usize = 0x1C30; // SpriteCardPerParticleScale_t
-                pub const m_nAlphaReferenceType: usize = 0x1C34; // 
+                pub const m_nAlphaReferenceType: usize = 0x1C34; // ParticleAlphaReferenceType_t
                 pub const m_flAlphaReferenceSoftness: usize = 0x1C38; // CParticleCollectionRendererFloatInput
                 pub const m_flSourceAlphaValueToMapToZero: usize = 0x1D98; // CParticleCollectionRendererFloatInput
                 pub const m_flSourceAlphaValueToMapToOne: usize = 0x1EF8; // CParticleCollectionRendererFloatInput
@@ -1321,7 +1321,7 @@ pub mod cs2_dumper {
                 pub const m_bRefractSolid: usize = 0x2059; // bool
                 pub const m_flRefractAmount: usize = 0x2060; // CParticleCollectionRendererFloatInput
                 pub const m_nRefractBlurRadius: usize = 0x21C0; // int32
-                pub const m_nRefractBlurType: usize = 0x21C4; // 
+                pub const m_nRefractBlurType: usize = 0x21C4; // BlurFilterType_t
                 pub const m_bOnlyRenderInEffectsBloomPass: usize = 0x21C8; // bool
                 pub const m_bOnlyRenderInEffectsWaterPass: usize = 0x21C9; // bool
                 pub const m_bUseMixedResolutionRendering: usize = 0x21CA; // bool
@@ -2793,7 +2793,7 @@ pub mod cs2_dumper {
             pub mod ParticleNamedValueSource_t {
                 pub const m_Name: usize = 0x0; // CUtlString
                 pub const m_IsPublic: usize = 0x8; // bool
-                pub const m_ValueType: usize = 0xC; // 
+                pub const m_ValueType: usize = 0xC; // PulseValueType_t
                 pub const m_DefaultConfig: usize = 0x10; // ParticleNamedValueConfiguration_t
                 pub const m_NamedConfigs: usize = 0x48; // CUtlVector<ParticleNamedValueConfiguration_t>
             }
@@ -3745,7 +3745,7 @@ pub mod cs2_dumper {
             // MPropertyCustomEditor
             pub mod CParticleVariableRef {
                 pub const m_variableName: usize = 0x0; // CKV3MemberNameWithStorage
-                pub const m_variableType: usize = 0x38; // 
+                pub const m_variableType: usize = 0x38; // PulseValueType_t
             }
             // Parent: CParticleFunctionOperator
             // Field count: 6
@@ -5291,7 +5291,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod C_OP_RenderStandardLight {
-                pub const m_nLightType: usize = 0x210; // 
+                pub const m_nLightType: usize = 0x210; // ParticleLightTypeChoiceList_t
                 pub const m_vecColorScale: usize = 0x218; // CParticleCollectionVecInput
                 pub const m_nColorBlendType: usize = 0x890; // ParticleColorBlendType_t
                 pub const m_flIntensity: usize = 0x898; // CParticleCollectionFloatInput

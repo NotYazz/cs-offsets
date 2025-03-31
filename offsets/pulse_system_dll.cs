@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-28 01:32:03.303966 UTC
+// 2025-03-31 23:09:26.096718400 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: pulse_system.dll
@@ -1071,8 +1071,8 @@ namespace CS2Dumper.Schemas {
             public const nint m_ParentMapName = 0x10; // CUtlSymbolLarge
             public const nint m_ParentXmlName = 0x18; // CUtlSymbolLarge
             public const nint m_vecGameBlackboards = 0x20; // CUtlVector<CUtlSymbolLarge>
-            public const nint m_Chunks = 0x38; // CUtlVector<CPulse_Chunk*>
-            public const nint m_Cells = 0x50; // CUtlVector<CPulseCell_Base*>
+            public const nint m_Chunks = 0x38; // 
+            public const nint m_Cells = 0x50; // 
             public const nint m_Vars = 0x68; // CUtlVector<CPulse_Variable>
             public const nint m_PublicOutputs = 0x80; // CUtlVector<CPulse_PublicOutput>
             public const nint m_InvokeBindings = 0x98; // CUtlVector<CPulse_InvokeBinding*>

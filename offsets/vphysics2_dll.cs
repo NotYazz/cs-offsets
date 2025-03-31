@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-28 01:32:03.303966 UTC
+// 2025-03-31 23:09:26.096718400 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: vphysics2.dll
@@ -171,8 +171,8 @@ namespace CS2Dumper.Schemas {
             public const nint m_Effects = 0x5C0; // CUtlVector<FeEffectDesc_t>
             public const nint m_LockToParent = 0x5D8; // CUtlVector<FeCtrlOffset_t>
             public const nint m_LockToGoal = 0x5F0; // CUtlVector<uint16>
-            public const nint m_SkelParents = 0x608; // 
-            public const nint m_DynNodeWindBases = 0x620; // 
+            public const nint m_SkelParents = 0x608; // CUtlVector<int16>
+            public const nint m_DynNodeWindBases = 0x620; // CUtlVector<FeNodeWindBase_t>
             public const nint m_flInternalPressure = 0x638; // float32
             public const nint m_flDefaultTimeDilation = 0x63C; // float32
             public const nint m_flWindage = 0x640; // float32
@@ -439,9 +439,9 @@ namespace CS2Dumper.Schemas {
         public static class RnMesh_t {
             public const nint m_vMin = 0x0; // Vector
             public const nint m_vMax = 0xC; // Vector
-            public const nint m_Nodes = 0x18; // CUtlVector<RnNode_t>
-            public const nint m_Vertices = 0x30; // CUtlVectorSIMDPaddedVector
-            public const nint m_Triangles = 0x48; // CUtlVector<RnTriangle_t>
+            public const nint m_Nodes = 0x18; // 
+            public const nint m_Vertices = 0x30; // 
+            public const nint m_Triangles = 0x48; // 
             public const nint m_Wings = 0x60; // CUtlVector<RnWing_t>
             public const nint m_Materials = 0x78; // CUtlVector<uint8>
             public const nint m_vOrthographicAreas = 0x90; // Vector

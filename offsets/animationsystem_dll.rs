@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-28 01:32:03.303966 UTC
+// 2025-03-31 23:09:26.096718400 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -1074,7 +1074,7 @@ pub mod cs2_dumper {
                 pub const m_vMinBounds: usize = 0x0; // Vector
                 pub const m_vMaxBounds: usize = 0xC; // Vector
                 pub const m_drawCalls: usize = 0x18; // CUtlLeanVector<CMaterialDrawDescriptor>
-                pub const m_drawBounds: usize = 0x28; // 
+                pub const m_drawBounds: usize = 0x28; // CUtlLeanVector<AABB_t>
                 pub const m_meshlets: usize = 0x38; // CUtlLeanVector<CMeshletDescriptor>
                 pub const m_vTintColor: usize = 0x48; // Vector4D
             }
@@ -2005,7 +2005,7 @@ pub mod cs2_dumper {
                 pub const m_boneNames: usize = 0x20; // CUtlVector<CUtlString>
                 pub const m_indexNames: usize = 0x38; // CUtlVector<uint16>
                 pub const m_indexHash: usize = 0x50; // CUtlVector<uint16>
-                pub const m_bindPose: usize = 0x68; // 
+                pub const m_bindPose: usize = 0x68; // CUtlVector<matrix3x4a_t>
                 pub const m_parts: usize = 0x80; // CUtlVector<VPhysXBodyPart_t>
                 pub const m_constraints2: usize = 0x98; // CUtlVector<VPhysXConstraint2_t>
                 pub const m_joints: usize = 0xB0; // CUtlVector<VPhysXJoint_t>
@@ -2956,7 +2956,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CHitBoxSetList {
-                pub const m_HitBoxSets: usize = 0x0; // 
+                pub const m_HitBoxSets: usize = 0x0; // CUtlVector<CHitBoxSet>
             }
             // Parent: None
             // Field count: 1
@@ -3082,7 +3082,7 @@ pub mod cs2_dumper {
                 pub const m_rootToWorld: usize = 0x10; // matrix3x4a_t
                 pub const m_bBonesInWorldSpace: usize = 0x40; // bool
                 pub const m_boneSetupMask: usize = 0x48; // CUtlVector<uint32>
-                pub const m_boneTransforms: usize = 0x60; // 
+                pub const m_boneTransforms: usize = 0x60; // CUtlVector<matrix3x4a_t>
                 pub const m_flexControllers: usize = 0x78; // CUtlVector<float32>
                 pub const m_SnapshotType: usize = 0x90; // AnimationSnapshotType_t
                 pub const m_bHasDecodeDump: usize = 0x94; // bool
@@ -3166,7 +3166,7 @@ pub mod cs2_dumper {
                 pub const m_nTotalElementCount: usize = 0x0; // int32
                 pub const m_szChannelClass: usize = 0x8; // CUtlVector<char*>
                 pub const m_szVariableName: usize = 0x20; // CUtlVector<char*>
-                pub const m_nType: usize = 0x38; // CUtlVector<fieldtype_t>
+                pub const m_nType: usize = 0x38; // 
                 pub const m_nFlags: usize = 0x50; // CUtlVector<int32>
                 pub const m_szGrouping: usize = 0x68; // CUtlVector<CUtlString>
                 pub const m_nCompressorIndex: usize = 0x80; // CUtlVector<int32>
@@ -3535,7 +3535,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod CNmBoneMask {
                 pub const m_ID: usize = 0x0; // CGlobalSymbol
-                pub const m_weightInfo: usize = 0x8; // 
+                pub const m_weightInfo: usize = 0x8; // CNmBoneMask::WeightInfo_t
                 pub const m_weights: usize = 0x18; // CUtlVector<float32>
             }
             // Parent: CBaseConstraint
@@ -3832,8 +3832,8 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CAnimParameterManagerUpdater {
-                pub const m_parameters: usize = 0x18; // CUtlVector<CSmartPtr<CAnimParameterBase>>
-                pub const m_idToIndexMap: usize = 0x30; // CUtlHashtable<AnimParamID,int32>
+                pub const m_parameters: usize = 0x18; // 
+                pub const m_idToIndexMap: usize = 0x30; // 
                 pub const m_nameToIndexMap: usize = 0x50; // CUtlHashtable<CUtlString,int32>
                 pub const m_indexToHandle: usize = 0x70; // CUtlVector<CAnimParamHandle>
                 pub const m_autoResetParams: usize = 0x88; // CUtlVector<CUtlPair<CAnimParamHandle,CAnimVariant>>
@@ -4224,7 +4224,7 @@ pub mod cs2_dumper {
             pub mod CHitBoxSet {
                 pub const m_name: usize = 0x0; // CUtlString
                 pub const m_nNameHash: usize = 0x8; // uint32
-                pub const m_HitBoxes: usize = 0x10; // 
+                pub const m_HitBoxes: usize = 0x10; // CUtlVector<CHitBox>
                 pub const m_SourceFilename: usize = 0x28; // CUtlString
             }
             // Parent: None
@@ -4236,7 +4236,7 @@ pub mod cs2_dumper {
                 pub const m_nChainIndex: usize = 0x0; // int32
                 pub const m_SolverSettings: usize = 0x4; // IKSolverSettings_t
                 pub const m_TargetSettings: usize = 0x10; // IKTargetSettings_t
-                pub const m_DebugSetting: usize = 0x38; // 
+                pub const m_DebugSetting: usize = 0x38; // SolveIKChainAnimNodeDebugSetting
                 pub const m_flDebugNormalizedValue: usize = 0x3C; // float32
                 pub const m_vDebugOffset: usize = 0x40; // VectorAligned
             }
@@ -4678,7 +4678,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CAnimationGraphVisualizerPrimitiveBase {
-                pub const m_Type: usize = 0x8; // CAnimationGraphVisualizerPrimitiveType
+                pub const m_Type: usize = 0x8; // 
                 pub const m_OwningAnimNodePaths: usize = 0xC; // AnimNodeID[11]
                 pub const m_nOwningAnimNodePathCount: usize = 0x38; // int32
             }
@@ -5004,7 +5004,7 @@ pub mod cs2_dumper {
                 pub const m_paramsModified: usize = 0x8; // CUtlVector<CAnimParamHandle>
                 pub const m_proxyReadParams: usize = 0x20; // CUtlVector<int32>
                 pub const m_proxyWriteParams: usize = 0x38; // CUtlVector<int32>
-                pub const m_eScriptType: usize = 0x50; // 
+                pub const m_eScriptType: usize = 0x50; // AnimScriptType
             }
             // Parent: None
             // Field count: 11
@@ -5528,7 +5528,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod CPoseHandle {
                 pub const m_nIndex: usize = 0x0; // uint16
-                pub const m_eType: usize = 0x2; // PoseType_t
+                pub const m_eType: usize = 0x2; // 
             }
             // Parent: CNmIDValueNode__CDefinition
             // Field count: 2
@@ -5612,7 +5612,7 @@ pub mod cs2_dumper {
             pub mod TwoBoneIKSettings_t {
                 pub const m_endEffectorType: usize = 0x0; // IkEndEffectorType
                 pub const m_endEffectorAttachment: usize = 0x10; // CAnimAttachment
-                pub const m_targetType: usize = 0x90; // IkTargetType
+                pub const m_targetType: usize = 0x90; // 
                 pub const m_targetAttachment: usize = 0xA0; // CAnimAttachment
                 pub const m_targetBoneIndex: usize = 0x120; // int32
                 pub const m_hPositionParam: usize = 0x124; // CAnimParamHandle
@@ -5643,7 +5643,7 @@ pub mod cs2_dumper {
                 pub const m_pTagManagerUpdater: usize = 0x68; // CSmartPtr<CAnimTagManagerUpdater>
                 pub const m_scriptManager: usize = 0x70; // CSmartPtr<CAnimScriptManager>
                 pub const m_settings: usize = 0x78; // CAnimGraphSettingsManager
-                pub const m_pStaticPoseCache: usize = 0xA8; // 
+                pub const m_pStaticPoseCache: usize = 0xA8; // CSmartPtr<CStaticPoseCacheBuilder>
                 pub const m_pSkeleton: usize = 0xB0; // CSmartPtr<CAnimSkeleton>
                 pub const m_rootNodePath: usize = 0xB8; // CAnimNodePath
             }
@@ -5749,7 +5749,7 @@ pub mod cs2_dumper {
             // MPropertyFriendlyName
             pub mod CBodyGroupAnimTag {
                 pub const m_nPriority: usize = 0x58; // int32
-                pub const m_bodyGroupSettings: usize = 0x60; // 
+                pub const m_bodyGroupSettings: usize = 0x60; // CUtlVector<CBodyGroupSetting>
             }
             // Parent: CNmBlendTaskBase
             // Field count: 0
