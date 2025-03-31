@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-31 23:09:26.096718400 UTC
+// 2025-03-31 23:16:25.992994300 UTC
 
 #pragma once
 
@@ -732,7 +732,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace PGDInstruction_t {
-                constexpr std::ptrdiff_t m_nCode = 0x0; // PulseInstructionCode_t
+                constexpr std::ptrdiff_t m_nCode = 0x0; // 
                 constexpr std::ptrdiff_t m_nVar = 0x4; // PulseRuntimeVarIndex_t
                 constexpr std::ptrdiff_t m_nReg0 = 0x8; // PulseRuntimeRegisterIndex_t
                 constexpr std::ptrdiff_t m_nReg1 = 0xA; // PulseRuntimeRegisterIndex_t
@@ -855,7 +855,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace CPulse_DomainValue {
-                constexpr std::ptrdiff_t m_nType = 0x0; // PulseDomainValueType_t
+                constexpr std::ptrdiff_t m_nType = 0x0; // 
                 constexpr std::ptrdiff_t m_Value = 0x8; // CGlobalSymbol
                 constexpr std::ptrdiff_t m_ExpectedRuntimeType = 0x10; // CGlobalSymbol
             }
@@ -1076,8 +1076,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_ParentMapName = 0x10; // CUtlSymbolLarge
                 constexpr std::ptrdiff_t m_ParentXmlName = 0x18; // CUtlSymbolLarge
                 constexpr std::ptrdiff_t m_vecGameBlackboards = 0x20; // CUtlVector<CUtlSymbolLarge>
-                constexpr std::ptrdiff_t m_Chunks = 0x38; // 
-                constexpr std::ptrdiff_t m_Cells = 0x50; // 
+                constexpr std::ptrdiff_t m_Chunks = 0x38; // CUtlVector<CPulse_Chunk*>
+                constexpr std::ptrdiff_t m_Cells = 0x50; // CUtlVector<CPulseCell_Base*>
                 constexpr std::ptrdiff_t m_Vars = 0x68; // CUtlVector<CPulse_Variable>
                 constexpr std::ptrdiff_t m_PublicOutputs = 0x80; // CUtlVector<CPulse_PublicOutput>
                 constexpr std::ptrdiff_t m_InvokeBindings = 0x98; // CUtlVector<CPulse_InvokeBinding*>

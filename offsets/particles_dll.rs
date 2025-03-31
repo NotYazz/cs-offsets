@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-31 23:09:26.096718400 UTC
+// 2025-03-31 23:16:25.992994300 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -866,7 +866,7 @@ pub mod cs2_dumper {
             // MPropertyCustomEditor
             // MParticleCustomFieldDefaultValue
             pub mod CParticleModelInput {
-                pub const m_nType: usize = 0x10; // 
+                pub const m_nType: usize = 0x10; // ParticleModelType_t
                 pub const m_NamedValue: usize = 0x18; // CParticleNamedValueRef
                 pub const m_nControlPoint: usize = 0x58; // int32
             }
@@ -931,7 +931,7 @@ pub mod cs2_dumper {
                 pub const m_flScalarAttributeTextureCoordScale: usize = 0x2F1C; // float32
                 pub const m_bReverseOrder: usize = 0x2F20; // bool
                 pub const m_bClosedLoop: usize = 0x2F21; // bool
-                pub const m_nOrientationType: usize = 0x2F24; // ParticleOrientationChoiceList_t
+                pub const m_nOrientationType: usize = 0x2F24; // 
                 pub const m_nVectorFieldForOrientation: usize = 0x2F28; // ParticleAttributeIndex_t
                 pub const m_bDrawAsOpaque: usize = 0x2F2C; // bool
                 pub const m_bGenerateNormals: usize = 0x2F2D; // bool
@@ -1300,7 +1300,7 @@ pub mod cs2_dumper {
                 pub const m_flDiffuseClamp: usize = 0x1530; // CParticleCollectionRendererFloatInput
                 pub const m_nLightingControlPoint: usize = 0x1690; // int32
                 pub const m_nSelfIllumPerParticle: usize = 0x1694; // ParticleAttributeIndex_t
-                pub const m_nOutputBlendMode: usize = 0x1698; // ParticleOutputBlendMode_t
+                pub const m_nOutputBlendMode: usize = 0x1698; // 
                 pub const m_bGammaCorrectVertexColors: usize = 0x169C; // bool
                 pub const m_bSaturateColorPreAlphaBlend: usize = 0x169D; // bool
                 pub const m_flAddSelfAmount: usize = 0x16A0; // CParticleCollectionRendererFloatInput
@@ -1313,7 +1313,7 @@ pub mod cs2_dumper {
                 pub const m_bTintByGlobalLight: usize = 0x1C29; // bool
                 pub const m_nPerParticleAlphaReference: usize = 0x1C2C; // SpriteCardPerParticleScale_t
                 pub const m_nPerParticleAlphaRefWindow: usize = 0x1C30; // SpriteCardPerParticleScale_t
-                pub const m_nAlphaReferenceType: usize = 0x1C34; // ParticleAlphaReferenceType_t
+                pub const m_nAlphaReferenceType: usize = 0x1C34; // 
                 pub const m_flAlphaReferenceSoftness: usize = 0x1C38; // CParticleCollectionRendererFloatInput
                 pub const m_flSourceAlphaValueToMapToZero: usize = 0x1D98; // CParticleCollectionRendererFloatInput
                 pub const m_flSourceAlphaValueToMapToOne: usize = 0x1EF8; // CParticleCollectionRendererFloatInput
@@ -2394,7 +2394,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             // MParticleCustomFieldDefaultValue
             pub mod CParticleVecInput {
-                pub const m_nType: usize = 0x10; // 
+                pub const m_nType: usize = 0x10; // ParticleVecType_t
                 pub const m_vLiteralValue: usize = 0x14; // Vector
                 pub const m_LiteralColor: usize = 0x20; // Color
                 pub const m_NamedValue: usize = 0x28; // CParticleNamedValueRef
@@ -2462,7 +2462,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CBaseTrailRenderer {
-                pub const m_nOrientationType: usize = 0x2AA8; // ParticleOrientationChoiceList_t
+                pub const m_nOrientationType: usize = 0x2AA8; // 
                 pub const m_nOrientationControlPoint: usize = 0x2AAC; // int32
                 pub const m_flMinSize: usize = 0x2AB0; // float32
                 pub const m_flMaxSize: usize = 0x2AB4; // float32
@@ -5890,7 +5890,7 @@ pub mod cs2_dumper {
                 pub const m_flNotchedRangeMax: usize = 0x104; // float32
                 pub const m_flNotchedOutputOutside: usize = 0x108; // float32
                 pub const m_flNotchedOutputInside: usize = 0x10C; // float32
-                pub const m_nRoundType: usize = 0x110; // ParticleFloatRoundType_t
+                pub const m_nRoundType: usize = 0x110; // 
                 pub const m_nBiasType: usize = 0x114; // ParticleFloatBiasType_t
                 pub const m_flBiasParameter: usize = 0x118; // float32
                 pub const m_Curve: usize = 0x120; // CPiecewiseCurve
@@ -6490,7 +6490,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod C_OP_RenderSprites {
                 pub const m_nSequenceOverride: usize = 0x2AA8; // CParticleCollectionRendererFloatInput
-                pub const m_nOrientationType: usize = 0x2C08; // ParticleOrientationChoiceList_t
+                pub const m_nOrientationType: usize = 0x2C08; // 
                 pub const m_nOrientationControlPoint: usize = 0x2C0C; // int32
                 pub const m_bUseYawWithNormalAligned: usize = 0x2C10; // bool
                 pub const m_flMinSize: usize = 0x2C18; // CParticleCollectionRendererFloatInput

@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-31 23:09:26.096718400 UTC
+// 2025-03-31 23:16:25.992994300 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -171,12 +171,12 @@ pub mod cs2_dumper {
                 pub const m_RigidColliderPriorities: usize = 0x548; // CUtlVector<FeRigidColliderIndices_t>
                 pub const m_MorphLayers: usize = 0x560; // CUtlVector<FeMorphLayerDepr_t>
                 pub const m_MorphSetData: usize = 0x578; // CUtlVector<uint8>
-                pub const m_VertexMaps: usize = 0x590; // CUtlVector<FeVertexMapDesc_t>
+                pub const m_VertexMaps: usize = 0x590; // 
                 pub const m_VertexMapValues: usize = 0x5A8; // CUtlVector<uint8>
-                pub const m_Effects: usize = 0x5C0; // CUtlVector<FeEffectDesc_t>
+                pub const m_Effects: usize = 0x5C0; // 
                 pub const m_LockToParent: usize = 0x5D8; // CUtlVector<FeCtrlOffset_t>
                 pub const m_LockToGoal: usize = 0x5F0; // CUtlVector<uint16>
-                pub const m_SkelParents: usize = 0x608; // CUtlVector<int16>
+                pub const m_SkelParents: usize = 0x608; // 
                 pub const m_DynNodeWindBases: usize = 0x620; // CUtlVector<FeNodeWindBase_t>
                 pub const m_flInternalPressure: usize = 0x638; // float32
                 pub const m_flDefaultTimeDilation: usize = 0x63C; // float32
@@ -444,9 +444,9 @@ pub mod cs2_dumper {
             pub mod RnMesh_t {
                 pub const m_vMin: usize = 0x0; // Vector
                 pub const m_vMax: usize = 0xC; // Vector
-                pub const m_Nodes: usize = 0x18; // 
-                pub const m_Vertices: usize = 0x30; // 
-                pub const m_Triangles: usize = 0x48; // 
+                pub const m_Nodes: usize = 0x18; // CUtlVector<RnNode_t>
+                pub const m_Vertices: usize = 0x30; // CUtlVectorSIMDPaddedVector
+                pub const m_Triangles: usize = 0x48; // CUtlVector<RnTriangle_t>
                 pub const m_Wings: usize = 0x60; // CUtlVector<RnWing_t>
                 pub const m_Materials: usize = 0x78; // CUtlVector<uint8>
                 pub const m_vOrthographicAreas: usize = 0x90; // Vector

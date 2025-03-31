@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-31 23:09:26.096718400 UTC
+// 2025-03-31 23:16:25.992994300 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: particles.dll
@@ -787,7 +787,7 @@ namespace CS2Dumper.Schemas {
         // MPropertyCustomEditor
         // MParticleCustomFieldDefaultValue
         public static class CParticleModelInput {
-            public const nint m_nType = 0x10; // 
+            public const nint m_nType = 0x10; // ParticleModelType_t
             public const nint m_NamedValue = 0x18; // CParticleNamedValueRef
             public const nint m_nControlPoint = 0x58; // int32
         }
@@ -852,7 +852,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flScalarAttributeTextureCoordScale = 0x2F1C; // float32
             public const nint m_bReverseOrder = 0x2F20; // bool
             public const nint m_bClosedLoop = 0x2F21; // bool
-            public const nint m_nOrientationType = 0x2F24; // ParticleOrientationChoiceList_t
+            public const nint m_nOrientationType = 0x2F24; // 
             public const nint m_nVectorFieldForOrientation = 0x2F28; // ParticleAttributeIndex_t
             public const nint m_bDrawAsOpaque = 0x2F2C; // bool
             public const nint m_bGenerateNormals = 0x2F2D; // bool
@@ -1221,7 +1221,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flDiffuseClamp = 0x1530; // CParticleCollectionRendererFloatInput
             public const nint m_nLightingControlPoint = 0x1690; // int32
             public const nint m_nSelfIllumPerParticle = 0x1694; // ParticleAttributeIndex_t
-            public const nint m_nOutputBlendMode = 0x1698; // ParticleOutputBlendMode_t
+            public const nint m_nOutputBlendMode = 0x1698; // 
             public const nint m_bGammaCorrectVertexColors = 0x169C; // bool
             public const nint m_bSaturateColorPreAlphaBlend = 0x169D; // bool
             public const nint m_flAddSelfAmount = 0x16A0; // CParticleCollectionRendererFloatInput
@@ -1234,7 +1234,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_bTintByGlobalLight = 0x1C29; // bool
             public const nint m_nPerParticleAlphaReference = 0x1C2C; // SpriteCardPerParticleScale_t
             public const nint m_nPerParticleAlphaRefWindow = 0x1C30; // SpriteCardPerParticleScale_t
-            public const nint m_nAlphaReferenceType = 0x1C34; // ParticleAlphaReferenceType_t
+            public const nint m_nAlphaReferenceType = 0x1C34; // 
             public const nint m_flAlphaReferenceSoftness = 0x1C38; // CParticleCollectionRendererFloatInput
             public const nint m_flSourceAlphaValueToMapToZero = 0x1D98; // CParticleCollectionRendererFloatInput
             public const nint m_flSourceAlphaValueToMapToOne = 0x1EF8; // CParticleCollectionRendererFloatInput
@@ -2315,7 +2315,7 @@ namespace CS2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MParticleCustomFieldDefaultValue
         public static class CParticleVecInput {
-            public const nint m_nType = 0x10; // 
+            public const nint m_nType = 0x10; // ParticleVecType_t
             public const nint m_vLiteralValue = 0x14; // Vector
             public const nint m_LiteralColor = 0x20; // Color
             public const nint m_NamedValue = 0x28; // CParticleNamedValueRef
@@ -2383,7 +2383,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CBaseTrailRenderer {
-            public const nint m_nOrientationType = 0x2AA8; // ParticleOrientationChoiceList_t
+            public const nint m_nOrientationType = 0x2AA8; // 
             public const nint m_nOrientationControlPoint = 0x2AAC; // int32
             public const nint m_flMinSize = 0x2AB0; // float32
             public const nint m_flMaxSize = 0x2AB4; // float32
@@ -5811,7 +5811,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flNotchedRangeMax = 0x104; // float32
             public const nint m_flNotchedOutputOutside = 0x108; // float32
             public const nint m_flNotchedOutputInside = 0x10C; // float32
-            public const nint m_nRoundType = 0x110; // ParticleFloatRoundType_t
+            public const nint m_nRoundType = 0x110; // 
             public const nint m_nBiasType = 0x114; // ParticleFloatBiasType_t
             public const nint m_flBiasParameter = 0x118; // float32
             public const nint m_Curve = 0x120; // CPiecewiseCurve
@@ -6411,7 +6411,7 @@ namespace CS2Dumper.Schemas {
         // MGetKV3ClassDefaults
         public static class C_OP_RenderSprites {
             public const nint m_nSequenceOverride = 0x2AA8; // CParticleCollectionRendererFloatInput
-            public const nint m_nOrientationType = 0x2C08; // ParticleOrientationChoiceList_t
+            public const nint m_nOrientationType = 0x2C08; // 
             public const nint m_nOrientationControlPoint = 0x2C0C; // int32
             public const nint m_bUseYawWithNormalAligned = 0x2C10; // bool
             public const nint m_flMinSize = 0x2C18; // CParticleCollectionRendererFloatInput

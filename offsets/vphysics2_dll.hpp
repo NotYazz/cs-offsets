@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-31 23:09:26.096718400 UTC
+// 2025-03-31 23:16:25.992994300 UTC
 
 #pragma once
 
@@ -171,12 +171,12 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_RigidColliderPriorities = 0x548; // CUtlVector<FeRigidColliderIndices_t>
                 constexpr std::ptrdiff_t m_MorphLayers = 0x560; // CUtlVector<FeMorphLayerDepr_t>
                 constexpr std::ptrdiff_t m_MorphSetData = 0x578; // CUtlVector<uint8>
-                constexpr std::ptrdiff_t m_VertexMaps = 0x590; // CUtlVector<FeVertexMapDesc_t>
+                constexpr std::ptrdiff_t m_VertexMaps = 0x590; // 
                 constexpr std::ptrdiff_t m_VertexMapValues = 0x5A8; // CUtlVector<uint8>
-                constexpr std::ptrdiff_t m_Effects = 0x5C0; // CUtlVector<FeEffectDesc_t>
+                constexpr std::ptrdiff_t m_Effects = 0x5C0; // 
                 constexpr std::ptrdiff_t m_LockToParent = 0x5D8; // CUtlVector<FeCtrlOffset_t>
                 constexpr std::ptrdiff_t m_LockToGoal = 0x5F0; // CUtlVector<uint16>
-                constexpr std::ptrdiff_t m_SkelParents = 0x608; // CUtlVector<int16>
+                constexpr std::ptrdiff_t m_SkelParents = 0x608; // 
                 constexpr std::ptrdiff_t m_DynNodeWindBases = 0x620; // CUtlVector<FeNodeWindBase_t>
                 constexpr std::ptrdiff_t m_flInternalPressure = 0x638; // float32
                 constexpr std::ptrdiff_t m_flDefaultTimeDilation = 0x63C; // float32
@@ -444,9 +444,9 @@ namespace cs2_dumper {
             namespace RnMesh_t {
                 constexpr std::ptrdiff_t m_vMin = 0x0; // Vector
                 constexpr std::ptrdiff_t m_vMax = 0xC; // Vector
-                constexpr std::ptrdiff_t m_Nodes = 0x18; // 
-                constexpr std::ptrdiff_t m_Vertices = 0x30; // 
-                constexpr std::ptrdiff_t m_Triangles = 0x48; // 
+                constexpr std::ptrdiff_t m_Nodes = 0x18; // CUtlVector<RnNode_t>
+                constexpr std::ptrdiff_t m_Vertices = 0x30; // CUtlVectorSIMDPaddedVector
+                constexpr std::ptrdiff_t m_Triangles = 0x48; // CUtlVector<RnTriangle_t>
                 constexpr std::ptrdiff_t m_Wings = 0x60; // CUtlVector<RnWing_t>
                 constexpr std::ptrdiff_t m_Materials = 0x78; // CUtlVector<uint8>
                 constexpr std::ptrdiff_t m_vOrthographicAreas = 0x90; // Vector
