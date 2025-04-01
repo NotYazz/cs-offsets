@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-31 23:16:25.992994300 UTC
+// 2025-04-01 01:59:00.966277800 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: particles.dll
@@ -852,7 +852,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flScalarAttributeTextureCoordScale = 0x2F1C; // float32
             public const nint m_bReverseOrder = 0x2F20; // bool
             public const nint m_bClosedLoop = 0x2F21; // bool
-            public const nint m_nOrientationType = 0x2F24; // 
+            public const nint m_nOrientationType = 0x2F24; // ParticleOrientationChoiceList_t
             public const nint m_nVectorFieldForOrientation = 0x2F28; // ParticleAttributeIndex_t
             public const nint m_bDrawAsOpaque = 0x2F2C; // bool
             public const nint m_bGenerateNormals = 0x2F2D; // bool
@@ -1242,7 +1242,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_bRefractSolid = 0x2059; // bool
             public const nint m_flRefractAmount = 0x2060; // CParticleCollectionRendererFloatInput
             public const nint m_nRefractBlurRadius = 0x21C0; // int32
-            public const nint m_nRefractBlurType = 0x21C4; // BlurFilterType_t
+            public const nint m_nRefractBlurType = 0x21C4; // 
             public const nint m_bOnlyRenderInEffectsBloomPass = 0x21C8; // bool
             public const nint m_bOnlyRenderInEffectsWaterPass = 0x21C9; // bool
             public const nint m_bUseMixedResolutionRendering = 0x21CA; // bool
@@ -2383,7 +2383,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CBaseTrailRenderer {
-            public const nint m_nOrientationType = 0x2AA8; // 
+            public const nint m_nOrientationType = 0x2AA8; // ParticleOrientationChoiceList_t
             public const nint m_nOrientationControlPoint = 0x2AAC; // int32
             public const nint m_flMinSize = 0x2AB0; // float32
             public const nint m_flMaxSize = 0x2AB4; // float32
@@ -6411,7 +6411,7 @@ namespace CS2Dumper.Schemas {
         // MGetKV3ClassDefaults
         public static class C_OP_RenderSprites {
             public const nint m_nSequenceOverride = 0x2AA8; // CParticleCollectionRendererFloatInput
-            public const nint m_nOrientationType = 0x2C08; // 
+            public const nint m_nOrientationType = 0x2C08; // ParticleOrientationChoiceList_t
             public const nint m_nOrientationControlPoint = 0x2C0C; // int32
             public const nint m_bUseYawWithNormalAligned = 0x2C10; // bool
             public const nint m_flMinSize = 0x2C18; // CParticleCollectionRendererFloatInput

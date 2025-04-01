@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-31 23:16:25.992994300 UTC
+// 2025-04-01 01:59:00.966277800 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: vphysics2.dll
@@ -166,7 +166,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_RigidColliderPriorities = 0x548; // CUtlVector<FeRigidColliderIndices_t>
             public const nint m_MorphLayers = 0x560; // CUtlVector<FeMorphLayerDepr_t>
             public const nint m_MorphSetData = 0x578; // CUtlVector<uint8>
-            public const nint m_VertexMaps = 0x590; // 
+            public const nint m_VertexMaps = 0x590; // CUtlVector<FeVertexMapDesc_t>
             public const nint m_VertexMapValues = 0x5A8; // CUtlVector<uint8>
             public const nint m_Effects = 0x5C0; // 
             public const nint m_LockToParent = 0x5D8; // CUtlVector<FeCtrlOffset_t>

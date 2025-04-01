@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-31 23:16:25.992994300 UTC
+// 2025-04-01 01:59:00.966277800 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -171,7 +171,7 @@ pub mod cs2_dumper {
                 pub const m_RigidColliderPriorities: usize = 0x548; // CUtlVector<FeRigidColliderIndices_t>
                 pub const m_MorphLayers: usize = 0x560; // CUtlVector<FeMorphLayerDepr_t>
                 pub const m_MorphSetData: usize = 0x578; // CUtlVector<uint8>
-                pub const m_VertexMaps: usize = 0x590; // 
+                pub const m_VertexMaps: usize = 0x590; // CUtlVector<FeVertexMapDesc_t>
                 pub const m_VertexMapValues: usize = 0x5A8; // CUtlVector<uint8>
                 pub const m_Effects: usize = 0x5C0; // 
                 pub const m_LockToParent: usize = 0x5D8; // CUtlVector<FeCtrlOffset_t>

@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-31 23:16:25.992994300 UTC
+// 2025-04-01 01:59:00.966277800 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -1615,10 +1615,10 @@ pub mod cs2_dumper {
                 pub const m_boneArray: usize = 0x0; // CUtlVector<CAnimBoneDifference>
                 pub const m_morphArray: usize = 0x18; // CUtlVector<CAnimMorphDifference>
                 pub const m_userArray: usize = 0x30; // CUtlVector<CAnimUserDifference>
-                pub const m_bHasRotationBitArray: usize = 0x48; // 
-                pub const m_bHasMovementBitArray: usize = 0x60; // 
-                pub const m_bHasMorphBitArray: usize = 0x78; // 
-                pub const m_bHasUserBitArray: usize = 0x90; // 
+                pub const m_bHasRotationBitArray: usize = 0x48; // CUtlVector<uint8>
+                pub const m_bHasMovementBitArray: usize = 0x60; // CUtlVector<uint8>
+                pub const m_bHasMorphBitArray: usize = 0x78; // CUtlVector<uint8>
+                pub const m_bHasUserBitArray: usize = 0x90; // CUtlVector<uint8>
             }
             // Parent: CUnaryUpdateNode
             // Field count: 0
@@ -2005,7 +2005,7 @@ pub mod cs2_dumper {
                 pub const m_boneNames: usize = 0x20; // CUtlVector<CUtlString>
                 pub const m_indexNames: usize = 0x38; // CUtlVector<uint16>
                 pub const m_indexHash: usize = 0x50; // CUtlVector<uint16>
-                pub const m_bindPose: usize = 0x68; // 
+                pub const m_bindPose: usize = 0x68; // CUtlVector<matrix3x4a_t>
                 pub const m_parts: usize = 0x80; // CUtlVector<VPhysXBodyPart_t>
                 pub const m_constraints2: usize = 0x98; // CUtlVector<VPhysXConstraint2_t>
                 pub const m_joints: usize = 0xB0; // CUtlVector<VPhysXJoint_t>
@@ -3082,7 +3082,7 @@ pub mod cs2_dumper {
                 pub const m_rootToWorld: usize = 0x10; // matrix3x4a_t
                 pub const m_bBonesInWorldSpace: usize = 0x40; // bool
                 pub const m_boneSetupMask: usize = 0x48; // CUtlVector<uint32>
-                pub const m_boneTransforms: usize = 0x60; // 
+                pub const m_boneTransforms: usize = 0x60; // CUtlVector<matrix3x4a_t>
                 pub const m_flexControllers: usize = 0x78; // CUtlVector<float32>
                 pub const m_SnapshotType: usize = 0x90; // AnimationSnapshotType_t
                 pub const m_bHasDecodeDump: usize = 0x94; // bool
@@ -3535,7 +3535,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod CNmBoneMask {
                 pub const m_ID: usize = 0x0; // CGlobalSymbol
-                pub const m_weightInfo: usize = 0x8; // CNmBoneMask::WeightInfo_t
+                pub const m_weightInfo: usize = 0x8; // 
                 pub const m_weights: usize = 0x18; // CUtlVector<float32>
             }
             // Parent: CBaseConstraint
@@ -3607,7 +3607,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod CBlendUpdateNode {
                 pub const m_children: usize = 0x60; // CUtlVector<CAnimUpdateNodeRef>
-                pub const m_sortedOrder: usize = 0x78; // 
+                pub const m_sortedOrder: usize = 0x78; // CUtlVector<uint8>
                 pub const m_targetValues: usize = 0x90; // CUtlVector<float32>
                 pub const m_blendValueSource: usize = 0xAC; // AnimValueSource
                 pub const m_paramIndex: usize = 0xB0; // CAnimParamHandle
@@ -3640,7 +3640,7 @@ pub mod cs2_dumper {
                 pub const m_refMeshes: usize = 0x78; // CUtlVector<CStrongHandle<InfoForResourceTypeCRenderMesh>>
                 pub const m_refMeshGroupMasks: usize = 0x90; // CUtlVector<uint64>
                 pub const m_refPhysGroupMasks: usize = 0xA8; // CUtlVector<uint64>
-                pub const m_refLODGroupMasks: usize = 0xC0; // 
+                pub const m_refLODGroupMasks: usize = 0xC0; // CUtlVector<uint8>
                 pub const m_lodGroupSwitchDistances: usize = 0xD8; // CUtlVector<float32>
                 pub const m_refPhysicsData: usize = 0xF0; // CUtlVector<CStrongHandle<InfoForResourceTypeCPhysAggregateData>>
                 pub const m_refPhysicsHitboxData: usize = 0x108; // CUtlVector<CStrongHandle<InfoForResourceTypeCPhysAggregateData>>
@@ -5612,7 +5612,7 @@ pub mod cs2_dumper {
             pub mod TwoBoneIKSettings_t {
                 pub const m_endEffectorType: usize = 0x0; // IkEndEffectorType
                 pub const m_endEffectorAttachment: usize = 0x10; // CAnimAttachment
-                pub const m_targetType: usize = 0x90; // 
+                pub const m_targetType: usize = 0x90; // IkTargetType
                 pub const m_targetAttachment: usize = 0xA0; // CAnimAttachment
                 pub const m_targetBoneIndex: usize = 0x120; // int32
                 pub const m_hPositionParam: usize = 0x124; // CAnimParamHandle

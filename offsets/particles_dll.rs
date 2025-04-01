@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-31 23:16:25.992994300 UTC
+// 2025-04-01 01:59:00.966277800 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -931,7 +931,7 @@ pub mod cs2_dumper {
                 pub const m_flScalarAttributeTextureCoordScale: usize = 0x2F1C; // float32
                 pub const m_bReverseOrder: usize = 0x2F20; // bool
                 pub const m_bClosedLoop: usize = 0x2F21; // bool
-                pub const m_nOrientationType: usize = 0x2F24; // 
+                pub const m_nOrientationType: usize = 0x2F24; // ParticleOrientationChoiceList_t
                 pub const m_nVectorFieldForOrientation: usize = 0x2F28; // ParticleAttributeIndex_t
                 pub const m_bDrawAsOpaque: usize = 0x2F2C; // bool
                 pub const m_bGenerateNormals: usize = 0x2F2D; // bool
@@ -1321,7 +1321,7 @@ pub mod cs2_dumper {
                 pub const m_bRefractSolid: usize = 0x2059; // bool
                 pub const m_flRefractAmount: usize = 0x2060; // CParticleCollectionRendererFloatInput
                 pub const m_nRefractBlurRadius: usize = 0x21C0; // int32
-                pub const m_nRefractBlurType: usize = 0x21C4; // BlurFilterType_t
+                pub const m_nRefractBlurType: usize = 0x21C4; // 
                 pub const m_bOnlyRenderInEffectsBloomPass: usize = 0x21C8; // bool
                 pub const m_bOnlyRenderInEffectsWaterPass: usize = 0x21C9; // bool
                 pub const m_bUseMixedResolutionRendering: usize = 0x21CA; // bool
@@ -2462,7 +2462,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CBaseTrailRenderer {
-                pub const m_nOrientationType: usize = 0x2AA8; // 
+                pub const m_nOrientationType: usize = 0x2AA8; // ParticleOrientationChoiceList_t
                 pub const m_nOrientationControlPoint: usize = 0x2AAC; // int32
                 pub const m_flMinSize: usize = 0x2AB0; // float32
                 pub const m_flMaxSize: usize = 0x2AB4; // float32
@@ -6490,7 +6490,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod C_OP_RenderSprites {
                 pub const m_nSequenceOverride: usize = 0x2AA8; // CParticleCollectionRendererFloatInput
-                pub const m_nOrientationType: usize = 0x2C08; // 
+                pub const m_nOrientationType: usize = 0x2C08; // ParticleOrientationChoiceList_t
                 pub const m_nOrientationControlPoint: usize = 0x2C0C; // int32
                 pub const m_bUseYawWithNormalAligned: usize = 0x2C10; // bool
                 pub const m_flMinSize: usize = 0x2C18; // CParticleCollectionRendererFloatInput

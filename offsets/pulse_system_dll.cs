@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-31 23:16:25.992994300 UTC
+// 2025-04-01 01:59:00.966277800 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: pulse_system.dll
@@ -850,7 +850,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CPulse_DomainValue {
-            public const nint m_nType = 0x0; // 
+            public const nint m_nType = 0x0; // PulseDomainValueType_t
             public const nint m_Value = 0x8; // CGlobalSymbol
             public const nint m_ExpectedRuntimeType = 0x10; // CGlobalSymbol
         }

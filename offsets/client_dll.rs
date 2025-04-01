@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-31 23:16:25.992994300 UTC
+// 2025-04-01 01:59:00.966277800 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -387,8 +387,8 @@ pub mod cs2_dumper {
                 pub const m_nMatchAbortedEarlyReason: usize = 0xD88; // int32
                 pub const m_bHasTriggeredRoundStartMusic: usize = 0xD8C; // bool
                 pub const m_bSwitchingTeamsAtRoundReset: usize = 0xD8D; // bool
-                pub const m_pGameModeRules: usize = 0xDA8; // 
-                pub const m_RetakeRules: usize = 0xDB0; // 
+                pub const m_pGameModeRules: usize = 0xDA8; // CCSGameModeRules*
+                pub const m_RetakeRules: usize = 0xDB0; // C_RetakeGameRules
                 pub const m_nMatchEndCount: usize = 0xEC8; // uint8
                 pub const m_nTTeamIntroVariant: usize = 0xECC; // int32
                 pub const m_nCTTeamIntroVariant: usize = 0xED0; // int32
@@ -897,7 +897,7 @@ pub mod cs2_dumper {
                 pub const m_bReleaseRagdoll: usize = 0xFA4; // bool
                 pub const m_iEyeAttachment: usize = 0xFA5; // AttachmentHandle_t
                 pub const m_bFadingOut: usize = 0xFA6; // bool
-                pub const m_flScaleEnd: usize = 0xFA8; // 
+                pub const m_flScaleEnd: usize = 0xFA8; // float32[10]
                 pub const m_flScaleTimeStart: usize = 0xFD0; // GameTime_t[10]
                 pub const m_flScaleTimeEnd: usize = 0xFF8; // GameTime_t[10]
             }
@@ -956,7 +956,7 @@ pub mod cs2_dumper {
             // Metadata:
             // NetworkVarNames: m_animationController (CBaseAnimGraphController)
             pub mod CBodyComponentBaseAnimGraph {
-                pub const m_animationController: usize = 0x490; // CBaseAnimGraphController
+                pub const m_animationController: usize = 0x490; // 
             }
             // Parent: CBodyComponent
             // Field count: 1
@@ -2728,7 +2728,7 @@ pub mod cs2_dumper {
                 pub const m_iReapplyProvisionParity: usize = 0x20; // int32
                 pub const m_hOuter: usize = 0x24; // CHandle<C_BaseEntity>
                 pub const m_bPreventLoopback: usize = 0x28; // bool
-                pub const m_ProviderType: usize = 0x2C; // attributeprovidertypes_t
+                pub const m_ProviderType: usize = 0x2C; // 
                 pub const m_CachedResults: usize = 0x30; // CUtlVector<CAttributeManager::cached_attribute_float_t>
             }
             // Parent: C_BaseEntity
@@ -5124,7 +5124,7 @@ pub mod cs2_dumper {
                 pub const m_vecMins: usize = 0x40; // Vector
                 pub const m_vecMaxs: usize = 0x4C; // Vector
                 pub const m_usSolidFlags: usize = 0x5A; // uint8
-                pub const m_nSolidType: usize = 0x5B; // SolidType_t
+                pub const m_nSolidType: usize = 0x5B; // 
                 pub const m_triggerBloat: usize = 0x5C; // uint8
                 pub const m_nSurroundType: usize = 0x5D; // SurroundingBoundsType_t
                 pub const m_CollisionGroup: usize = 0x5E; // uint8
@@ -5810,7 +5810,7 @@ pub mod cs2_dumper {
                 pub const m_vecBaseVelocity: usize = 0x430; // Vector
                 pub const m_hEffectEntity: usize = 0x43C; // CHandle<C_BaseEntity>
                 pub const m_hOwnerEntity: usize = 0x440; // CHandle<C_BaseEntity>
-                pub const m_MoveCollide: usize = 0x444; // MoveCollide_t
+                pub const m_MoveCollide: usize = 0x444; // 
                 pub const m_MoveType: usize = 0x445; // 
                 pub const m_nActualMoveType: usize = 0x446; // 
                 pub const m_flWaterLevel: usize = 0x448; // float32
@@ -6022,7 +6022,7 @@ pub mod cs2_dumper {
             // NetworkVarNames: m_bIsActive (bool)
             pub mod C_EnvScreenOverlay {
                 pub const m_iszOverlayNames: usize = 0x568; // CUtlSymbolLarge[10]
-                pub const m_flOverlayTimes: usize = 0x5B8; // 
+                pub const m_flOverlayTimes: usize = 0x5B8; // float32[10]
                 pub const m_flStartTime: usize = 0x5E0; // GameTime_t
                 pub const m_iDesiredOverlay: usize = 0x5E4; // int32
                 pub const m_bIsActive: usize = 0x5E8; // bool
@@ -6343,7 +6343,7 @@ pub mod cs2_dumper {
                 pub const m_inertiaScale: usize = 0x1118; // float32
                 pub const m_vecDamagePosition: usize = 0x111C; // Vector
                 pub const m_vecDamageDirection: usize = 0x1128; // Vector
-                pub const m_nDamageType: usize = 0x1134; // 
+                pub const m_nDamageType: usize = 0x1134; // DamageTypes_t
             }
             // Parent: C_CSGO_TeamPreviewCamera
             // Field count: 0

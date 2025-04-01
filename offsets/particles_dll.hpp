@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-31 23:16:25.992994300 UTC
+// 2025-04-01 01:59:00.966277800 UTC
 
 #pragma once
 
@@ -857,7 +857,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flScalarAttributeTextureCoordScale = 0x2F1C; // float32
                 constexpr std::ptrdiff_t m_bReverseOrder = 0x2F20; // bool
                 constexpr std::ptrdiff_t m_bClosedLoop = 0x2F21; // bool
-                constexpr std::ptrdiff_t m_nOrientationType = 0x2F24; // 
+                constexpr std::ptrdiff_t m_nOrientationType = 0x2F24; // ParticleOrientationChoiceList_t
                 constexpr std::ptrdiff_t m_nVectorFieldForOrientation = 0x2F28; // ParticleAttributeIndex_t
                 constexpr std::ptrdiff_t m_bDrawAsOpaque = 0x2F2C; // bool
                 constexpr std::ptrdiff_t m_bGenerateNormals = 0x2F2D; // bool
@@ -1247,7 +1247,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bRefractSolid = 0x2059; // bool
                 constexpr std::ptrdiff_t m_flRefractAmount = 0x2060; // CParticleCollectionRendererFloatInput
                 constexpr std::ptrdiff_t m_nRefractBlurRadius = 0x21C0; // int32
-                constexpr std::ptrdiff_t m_nRefractBlurType = 0x21C4; // BlurFilterType_t
+                constexpr std::ptrdiff_t m_nRefractBlurType = 0x21C4; // 
                 constexpr std::ptrdiff_t m_bOnlyRenderInEffectsBloomPass = 0x21C8; // bool
                 constexpr std::ptrdiff_t m_bOnlyRenderInEffectsWaterPass = 0x21C9; // bool
                 constexpr std::ptrdiff_t m_bUseMixedResolutionRendering = 0x21CA; // bool
@@ -2388,7 +2388,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace CBaseTrailRenderer {
-                constexpr std::ptrdiff_t m_nOrientationType = 0x2AA8; // 
+                constexpr std::ptrdiff_t m_nOrientationType = 0x2AA8; // ParticleOrientationChoiceList_t
                 constexpr std::ptrdiff_t m_nOrientationControlPoint = 0x2AAC; // int32
                 constexpr std::ptrdiff_t m_flMinSize = 0x2AB0; // float32
                 constexpr std::ptrdiff_t m_flMaxSize = 0x2AB4; // float32
@@ -6416,7 +6416,7 @@ namespace cs2_dumper {
             // MGetKV3ClassDefaults
             namespace C_OP_RenderSprites {
                 constexpr std::ptrdiff_t m_nSequenceOverride = 0x2AA8; // CParticleCollectionRendererFloatInput
-                constexpr std::ptrdiff_t m_nOrientationType = 0x2C08; // 
+                constexpr std::ptrdiff_t m_nOrientationType = 0x2C08; // ParticleOrientationChoiceList_t
                 constexpr std::ptrdiff_t m_nOrientationControlPoint = 0x2C0C; // int32
                 constexpr std::ptrdiff_t m_bUseYawWithNormalAligned = 0x2C10; // bool
                 constexpr std::ptrdiff_t m_flMinSize = 0x2C18; // CParticleCollectionRendererFloatInput

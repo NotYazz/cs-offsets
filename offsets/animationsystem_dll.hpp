@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-31 23:16:25.992994300 UTC
+// 2025-04-01 01:59:00.966277800 UTC
 
 #pragma once
 
@@ -1523,10 +1523,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_boneArray = 0x0; // CUtlVector<CAnimBoneDifference>
                 constexpr std::ptrdiff_t m_morphArray = 0x18; // CUtlVector<CAnimMorphDifference>
                 constexpr std::ptrdiff_t m_userArray = 0x30; // CUtlVector<CAnimUserDifference>
-                constexpr std::ptrdiff_t m_bHasRotationBitArray = 0x48; // 
-                constexpr std::ptrdiff_t m_bHasMovementBitArray = 0x60; // 
-                constexpr std::ptrdiff_t m_bHasMorphBitArray = 0x78; // 
-                constexpr std::ptrdiff_t m_bHasUserBitArray = 0x90; // 
+                constexpr std::ptrdiff_t m_bHasRotationBitArray = 0x48; // CUtlVector<uint8>
+                constexpr std::ptrdiff_t m_bHasMovementBitArray = 0x60; // CUtlVector<uint8>
+                constexpr std::ptrdiff_t m_bHasMorphBitArray = 0x78; // CUtlVector<uint8>
+                constexpr std::ptrdiff_t m_bHasUserBitArray = 0x90; // CUtlVector<uint8>
             }
             // Parent: CUnaryUpdateNode
             // Field count: 0
@@ -1913,7 +1913,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_boneNames = 0x20; // CUtlVector<CUtlString>
                 constexpr std::ptrdiff_t m_indexNames = 0x38; // CUtlVector<uint16>
                 constexpr std::ptrdiff_t m_indexHash = 0x50; // CUtlVector<uint16>
-                constexpr std::ptrdiff_t m_bindPose = 0x68; // 
+                constexpr std::ptrdiff_t m_bindPose = 0x68; // CUtlVector<matrix3x4a_t>
                 constexpr std::ptrdiff_t m_parts = 0x80; // CUtlVector<VPhysXBodyPart_t>
                 constexpr std::ptrdiff_t m_constraints2 = 0x98; // CUtlVector<VPhysXConstraint2_t>
                 constexpr std::ptrdiff_t m_joints = 0xB0; // CUtlVector<VPhysXJoint_t>
@@ -2990,7 +2990,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_rootToWorld = 0x10; // matrix3x4a_t
                 constexpr std::ptrdiff_t m_bBonesInWorldSpace = 0x40; // bool
                 constexpr std::ptrdiff_t m_boneSetupMask = 0x48; // CUtlVector<uint32>
-                constexpr std::ptrdiff_t m_boneTransforms = 0x60; // 
+                constexpr std::ptrdiff_t m_boneTransforms = 0x60; // CUtlVector<matrix3x4a_t>
                 constexpr std::ptrdiff_t m_flexControllers = 0x78; // CUtlVector<float32>
                 constexpr std::ptrdiff_t m_SnapshotType = 0x90; // AnimationSnapshotType_t
                 constexpr std::ptrdiff_t m_bHasDecodeDump = 0x94; // bool
@@ -3443,7 +3443,7 @@ namespace cs2_dumper {
             // MGetKV3ClassDefaults
             namespace CNmBoneMask {
                 constexpr std::ptrdiff_t m_ID = 0x0; // CGlobalSymbol
-                constexpr std::ptrdiff_t m_weightInfo = 0x8; // CNmBoneMask::WeightInfo_t
+                constexpr std::ptrdiff_t m_weightInfo = 0x8; // 
                 constexpr std::ptrdiff_t m_weights = 0x18; // CUtlVector<float32>
             }
             // Parent: CBaseConstraint
@@ -3515,7 +3515,7 @@ namespace cs2_dumper {
             // MGetKV3ClassDefaults
             namespace CBlendUpdateNode {
                 constexpr std::ptrdiff_t m_children = 0x60; // CUtlVector<CAnimUpdateNodeRef>
-                constexpr std::ptrdiff_t m_sortedOrder = 0x78; // 
+                constexpr std::ptrdiff_t m_sortedOrder = 0x78; // CUtlVector<uint8>
                 constexpr std::ptrdiff_t m_targetValues = 0x90; // CUtlVector<float32>
                 constexpr std::ptrdiff_t m_blendValueSource = 0xAC; // AnimValueSource
                 constexpr std::ptrdiff_t m_paramIndex = 0xB0; // CAnimParamHandle
@@ -3548,7 +3548,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_refMeshes = 0x78; // CUtlVector<CStrongHandle<InfoForResourceTypeCRenderMesh>>
                 constexpr std::ptrdiff_t m_refMeshGroupMasks = 0x90; // CUtlVector<uint64>
                 constexpr std::ptrdiff_t m_refPhysGroupMasks = 0xA8; // CUtlVector<uint64>
-                constexpr std::ptrdiff_t m_refLODGroupMasks = 0xC0; // 
+                constexpr std::ptrdiff_t m_refLODGroupMasks = 0xC0; // CUtlVector<uint8>
                 constexpr std::ptrdiff_t m_lodGroupSwitchDistances = 0xD8; // CUtlVector<float32>
                 constexpr std::ptrdiff_t m_refPhysicsData = 0xF0; // CUtlVector<CStrongHandle<InfoForResourceTypeCPhysAggregateData>>
                 constexpr std::ptrdiff_t m_refPhysicsHitboxData = 0x108; // CUtlVector<CStrongHandle<InfoForResourceTypeCPhysAggregateData>>
@@ -5520,7 +5520,7 @@ namespace cs2_dumper {
             namespace TwoBoneIKSettings_t {
                 constexpr std::ptrdiff_t m_endEffectorType = 0x0; // IkEndEffectorType
                 constexpr std::ptrdiff_t m_endEffectorAttachment = 0x10; // CAnimAttachment
-                constexpr std::ptrdiff_t m_targetType = 0x90; // 
+                constexpr std::ptrdiff_t m_targetType = 0x90; // IkTargetType
                 constexpr std::ptrdiff_t m_targetAttachment = 0xA0; // CAnimAttachment
                 constexpr std::ptrdiff_t m_targetBoneIndex = 0x120; // int32
                 constexpr std::ptrdiff_t m_hPositionParam = 0x124; // CAnimParamHandle
