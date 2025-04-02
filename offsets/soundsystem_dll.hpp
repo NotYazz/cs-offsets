@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-01 01:59:00.966277800 UTC
+// 2025-04-02 00:40:11.610107100 UTC
 
 #pragma once
 
@@ -625,7 +625,7 @@ namespace cs2_dumper {
             // MPropertyDescription
             namespace CVoiceContainerBase {
                 constexpr std::ptrdiff_t m_vSound = 0x38; // CVSound
-                constexpr std::ptrdiff_t m_pEnvelopeAnalyzer = 0xB8; // CVoiceContainerAnalysisBase*
+                constexpr std::ptrdiff_t m_pEnvelopeAnalyzer = 0xB8; // 
             }
             // Parent: CVoiceContainerBase
             // Field count: 5
@@ -909,7 +909,7 @@ namespace cs2_dumper {
             // MPropertyDescription
             namespace CVoiceContainerEnvelope {
                 constexpr std::ptrdiff_t m_sound = 0xC0; // CStrongHandle<InfoForResourceTypeCVoiceContainerBase>
-                constexpr std::ptrdiff_t m_analysisContainer = 0xC8; // CVoiceContainerAnalysisBase*
+                constexpr std::ptrdiff_t m_analysisContainer = 0xC8; // 
             }
             // Parent: None
             // Field count: 8

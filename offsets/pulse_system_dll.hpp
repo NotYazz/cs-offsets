@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-01 01:59:00.966277800 UTC
+// 2025-04-02 00:40:11.610107100 UTC
 
 #pragma once
 
@@ -732,7 +732,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace PGDInstruction_t {
-                constexpr std::ptrdiff_t m_nCode = 0x0; // 
+                constexpr std::ptrdiff_t m_nCode = 0x0; // PulseInstructionCode_t
                 constexpr std::ptrdiff_t m_nVar = 0x4; // PulseRuntimeVarIndex_t
                 constexpr std::ptrdiff_t m_nReg0 = 0x8; // PulseRuntimeRegisterIndex_t
                 constexpr std::ptrdiff_t m_nReg1 = 0xA; // PulseRuntimeRegisterIndex_t

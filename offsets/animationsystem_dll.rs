@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-01 01:59:00.966277800 UTC
+// 2025-04-02 00:40:11.610107100 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -2230,7 +2230,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod MaterialGroup_t {
                 pub const m_name: usize = 0x0; // CUtlString
-                pub const m_materials: usize = 0x8; // 
+                pub const m_materials: usize = 0x8; // CUtlVector<CStrongHandle<InfoForResourceTypeIMaterial2>>
             }
             // Parent: None
             // Field count: 4
@@ -3377,7 +3377,7 @@ pub mod cs2_dumper {
                 pub const m_flOriginalJumpDuration: usize = 0xB8; // float32
                 pub const m_flJumpStartCycle: usize = 0xBC; // float32
                 pub const m_flJumpEndCycle: usize = 0xC0; // float32
-                pub const m_eCorrectionMethod: usize = 0xC4; // 
+                pub const m_eCorrectionMethod: usize = 0xC4; // JumpCorrectionMethod
                 pub const m_bTranslationAxis: usize = 0xC8; // bool[3]
                 pub const m_bScaleSpeed: usize = 0xCB; // bool
             }
@@ -3832,8 +3832,8 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CAnimParameterManagerUpdater {
-                pub const m_parameters: usize = 0x18; // CUtlVector<CSmartPtr<CAnimParameterBase>>
-                pub const m_idToIndexMap: usize = 0x30; // CUtlHashtable<AnimParamID,int32>
+                pub const m_parameters: usize = 0x18; // 
+                pub const m_idToIndexMap: usize = 0x30; // 
                 pub const m_nameToIndexMap: usize = 0x50; // CUtlHashtable<CUtlString,int32>
                 pub const m_indexToHandle: usize = 0x70; // CUtlVector<CAnimParamHandle>
                 pub const m_autoResetParams: usize = 0x88; // CUtlVector<CUtlPair<CAnimParamHandle,CAnimVariant>>
@@ -4678,7 +4678,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CAnimationGraphVisualizerPrimitiveBase {
-                pub const m_Type: usize = 0x8; // CAnimationGraphVisualizerPrimitiveType
+                pub const m_Type: usize = 0x8; // 
                 pub const m_OwningAnimNodePaths: usize = 0xC; // AnimNodeID[11]
                 pub const m_nOwningAnimNodePathCount: usize = 0x38; // int32
             }
@@ -5612,7 +5612,7 @@ pub mod cs2_dumper {
             pub mod TwoBoneIKSettings_t {
                 pub const m_endEffectorType: usize = 0x0; // IkEndEffectorType
                 pub const m_endEffectorAttachment: usize = 0x10; // CAnimAttachment
-                pub const m_targetType: usize = 0x90; // IkTargetType
+                pub const m_targetType: usize = 0x90; // 
                 pub const m_targetAttachment: usize = 0xA0; // CAnimAttachment
                 pub const m_targetBoneIndex: usize = 0x120; // int32
                 pub const m_hPositionParam: usize = 0x124; // CAnimParamHandle

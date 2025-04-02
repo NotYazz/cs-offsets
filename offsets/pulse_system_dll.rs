@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-01 01:59:00.966277800 UTC
+// 2025-04-02 00:40:11.610107100 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -739,7 +739,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod PGDInstruction_t {
-                pub const m_nCode: usize = 0x0; // 
+                pub const m_nCode: usize = 0x0; // PulseInstructionCode_t
                 pub const m_nVar: usize = 0x4; // PulseRuntimeVarIndex_t
                 pub const m_nReg0: usize = 0x8; // PulseRuntimeRegisterIndex_t
                 pub const m_nReg1: usize = 0xA; // PulseRuntimeRegisterIndex_t

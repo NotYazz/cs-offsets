@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-01 01:59:00.966277800 UTC
+// 2025-04-02 00:40:11.610107100 UTC
 
 #pragma once
 
@@ -1226,7 +1226,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flDiffuseClamp = 0x1530; // CParticleCollectionRendererFloatInput
                 constexpr std::ptrdiff_t m_nLightingControlPoint = 0x1690; // int32
                 constexpr std::ptrdiff_t m_nSelfIllumPerParticle = 0x1694; // ParticleAttributeIndex_t
-                constexpr std::ptrdiff_t m_nOutputBlendMode = 0x1698; // 
+                constexpr std::ptrdiff_t m_nOutputBlendMode = 0x1698; // ParticleOutputBlendMode_t
                 constexpr std::ptrdiff_t m_bGammaCorrectVertexColors = 0x169C; // bool
                 constexpr std::ptrdiff_t m_bSaturateColorPreAlphaBlend = 0x169D; // bool
                 constexpr std::ptrdiff_t m_flAddSelfAmount = 0x16A0; // CParticleCollectionRendererFloatInput
@@ -1239,7 +1239,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bTintByGlobalLight = 0x1C29; // bool
                 constexpr std::ptrdiff_t m_nPerParticleAlphaReference = 0x1C2C; // SpriteCardPerParticleScale_t
                 constexpr std::ptrdiff_t m_nPerParticleAlphaRefWindow = 0x1C30; // SpriteCardPerParticleScale_t
-                constexpr std::ptrdiff_t m_nAlphaReferenceType = 0x1C34; // 
+                constexpr std::ptrdiff_t m_nAlphaReferenceType = 0x1C34; // ParticleAlphaReferenceType_t
                 constexpr std::ptrdiff_t m_flAlphaReferenceSoftness = 0x1C38; // CParticleCollectionRendererFloatInput
                 constexpr std::ptrdiff_t m_flSourceAlphaValueToMapToZero = 0x1D98; // CParticleCollectionRendererFloatInput
                 constexpr std::ptrdiff_t m_flSourceAlphaValueToMapToOne = 0x1EF8; // CParticleCollectionRendererFloatInput
@@ -4206,7 +4206,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nLightType = 0x210; // ParticleOmni2LightTypeChoiceList_t
                 constexpr std::ptrdiff_t m_vColorBlend = 0x218; // CParticleCollectionVecInput
                 constexpr std::ptrdiff_t m_nColorBlendType = 0x890; // ParticleColorBlendType_t
-                constexpr std::ptrdiff_t m_nBrightnessUnit = 0x894; // ParticleLightUnitChoiceList_t
+                constexpr std::ptrdiff_t m_nBrightnessUnit = 0x894; // 
                 constexpr std::ptrdiff_t m_flBrightnessLumens = 0x898; // CPerParticleFloatInput
                 constexpr std::ptrdiff_t m_flBrightnessCandelas = 0x9F8; // CPerParticleFloatInput
                 constexpr std::ptrdiff_t m_bCastShadows = 0xB58; // bool
@@ -5217,7 +5217,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace C_OP_RenderStandardLight {
-                constexpr std::ptrdiff_t m_nLightType = 0x210; // ParticleLightTypeChoiceList_t
+                constexpr std::ptrdiff_t m_nLightType = 0x210; // 
                 constexpr std::ptrdiff_t m_vecColorScale = 0x218; // CParticleCollectionVecInput
                 constexpr std::ptrdiff_t m_nColorBlendType = 0x890; // ParticleColorBlendType_t
                 constexpr std::ptrdiff_t m_flIntensity = 0x898; // CParticleCollectionFloatInput
@@ -5816,7 +5816,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flNotchedRangeMax = 0x104; // float32
                 constexpr std::ptrdiff_t m_flNotchedOutputOutside = 0x108; // float32
                 constexpr std::ptrdiff_t m_flNotchedOutputInside = 0x10C; // float32
-                constexpr std::ptrdiff_t m_nRoundType = 0x110; // 
+                constexpr std::ptrdiff_t m_nRoundType = 0x110; // ParticleFloatRoundType_t
                 constexpr std::ptrdiff_t m_nBiasType = 0x114; // ParticleFloatBiasType_t
                 constexpr std::ptrdiff_t m_flBiasParameter = 0x118; // float32
                 constexpr std::ptrdiff_t m_Curve = 0x120; // CPiecewiseCurve

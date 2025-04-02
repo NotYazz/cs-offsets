@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-01 01:59:00.966277800 UTC
+// 2025-04-02 00:40:11.610107100 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -1300,7 +1300,7 @@ pub mod cs2_dumper {
                 pub const m_flDiffuseClamp: usize = 0x1530; // CParticleCollectionRendererFloatInput
                 pub const m_nLightingControlPoint: usize = 0x1690; // int32
                 pub const m_nSelfIllumPerParticle: usize = 0x1694; // ParticleAttributeIndex_t
-                pub const m_nOutputBlendMode: usize = 0x1698; // 
+                pub const m_nOutputBlendMode: usize = 0x1698; // ParticleOutputBlendMode_t
                 pub const m_bGammaCorrectVertexColors: usize = 0x169C; // bool
                 pub const m_bSaturateColorPreAlphaBlend: usize = 0x169D; // bool
                 pub const m_flAddSelfAmount: usize = 0x16A0; // CParticleCollectionRendererFloatInput
@@ -1313,7 +1313,7 @@ pub mod cs2_dumper {
                 pub const m_bTintByGlobalLight: usize = 0x1C29; // bool
                 pub const m_nPerParticleAlphaReference: usize = 0x1C2C; // SpriteCardPerParticleScale_t
                 pub const m_nPerParticleAlphaRefWindow: usize = 0x1C30; // SpriteCardPerParticleScale_t
-                pub const m_nAlphaReferenceType: usize = 0x1C34; // 
+                pub const m_nAlphaReferenceType: usize = 0x1C34; // ParticleAlphaReferenceType_t
                 pub const m_flAlphaReferenceSoftness: usize = 0x1C38; // CParticleCollectionRendererFloatInput
                 pub const m_flSourceAlphaValueToMapToZero: usize = 0x1D98; // CParticleCollectionRendererFloatInput
                 pub const m_flSourceAlphaValueToMapToOne: usize = 0x1EF8; // CParticleCollectionRendererFloatInput
@@ -4280,7 +4280,7 @@ pub mod cs2_dumper {
                 pub const m_nLightType: usize = 0x210; // ParticleOmni2LightTypeChoiceList_t
                 pub const m_vColorBlend: usize = 0x218; // CParticleCollectionVecInput
                 pub const m_nColorBlendType: usize = 0x890; // ParticleColorBlendType_t
-                pub const m_nBrightnessUnit: usize = 0x894; // ParticleLightUnitChoiceList_t
+                pub const m_nBrightnessUnit: usize = 0x894; // 
                 pub const m_flBrightnessLumens: usize = 0x898; // CPerParticleFloatInput
                 pub const m_flBrightnessCandelas: usize = 0x9F8; // CPerParticleFloatInput
                 pub const m_bCastShadows: usize = 0xB58; // bool
@@ -5291,7 +5291,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod C_OP_RenderStandardLight {
-                pub const m_nLightType: usize = 0x210; // ParticleLightTypeChoiceList_t
+                pub const m_nLightType: usize = 0x210; // 
                 pub const m_vecColorScale: usize = 0x218; // CParticleCollectionVecInput
                 pub const m_nColorBlendType: usize = 0x890; // ParticleColorBlendType_t
                 pub const m_flIntensity: usize = 0x898; // CParticleCollectionFloatInput
@@ -5890,7 +5890,7 @@ pub mod cs2_dumper {
                 pub const m_flNotchedRangeMax: usize = 0x104; // float32
                 pub const m_flNotchedOutputOutside: usize = 0x108; // float32
                 pub const m_flNotchedOutputInside: usize = 0x10C; // float32
-                pub const m_nRoundType: usize = 0x110; // 
+                pub const m_nRoundType: usize = 0x110; // ParticleFloatRoundType_t
                 pub const m_nBiasType: usize = 0x114; // ParticleFloatBiasType_t
                 pub const m_flBiasParameter: usize = 0x118; // float32
                 pub const m_Curve: usize = 0x120; // CPiecewiseCurve

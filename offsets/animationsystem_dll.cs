@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-01 01:59:00.966277800 UTC
+// 2025-04-02 00:40:11.610107100 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: animationsystem.dll
@@ -2133,7 +2133,7 @@ namespace CS2Dumper.Schemas {
         // MGetKV3ClassDefaults
         public static class MaterialGroup_t {
             public const nint m_name = 0x0; // CUtlString
-            public const nint m_materials = 0x8; // 
+            public const nint m_materials = 0x8; // CUtlVector<CStrongHandle<InfoForResourceTypeIMaterial2>>
         }
         // Parent: None
         // Field count: 4
@@ -3280,7 +3280,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flOriginalJumpDuration = 0xB8; // float32
             public const nint m_flJumpStartCycle = 0xBC; // float32
             public const nint m_flJumpEndCycle = 0xC0; // float32
-            public const nint m_eCorrectionMethod = 0xC4; // 
+            public const nint m_eCorrectionMethod = 0xC4; // JumpCorrectionMethod
             public const nint m_bTranslationAxis = 0xC8; // bool[3]
             public const nint m_bScaleSpeed = 0xCB; // bool
         }
@@ -3735,8 +3735,8 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CAnimParameterManagerUpdater {
-            public const nint m_parameters = 0x18; // CUtlVector<CSmartPtr<CAnimParameterBase>>
-            public const nint m_idToIndexMap = 0x30; // CUtlHashtable<AnimParamID,int32>
+            public const nint m_parameters = 0x18; // 
+            public const nint m_idToIndexMap = 0x30; // 
             public const nint m_nameToIndexMap = 0x50; // CUtlHashtable<CUtlString,int32>
             public const nint m_indexToHandle = 0x70; // CUtlVector<CAnimParamHandle>
             public const nint m_autoResetParams = 0x88; // CUtlVector<CUtlPair<CAnimParamHandle,CAnimVariant>>
@@ -4581,7 +4581,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CAnimationGraphVisualizerPrimitiveBase {
-            public const nint m_Type = 0x8; // CAnimationGraphVisualizerPrimitiveType
+            public const nint m_Type = 0x8; // 
             public const nint m_OwningAnimNodePaths = 0xC; // AnimNodeID[11]
             public const nint m_nOwningAnimNodePathCount = 0x38; // int32
         }
@@ -5515,7 +5515,7 @@ namespace CS2Dumper.Schemas {
         public static class TwoBoneIKSettings_t {
             public const nint m_endEffectorType = 0x0; // IkEndEffectorType
             public const nint m_endEffectorAttachment = 0x10; // CAnimAttachment
-            public const nint m_targetType = 0x90; // IkTargetType
+            public const nint m_targetType = 0x90; // 
             public const nint m_targetAttachment = 0xA0; // CAnimAttachment
             public const nint m_targetBoneIndex = 0x120; // int32
             public const nint m_hPositionParam = 0x124; // CAnimParamHandle
