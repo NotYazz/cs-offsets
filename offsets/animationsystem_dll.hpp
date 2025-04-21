@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-02 00:40:11.610107100 UTC
+// 2025-04-21 23:49:22.247912700 UTC
 
 #pragma once
 
@@ -2138,7 +2138,7 @@ namespace cs2_dumper {
             // MGetKV3ClassDefaults
             namespace MaterialGroup_t {
                 constexpr std::ptrdiff_t m_name = 0x0; // CUtlString
-                constexpr std::ptrdiff_t m_materials = 0x8; // CUtlVector<CStrongHandle<InfoForResourceTypeIMaterial2>>
+                constexpr std::ptrdiff_t m_materials = 0x8; // 
             }
             // Parent: None
             // Field count: 4
@@ -3443,7 +3443,7 @@ namespace cs2_dumper {
             // MGetKV3ClassDefaults
             namespace CNmBoneMask {
                 constexpr std::ptrdiff_t m_ID = 0x0; // CGlobalSymbol
-                constexpr std::ptrdiff_t m_weightInfo = 0x8; // 
+                constexpr std::ptrdiff_t m_weightInfo = 0x8; // CNmBoneMask::WeightInfo_t
                 constexpr std::ptrdiff_t m_weights = 0x18; // CUtlVector<float32>
             }
             // Parent: CBaseConstraint
@@ -3741,7 +3741,7 @@ namespace cs2_dumper {
             // MGetKV3ClassDefaults
             namespace CAnimParameterManagerUpdater {
                 constexpr std::ptrdiff_t m_parameters = 0x18; // 
-                constexpr std::ptrdiff_t m_idToIndexMap = 0x30; // 
+                constexpr std::ptrdiff_t m_idToIndexMap = 0x30; // CUtlHashtable<AnimParamID,int32>
                 constexpr std::ptrdiff_t m_nameToIndexMap = 0x50; // CUtlHashtable<CUtlString,int32>
                 constexpr std::ptrdiff_t m_indexToHandle = 0x70; // CUtlVector<CAnimParamHandle>
                 constexpr std::ptrdiff_t m_autoResetParams = 0x88; // CUtlVector<CUtlPair<CAnimParamHandle,CAnimVariant>>
@@ -4027,8 +4027,8 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace CFootStride {
-                constexpr std::ptrdiff_t m_definition = 0x0; // CFootCycleDefinition
-                constexpr std::ptrdiff_t m_trajectories = 0x40; // CFootTrajectories
+                constexpr std::ptrdiff_t m_definition = 0x0; // 
+                constexpr std::ptrdiff_t m_trajectories = 0x40; // 
             }
             // Parent: CNmEvent
             // Field count: 2
@@ -4586,7 +4586,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace CAnimationGraphVisualizerPrimitiveBase {
-                constexpr std::ptrdiff_t m_Type = 0x8; // 
+                constexpr std::ptrdiff_t m_Type = 0x8; // CAnimationGraphVisualizerPrimitiveType
                 constexpr std::ptrdiff_t m_OwningAnimNodePaths = 0xC; // AnimNodeID[11]
                 constexpr std::ptrdiff_t m_nOwningAnimNodePathCount = 0x38; // int32
             }
@@ -5478,10 +5478,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flFPS = 0x28; // float32
                 constexpr std::ptrdiff_t m_nSubCycles = 0x2C; // int16
                 constexpr std::ptrdiff_t m_numLocalResults = 0x2E; // int16
-                constexpr std::ptrdiff_t m_cmdLayerArray = 0x30; // CUtlVector<CSeqCmdLayer>
+                constexpr std::ptrdiff_t m_cmdLayerArray = 0x30; // 
                 constexpr std::ptrdiff_t m_eventArray = 0x48; // CUtlVector<CAnimEventDefinition>
                 constexpr std::ptrdiff_t m_activityArray = 0x60; // CUtlVector<CAnimActivity>
-                constexpr std::ptrdiff_t m_poseSettingArray = 0x78; // CUtlVector<CSeqPoseSetting>
+                constexpr std::ptrdiff_t m_poseSettingArray = 0x78; // 
             }
             // Parent: CBinaryUpdateNode
             // Field count: 7
@@ -5573,7 +5573,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace CFootTrajectories {
-                constexpr std::ptrdiff_t m_trajectories = 0x0; // CUtlVector<CFootTrajectory>
+                constexpr std::ptrdiff_t m_trajectories = 0x0; // 
             }
             // Parent: CNmBoolValueNode__CDefinition
             // Field count: 3

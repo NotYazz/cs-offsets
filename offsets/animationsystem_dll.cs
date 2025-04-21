@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-02 00:40:11.610107100 UTC
+// 2025-04-21 23:49:22.247912700 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: animationsystem.dll
@@ -2133,7 +2133,7 @@ namespace CS2Dumper.Schemas {
         // MGetKV3ClassDefaults
         public static class MaterialGroup_t {
             public const nint m_name = 0x0; // CUtlString
-            public const nint m_materials = 0x8; // CUtlVector<CStrongHandle<InfoForResourceTypeIMaterial2>>
+            public const nint m_materials = 0x8; // 
         }
         // Parent: None
         // Field count: 4
@@ -3438,7 +3438,7 @@ namespace CS2Dumper.Schemas {
         // MGetKV3ClassDefaults
         public static class CNmBoneMask {
             public const nint m_ID = 0x0; // CGlobalSymbol
-            public const nint m_weightInfo = 0x8; // 
+            public const nint m_weightInfo = 0x8; // CNmBoneMask::WeightInfo_t
             public const nint m_weights = 0x18; // CUtlVector<float32>
         }
         // Parent: CBaseConstraint
@@ -3736,7 +3736,7 @@ namespace CS2Dumper.Schemas {
         // MGetKV3ClassDefaults
         public static class CAnimParameterManagerUpdater {
             public const nint m_parameters = 0x18; // 
-            public const nint m_idToIndexMap = 0x30; // 
+            public const nint m_idToIndexMap = 0x30; // CUtlHashtable<AnimParamID,int32>
             public const nint m_nameToIndexMap = 0x50; // CUtlHashtable<CUtlString,int32>
             public const nint m_indexToHandle = 0x70; // CUtlVector<CAnimParamHandle>
             public const nint m_autoResetParams = 0x88; // CUtlVector<CUtlPair<CAnimParamHandle,CAnimVariant>>
@@ -4022,8 +4022,8 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CFootStride {
-            public const nint m_definition = 0x0; // CFootCycleDefinition
-            public const nint m_trajectories = 0x40; // CFootTrajectories
+            public const nint m_definition = 0x0; // 
+            public const nint m_trajectories = 0x40; // 
         }
         // Parent: CNmEvent
         // Field count: 2
@@ -4581,7 +4581,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CAnimationGraphVisualizerPrimitiveBase {
-            public const nint m_Type = 0x8; // 
+            public const nint m_Type = 0x8; // CAnimationGraphVisualizerPrimitiveType
             public const nint m_OwningAnimNodePaths = 0xC; // AnimNodeID[11]
             public const nint m_nOwningAnimNodePathCount = 0x38; // int32
         }
@@ -5473,10 +5473,10 @@ namespace CS2Dumper.Schemas {
             public const nint m_flFPS = 0x28; // float32
             public const nint m_nSubCycles = 0x2C; // int16
             public const nint m_numLocalResults = 0x2E; // int16
-            public const nint m_cmdLayerArray = 0x30; // CUtlVector<CSeqCmdLayer>
+            public const nint m_cmdLayerArray = 0x30; // 
             public const nint m_eventArray = 0x48; // CUtlVector<CAnimEventDefinition>
             public const nint m_activityArray = 0x60; // CUtlVector<CAnimActivity>
-            public const nint m_poseSettingArray = 0x78; // CUtlVector<CSeqPoseSetting>
+            public const nint m_poseSettingArray = 0x78; // 
         }
         // Parent: CBinaryUpdateNode
         // Field count: 7
@@ -5568,7 +5568,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CFootTrajectories {
-            public const nint m_trajectories = 0x0; // CUtlVector<CFootTrajectory>
+            public const nint m_trajectories = 0x0; // 
         }
         // Parent: CNmBoolValueNode__CDefinition
         // Field count: 3

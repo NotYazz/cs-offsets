@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-02 00:40:11.610107100 UTC
+// 2025-04-21 23:49:22.247912700 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -1321,7 +1321,7 @@ pub mod cs2_dumper {
                 pub const m_bRefractSolid: usize = 0x2059; // bool
                 pub const m_flRefractAmount: usize = 0x2060; // CParticleCollectionRendererFloatInput
                 pub const m_nRefractBlurRadius: usize = 0x21C0; // int32
-                pub const m_nRefractBlurType: usize = 0x21C4; // 
+                pub const m_nRefractBlurType: usize = 0x21C4; // BlurFilterType_t
                 pub const m_bOnlyRenderInEffectsBloomPass: usize = 0x21C8; // bool
                 pub const m_bOnlyRenderInEffectsWaterPass: usize = 0x21C9; // bool
                 pub const m_bUseMixedResolutionRendering: usize = 0x21CA; // bool
@@ -4280,7 +4280,7 @@ pub mod cs2_dumper {
                 pub const m_nLightType: usize = 0x210; // ParticleOmni2LightTypeChoiceList_t
                 pub const m_vColorBlend: usize = 0x218; // CParticleCollectionVecInput
                 pub const m_nColorBlendType: usize = 0x890; // ParticleColorBlendType_t
-                pub const m_nBrightnessUnit: usize = 0x894; // 
+                pub const m_nBrightnessUnit: usize = 0x894; // ParticleLightUnitChoiceList_t
                 pub const m_flBrightnessLumens: usize = 0x898; // CPerParticleFloatInput
                 pub const m_flBrightnessCandelas: usize = 0x9F8; // CPerParticleFloatInput
                 pub const m_bCastShadows: usize = 0xB58; // bool
@@ -5291,7 +5291,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod C_OP_RenderStandardLight {
-                pub const m_nLightType: usize = 0x210; // 
+                pub const m_nLightType: usize = 0x210; // ParticleLightTypeChoiceList_t
                 pub const m_vecColorScale: usize = 0x218; // CParticleCollectionVecInput
                 pub const m_nColorBlendType: usize = 0x890; // ParticleColorBlendType_t
                 pub const m_flIntensity: usize = 0x898; // CParticleCollectionFloatInput
@@ -6135,7 +6135,7 @@ pub mod cs2_dumper {
             pub mod ParticleControlPointConfiguration_t {
                 pub const m_name: usize = 0x0; // CUtlString
                 pub const m_drivers: usize = 0x8; // CUtlVector<ParticleControlPointDriver_t>
-                pub const m_previewState: usize = 0x20; // ParticlePreviewState_t
+                pub const m_previewState: usize = 0x20; // 
             }
             // Parent: CParticleFunctionInitializer
             // Field count: 4

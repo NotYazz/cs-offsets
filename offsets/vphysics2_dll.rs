@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-02 00:40:11.610107100 UTC
+// 2025-04-21 23:49:22.247912700 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -75,7 +75,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod RnSphereDesc_t {
-                pub const m_Sphere: usize = 0x18; // SphereBase_t<float32>
+                pub const m_Sphere: usize = 0x18; // 
             }
             // Parent: RnShapeDesc_t
             // Field count: 1
@@ -177,7 +177,7 @@ pub mod cs2_dumper {
                 pub const m_LockToParent: usize = 0x5D8; // CUtlVector<FeCtrlOffset_t>
                 pub const m_LockToGoal: usize = 0x5F0; // CUtlVector<uint16>
                 pub const m_SkelParents: usize = 0x608; // CUtlVector<int16>
-                pub const m_DynNodeWindBases: usize = 0x620; // 
+                pub const m_DynNodeWindBases: usize = 0x620; // CUtlVector<FeNodeWindBase_t>
                 pub const m_flInternalPressure: usize = 0x638; // float32
                 pub const m_flDefaultTimeDilation: usize = 0x63C; // float32
                 pub const m_flWindage: usize = 0x640; // float32
@@ -447,7 +447,7 @@ pub mod cs2_dumper {
                 pub const m_Nodes: usize = 0x18; // CUtlVector<RnNode_t>
                 pub const m_Vertices: usize = 0x30; // CUtlVectorSIMDPaddedVector
                 pub const m_Triangles: usize = 0x48; // CUtlVector<RnTriangle_t>
-                pub const m_Wings: usize = 0x60; // CUtlVector<RnWing_t>
+                pub const m_Wings: usize = 0x60; // 
                 pub const m_Materials: usize = 0x78; // CUtlVector<uint8>
                 pub const m_vOrthographicAreas: usize = 0x90; // Vector
                 pub const m_nFlags: usize = 0x9C; // uint32

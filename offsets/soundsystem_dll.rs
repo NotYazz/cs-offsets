@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-02 00:40:11.610107100 UTC
+// 2025-04-21 23:49:22.247912700 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -636,7 +636,7 @@ pub mod cs2_dumper {
             // MPropertyDescription
             pub mod CVoiceContainerBase {
                 pub const m_vSound: usize = 0x38; // CVSound
-                pub const m_pEnvelopeAnalyzer: usize = 0xB8; // 
+                pub const m_pEnvelopeAnalyzer: usize = 0xB8; // CVoiceContainerAnalysisBase*
             }
             // Parent: CVoiceContainerBase
             // Field count: 5
@@ -920,7 +920,7 @@ pub mod cs2_dumper {
             // MPropertyDescription
             pub mod CVoiceContainerEnvelope {
                 pub const m_sound: usize = 0xC0; // CStrongHandle<InfoForResourceTypeCVoiceContainerBase>
-                pub const m_analysisContainer: usize = 0xC8; // 
+                pub const m_analysisContainer: usize = 0xC8; // CVoiceContainerAnalysisBase*
             }
             // Parent: None
             // Field count: 8

@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-02 00:40:11.610107100 UTC
+// 2025-04-21 23:49:22.247912700 UTC
 
 #pragma once
 
@@ -1078,7 +1078,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_vecGameBlackboards = 0x20; // CUtlVector<CUtlSymbolLarge>
                 constexpr std::ptrdiff_t m_Chunks = 0x38; // CUtlVector<CPulse_Chunk*>
                 constexpr std::ptrdiff_t m_Cells = 0x50; // CUtlVector<CPulseCell_Base*>
-                constexpr std::ptrdiff_t m_Vars = 0x68; // CUtlVector<CPulse_Variable>
+                constexpr std::ptrdiff_t m_Vars = 0x68; // 
                 constexpr std::ptrdiff_t m_PublicOutputs = 0x80; // CUtlVector<CPulse_PublicOutput>
                 constexpr std::ptrdiff_t m_InvokeBindings = 0x98; // CUtlVector<CPulse_InvokeBinding*>
                 constexpr std::ptrdiff_t m_CallInfos = 0xB0; // CUtlVector<CPulse_CallInfo*>

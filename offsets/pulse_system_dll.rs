@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-02 00:40:11.610107100 UTC
+// 2025-04-21 23:49:22.247912700 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -1085,7 +1085,7 @@ pub mod cs2_dumper {
                 pub const m_vecGameBlackboards: usize = 0x20; // CUtlVector<CUtlSymbolLarge>
                 pub const m_Chunks: usize = 0x38; // CUtlVector<CPulse_Chunk*>
                 pub const m_Cells: usize = 0x50; // CUtlVector<CPulseCell_Base*>
-                pub const m_Vars: usize = 0x68; // CUtlVector<CPulse_Variable>
+                pub const m_Vars: usize = 0x68; // 
                 pub const m_PublicOutputs: usize = 0x80; // CUtlVector<CPulse_PublicOutput>
                 pub const m_InvokeBindings: usize = 0x98; // CUtlVector<CPulse_InvokeBinding*>
                 pub const m_CallInfos: usize = 0xB0; // CUtlVector<CPulse_CallInfo*>

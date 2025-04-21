@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-02 00:40:11.610107100 UTC
+// 2025-04-21 23:49:22.247912700 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: soundsystem.dll
@@ -620,7 +620,7 @@ namespace CS2Dumper.Schemas {
         // MPropertyDescription
         public static class CVoiceContainerBase {
             public const nint m_vSound = 0x38; // CVSound
-            public const nint m_pEnvelopeAnalyzer = 0xB8; // 
+            public const nint m_pEnvelopeAnalyzer = 0xB8; // CVoiceContainerAnalysisBase*
         }
         // Parent: CVoiceContainerBase
         // Field count: 5
@@ -904,7 +904,7 @@ namespace CS2Dumper.Schemas {
         // MPropertyDescription
         public static class CVoiceContainerEnvelope {
             public const nint m_sound = 0xC0; // CStrongHandle<InfoForResourceTypeCVoiceContainerBase>
-            public const nint m_analysisContainer = 0xC8; // 
+            public const nint m_analysisContainer = 0xC8; // CVoiceContainerAnalysisBase*
         }
         // Parent: None
         // Field count: 8

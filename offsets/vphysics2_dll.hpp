@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-02 00:40:11.610107100 UTC
+// 2025-04-21 23:49:22.247912700 UTC
 
 #pragma once
 
@@ -75,7 +75,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace RnSphereDesc_t {
-                constexpr std::ptrdiff_t m_Sphere = 0x18; // SphereBase_t<float32>
+                constexpr std::ptrdiff_t m_Sphere = 0x18; // 
             }
             // Parent: RnShapeDesc_t
             // Field count: 1
@@ -177,7 +177,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_LockToParent = 0x5D8; // CUtlVector<FeCtrlOffset_t>
                 constexpr std::ptrdiff_t m_LockToGoal = 0x5F0; // CUtlVector<uint16>
                 constexpr std::ptrdiff_t m_SkelParents = 0x608; // CUtlVector<int16>
-                constexpr std::ptrdiff_t m_DynNodeWindBases = 0x620; // 
+                constexpr std::ptrdiff_t m_DynNodeWindBases = 0x620; // CUtlVector<FeNodeWindBase_t>
                 constexpr std::ptrdiff_t m_flInternalPressure = 0x638; // float32
                 constexpr std::ptrdiff_t m_flDefaultTimeDilation = 0x63C; // float32
                 constexpr std::ptrdiff_t m_flWindage = 0x640; // float32
@@ -447,7 +447,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_Nodes = 0x18; // CUtlVector<RnNode_t>
                 constexpr std::ptrdiff_t m_Vertices = 0x30; // CUtlVectorSIMDPaddedVector
                 constexpr std::ptrdiff_t m_Triangles = 0x48; // CUtlVector<RnTriangle_t>
-                constexpr std::ptrdiff_t m_Wings = 0x60; // CUtlVector<RnWing_t>
+                constexpr std::ptrdiff_t m_Wings = 0x60; // 
                 constexpr std::ptrdiff_t m_Materials = 0x78; // CUtlVector<uint8>
                 constexpr std::ptrdiff_t m_vOrthographicAreas = 0x90; // Vector
                 constexpr std::ptrdiff_t m_nFlags = 0x9C; // uint32

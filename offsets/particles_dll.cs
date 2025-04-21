@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-02 00:40:11.610107100 UTC
+// 2025-04-21 23:49:22.247912700 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: particles.dll
@@ -1242,7 +1242,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_bRefractSolid = 0x2059; // bool
             public const nint m_flRefractAmount = 0x2060; // CParticleCollectionRendererFloatInput
             public const nint m_nRefractBlurRadius = 0x21C0; // int32
-            public const nint m_nRefractBlurType = 0x21C4; // 
+            public const nint m_nRefractBlurType = 0x21C4; // BlurFilterType_t
             public const nint m_bOnlyRenderInEffectsBloomPass = 0x21C8; // bool
             public const nint m_bOnlyRenderInEffectsWaterPass = 0x21C9; // bool
             public const nint m_bUseMixedResolutionRendering = 0x21CA; // bool
@@ -4201,7 +4201,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_nLightType = 0x210; // ParticleOmni2LightTypeChoiceList_t
             public const nint m_vColorBlend = 0x218; // CParticleCollectionVecInput
             public const nint m_nColorBlendType = 0x890; // ParticleColorBlendType_t
-            public const nint m_nBrightnessUnit = 0x894; // 
+            public const nint m_nBrightnessUnit = 0x894; // ParticleLightUnitChoiceList_t
             public const nint m_flBrightnessLumens = 0x898; // CPerParticleFloatInput
             public const nint m_flBrightnessCandelas = 0x9F8; // CPerParticleFloatInput
             public const nint m_bCastShadows = 0xB58; // bool
@@ -5212,7 +5212,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class C_OP_RenderStandardLight {
-            public const nint m_nLightType = 0x210; // 
+            public const nint m_nLightType = 0x210; // ParticleLightTypeChoiceList_t
             public const nint m_vecColorScale = 0x218; // CParticleCollectionVecInput
             public const nint m_nColorBlendType = 0x890; // ParticleColorBlendType_t
             public const nint m_flIntensity = 0x898; // CParticleCollectionFloatInput
@@ -6056,7 +6056,7 @@ namespace CS2Dumper.Schemas {
         public static class ParticleControlPointConfiguration_t {
             public const nint m_name = 0x0; // CUtlString
             public const nint m_drivers = 0x8; // CUtlVector<ParticleControlPointDriver_t>
-            public const nint m_previewState = 0x20; // ParticlePreviewState_t
+            public const nint m_previewState = 0x20; // 
         }
         // Parent: CParticleFunctionInitializer
         // Field count: 4
