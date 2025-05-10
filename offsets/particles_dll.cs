@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-21 23:49:22.247912700 UTC
+// 2025-05-10 23:07:48.140163900 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: particles.dll
@@ -4104,7 +4104,7 @@ namespace CS2Dumper.Schemas {
         // MPropertyCustomEditor
         // MParticleCustomFieldDefaultValue
         public static class CParticleTransformInput {
-            public const nint m_nType = 0x10; // ParticleTransformType_t
+            public const nint m_nType = 0x10; // 
             public const nint m_NamedValue = 0x18; // CParticleNamedValueRef
             public const nint m_bFollowNamedValue = 0x58; // bool
             public const nint m_bSupportsDisabled = 0x59; // bool
@@ -5769,7 +5769,7 @@ namespace CS2Dumper.Schemas {
         // MParticleCustomFieldDefaultValue
         public static class CParticleFloatInput {
             public const nint m_nType = 0x10; // ParticleFloatType_t
-            public const nint m_nMapType = 0x14; // ParticleFloatMapType_t
+            public const nint m_nMapType = 0x14; // 
             public const nint m_flLiteralValue = 0x18; // float32
             public const nint m_NamedValue = 0x20; // CParticleNamedValueRef
             public const nint m_nControlPoint = 0x60; // int32
@@ -5811,7 +5811,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flNotchedRangeMax = 0x104; // float32
             public const nint m_flNotchedOutputOutside = 0x108; // float32
             public const nint m_flNotchedOutputInside = 0x10C; // float32
-            public const nint m_nRoundType = 0x110; // ParticleFloatRoundType_t
+            public const nint m_nRoundType = 0x110; // 
             public const nint m_nBiasType = 0x114; // ParticleFloatBiasType_t
             public const nint m_flBiasParameter = 0x118; // float32
             public const nint m_Curve = 0x120; // CPiecewiseCurve
@@ -6056,7 +6056,7 @@ namespace CS2Dumper.Schemas {
         public static class ParticleControlPointConfiguration_t {
             public const nint m_name = 0x0; // CUtlString
             public const nint m_drivers = 0x8; // CUtlVector<ParticleControlPointDriver_t>
-            public const nint m_previewState = 0x20; // 
+            public const nint m_previewState = 0x20; // ParticlePreviewState_t
         }
         // Parent: CParticleFunctionInitializer
         // Field count: 4

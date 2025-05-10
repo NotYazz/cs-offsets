@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-21 23:49:22.247912700 UTC
+// 2025-05-10 23:07:48.140163900 UTC
 
 #pragma once
 
@@ -2468,7 +2468,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_children = 0x58; // CUtlVector<CAnimUpdateNodeRef>
                 constexpr std::ptrdiff_t m_weights = 0x70; // CUtlVector<float32>
                 constexpr std::ptrdiff_t m_blendTimes = 0x88; // CUtlVector<float32>
-                constexpr std::ptrdiff_t m_choiceMethod = 0xA0; // ChoiceMethod
+                constexpr std::ptrdiff_t m_choiceMethod = 0xA0; // 
                 constexpr std::ptrdiff_t m_choiceChangeMethod = 0xA4; // ChoiceChangeMethod
                 constexpr std::ptrdiff_t m_blendMethod = 0xA8; // ChoiceBlendMethod
                 constexpr std::ptrdiff_t m_blendTime = 0xAC; // float32
@@ -3200,7 +3200,7 @@ namespace cs2_dumper {
             namespace FootStepTrigger {
                 constexpr std::ptrdiff_t m_tags = 0x0; // CUtlVector<int32>
                 constexpr std::ptrdiff_t m_nFootIndex = 0x18; // int32
-                constexpr std::ptrdiff_t m_triggerPhase = 0x1C; // StepPhase
+                constexpr std::ptrdiff_t m_triggerPhase = 0x1C; // 
             }
             // Parent: None
             // Field count: 2
@@ -3778,12 +3778,12 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bActiveListening = 0x8; // bool
                 constexpr std::ptrdiff_t m_bActiveTalking = 0x9; // bool
                 constexpr std::ptrdiff_t m_layerAnimations = 0x10; // CUtlVector<MoodAnimation_t>
-                constexpr std::ptrdiff_t m_flIntensity = 0x28; // 
-                constexpr std::ptrdiff_t m_flDurationScale = 0x30; // 
+                constexpr std::ptrdiff_t m_flIntensity = 0x28; // CRangeFloat
+                constexpr std::ptrdiff_t m_flDurationScale = 0x30; // CRangeFloat
                 constexpr std::ptrdiff_t m_bScaleWithInts = 0x38; // bool
-                constexpr std::ptrdiff_t m_flNextStart = 0x3C; // 
-                constexpr std::ptrdiff_t m_flStartOffset = 0x44; // 
-                constexpr std::ptrdiff_t m_flEndOffset = 0x4C; // 
+                constexpr std::ptrdiff_t m_flNextStart = 0x3C; // CRangeFloat
+                constexpr std::ptrdiff_t m_flStartOffset = 0x44; // CRangeFloat
+                constexpr std::ptrdiff_t m_flEndOffset = 0x4C; // CRangeFloat
                 constexpr std::ptrdiff_t m_flFadeIn = 0x54; // float32
                 constexpr std::ptrdiff_t m_flFadeOut = 0x58; // float32
             }
@@ -4027,8 +4027,8 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace CFootStride {
-                constexpr std::ptrdiff_t m_definition = 0x0; // 
-                constexpr std::ptrdiff_t m_trajectories = 0x40; // 
+                constexpr std::ptrdiff_t m_definition = 0x0; // CFootCycleDefinition
+                constexpr std::ptrdiff_t m_trajectories = 0x40; // CFootTrajectories
             }
             // Parent: CNmEvent
             // Field count: 2
@@ -5478,10 +5478,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flFPS = 0x28; // float32
                 constexpr std::ptrdiff_t m_nSubCycles = 0x2C; // int16
                 constexpr std::ptrdiff_t m_numLocalResults = 0x2E; // int16
-                constexpr std::ptrdiff_t m_cmdLayerArray = 0x30; // 
+                constexpr std::ptrdiff_t m_cmdLayerArray = 0x30; // CUtlVector<CSeqCmdLayer>
                 constexpr std::ptrdiff_t m_eventArray = 0x48; // CUtlVector<CAnimEventDefinition>
                 constexpr std::ptrdiff_t m_activityArray = 0x60; // CUtlVector<CAnimActivity>
-                constexpr std::ptrdiff_t m_poseSettingArray = 0x78; // 
+                constexpr std::ptrdiff_t m_poseSettingArray = 0x78; // CUtlVector<CSeqPoseSetting>
             }
             // Parent: CBinaryUpdateNode
             // Field count: 7
@@ -5573,7 +5573,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace CFootTrajectories {
-                constexpr std::ptrdiff_t m_trajectories = 0x0; // 
+                constexpr std::ptrdiff_t m_trajectories = 0x0; // CUtlVector<CFootTrajectory>
             }
             // Parent: CNmBoolValueNode__CDefinition
             // Field count: 3

@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-21 23:49:22.247912700 UTC
+// 2025-05-10 23:07:48.140163900 UTC
 
 #pragma once
 
@@ -4109,7 +4109,7 @@ namespace cs2_dumper {
             // MPropertyCustomEditor
             // MParticleCustomFieldDefaultValue
             namespace CParticleTransformInput {
-                constexpr std::ptrdiff_t m_nType = 0x10; // ParticleTransformType_t
+                constexpr std::ptrdiff_t m_nType = 0x10; // 
                 constexpr std::ptrdiff_t m_NamedValue = 0x18; // CParticleNamedValueRef
                 constexpr std::ptrdiff_t m_bFollowNamedValue = 0x58; // bool
                 constexpr std::ptrdiff_t m_bSupportsDisabled = 0x59; // bool
@@ -5774,7 +5774,7 @@ namespace cs2_dumper {
             // MParticleCustomFieldDefaultValue
             namespace CParticleFloatInput {
                 constexpr std::ptrdiff_t m_nType = 0x10; // ParticleFloatType_t
-                constexpr std::ptrdiff_t m_nMapType = 0x14; // ParticleFloatMapType_t
+                constexpr std::ptrdiff_t m_nMapType = 0x14; // 
                 constexpr std::ptrdiff_t m_flLiteralValue = 0x18; // float32
                 constexpr std::ptrdiff_t m_NamedValue = 0x20; // CParticleNamedValueRef
                 constexpr std::ptrdiff_t m_nControlPoint = 0x60; // int32
@@ -5816,7 +5816,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flNotchedRangeMax = 0x104; // float32
                 constexpr std::ptrdiff_t m_flNotchedOutputOutside = 0x108; // float32
                 constexpr std::ptrdiff_t m_flNotchedOutputInside = 0x10C; // float32
-                constexpr std::ptrdiff_t m_nRoundType = 0x110; // ParticleFloatRoundType_t
+                constexpr std::ptrdiff_t m_nRoundType = 0x110; // 
                 constexpr std::ptrdiff_t m_nBiasType = 0x114; // ParticleFloatBiasType_t
                 constexpr std::ptrdiff_t m_flBiasParameter = 0x118; // float32
                 constexpr std::ptrdiff_t m_Curve = 0x120; // CPiecewiseCurve
@@ -6061,7 +6061,7 @@ namespace cs2_dumper {
             namespace ParticleControlPointConfiguration_t {
                 constexpr std::ptrdiff_t m_name = 0x0; // CUtlString
                 constexpr std::ptrdiff_t m_drivers = 0x8; // CUtlVector<ParticleControlPointDriver_t>
-                constexpr std::ptrdiff_t m_previewState = 0x20; // 
+                constexpr std::ptrdiff_t m_previewState = 0x20; // ParticlePreviewState_t
             }
             // Parent: CParticleFunctionInitializer
             // Field count: 4

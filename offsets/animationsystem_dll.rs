@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-21 23:49:22.247912700 UTC
+// 2025-05-10 23:07:48.140163900 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -2560,7 +2560,7 @@ pub mod cs2_dumper {
                 pub const m_children: usize = 0x58; // CUtlVector<CAnimUpdateNodeRef>
                 pub const m_weights: usize = 0x70; // CUtlVector<float32>
                 pub const m_blendTimes: usize = 0x88; // CUtlVector<float32>
-                pub const m_choiceMethod: usize = 0xA0; // ChoiceMethod
+                pub const m_choiceMethod: usize = 0xA0; // 
                 pub const m_choiceChangeMethod: usize = 0xA4; // ChoiceChangeMethod
                 pub const m_blendMethod: usize = 0xA8; // ChoiceBlendMethod
                 pub const m_blendTime: usize = 0xAC; // float32
@@ -3292,7 +3292,7 @@ pub mod cs2_dumper {
             pub mod FootStepTrigger {
                 pub const m_tags: usize = 0x0; // CUtlVector<int32>
                 pub const m_nFootIndex: usize = 0x18; // int32
-                pub const m_triggerPhase: usize = 0x1C; // StepPhase
+                pub const m_triggerPhase: usize = 0x1C; // 
             }
             // Parent: None
             // Field count: 2
@@ -3870,12 +3870,12 @@ pub mod cs2_dumper {
                 pub const m_bActiveListening: usize = 0x8; // bool
                 pub const m_bActiveTalking: usize = 0x9; // bool
                 pub const m_layerAnimations: usize = 0x10; // CUtlVector<MoodAnimation_t>
-                pub const m_flIntensity: usize = 0x28; // 
-                pub const m_flDurationScale: usize = 0x30; // 
+                pub const m_flIntensity: usize = 0x28; // CRangeFloat
+                pub const m_flDurationScale: usize = 0x30; // CRangeFloat
                 pub const m_bScaleWithInts: usize = 0x38; // bool
-                pub const m_flNextStart: usize = 0x3C; // 
-                pub const m_flStartOffset: usize = 0x44; // 
-                pub const m_flEndOffset: usize = 0x4C; // 
+                pub const m_flNextStart: usize = 0x3C; // CRangeFloat
+                pub const m_flStartOffset: usize = 0x44; // CRangeFloat
+                pub const m_flEndOffset: usize = 0x4C; // CRangeFloat
                 pub const m_flFadeIn: usize = 0x54; // float32
                 pub const m_flFadeOut: usize = 0x58; // float32
             }
@@ -4119,8 +4119,8 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CFootStride {
-                pub const m_definition: usize = 0x0; // 
-                pub const m_trajectories: usize = 0x40; // 
+                pub const m_definition: usize = 0x0; // CFootCycleDefinition
+                pub const m_trajectories: usize = 0x40; // CFootTrajectories
             }
             // Parent: CNmEvent
             // Field count: 2
@@ -5570,10 +5570,10 @@ pub mod cs2_dumper {
                 pub const m_flFPS: usize = 0x28; // float32
                 pub const m_nSubCycles: usize = 0x2C; // int16
                 pub const m_numLocalResults: usize = 0x2E; // int16
-                pub const m_cmdLayerArray: usize = 0x30; // 
+                pub const m_cmdLayerArray: usize = 0x30; // CUtlVector<CSeqCmdLayer>
                 pub const m_eventArray: usize = 0x48; // CUtlVector<CAnimEventDefinition>
                 pub const m_activityArray: usize = 0x60; // CUtlVector<CAnimActivity>
-                pub const m_poseSettingArray: usize = 0x78; // 
+                pub const m_poseSettingArray: usize = 0x78; // CUtlVector<CSeqPoseSetting>
             }
             // Parent: CBinaryUpdateNode
             // Field count: 7
@@ -5665,7 +5665,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CFootTrajectories {
-                pub const m_trajectories: usize = 0x0; // 
+                pub const m_trajectories: usize = 0x0; // CUtlVector<CFootTrajectory>
             }
             // Parent: CNmBoolValueNode__CDefinition
             // Field count: 3

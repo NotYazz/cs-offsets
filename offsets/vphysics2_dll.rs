@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-21 23:49:22.247912700 UTC
+// 2025-05-10 23:07:48.140163900 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -75,7 +75,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod RnSphereDesc_t {
-                pub const m_Sphere: usize = 0x18; // 
+                pub const m_Sphere: usize = 0x18; // SphereBase_t<float32>
             }
             // Parent: RnShapeDesc_t
             // Field count: 1
@@ -447,7 +447,7 @@ pub mod cs2_dumper {
                 pub const m_Nodes: usize = 0x18; // CUtlVector<RnNode_t>
                 pub const m_Vertices: usize = 0x30; // CUtlVectorSIMDPaddedVector
                 pub const m_Triangles: usize = 0x48; // CUtlVector<RnTriangle_t>
-                pub const m_Wings: usize = 0x60; // 
+                pub const m_Wings: usize = 0x60; // CUtlVector<RnWing_t>
                 pub const m_Materials: usize = 0x78; // CUtlVector<uint8>
                 pub const m_vOrthographicAreas: usize = 0x90; // Vector
                 pub const m_nFlags: usize = 0x9C; // uint32
@@ -950,10 +950,10 @@ pub mod cs2_dumper {
                 pub const m_MassProperties: usize = 0x34; // matrix3x4_t
                 pub const m_flVolume: usize = 0x64; // float32
                 pub const m_flSurfaceArea: usize = 0x68; // float32
-                pub const m_Vertices: usize = 0x70; // CUtlVector<RnVertex_t>
+                pub const m_Vertices: usize = 0x70; // 
                 pub const m_VertexPositions: usize = 0x88; // CUtlVector<Vector>
-                pub const m_Edges: usize = 0xA0; // CUtlVector<RnHalfEdge_t>
-                pub const m_Faces: usize = 0xB8; // CUtlVector<RnFace_t>
+                pub const m_Edges: usize = 0xA0; // 
+                pub const m_Faces: usize = 0xB8; // 
                 pub const m_FacePlanes: usize = 0xD0; // CUtlVector<RnPlane_t>
                 pub const m_nFlags: usize = 0xE8; // uint32
                 pub const m_pRegionSVM: usize = 0xF0; // CRegionSVM*

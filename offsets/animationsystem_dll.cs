@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-21 23:49:22.247912700 UTC
+// 2025-05-10 23:07:48.140163900 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: animationsystem.dll
@@ -2463,7 +2463,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_children = 0x58; // CUtlVector<CAnimUpdateNodeRef>
             public const nint m_weights = 0x70; // CUtlVector<float32>
             public const nint m_blendTimes = 0x88; // CUtlVector<float32>
-            public const nint m_choiceMethod = 0xA0; // ChoiceMethod
+            public const nint m_choiceMethod = 0xA0; // 
             public const nint m_choiceChangeMethod = 0xA4; // ChoiceChangeMethod
             public const nint m_blendMethod = 0xA8; // ChoiceBlendMethod
             public const nint m_blendTime = 0xAC; // float32
@@ -3195,7 +3195,7 @@ namespace CS2Dumper.Schemas {
         public static class FootStepTrigger {
             public const nint m_tags = 0x0; // CUtlVector<int32>
             public const nint m_nFootIndex = 0x18; // int32
-            public const nint m_triggerPhase = 0x1C; // StepPhase
+            public const nint m_triggerPhase = 0x1C; // 
         }
         // Parent: None
         // Field count: 2
@@ -3773,12 +3773,12 @@ namespace CS2Dumper.Schemas {
             public const nint m_bActiveListening = 0x8; // bool
             public const nint m_bActiveTalking = 0x9; // bool
             public const nint m_layerAnimations = 0x10; // CUtlVector<MoodAnimation_t>
-            public const nint m_flIntensity = 0x28; // 
-            public const nint m_flDurationScale = 0x30; // 
+            public const nint m_flIntensity = 0x28; // CRangeFloat
+            public const nint m_flDurationScale = 0x30; // CRangeFloat
             public const nint m_bScaleWithInts = 0x38; // bool
-            public const nint m_flNextStart = 0x3C; // 
-            public const nint m_flStartOffset = 0x44; // 
-            public const nint m_flEndOffset = 0x4C; // 
+            public const nint m_flNextStart = 0x3C; // CRangeFloat
+            public const nint m_flStartOffset = 0x44; // CRangeFloat
+            public const nint m_flEndOffset = 0x4C; // CRangeFloat
             public const nint m_flFadeIn = 0x54; // float32
             public const nint m_flFadeOut = 0x58; // float32
         }
@@ -4022,8 +4022,8 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CFootStride {
-            public const nint m_definition = 0x0; // 
-            public const nint m_trajectories = 0x40; // 
+            public const nint m_definition = 0x0; // CFootCycleDefinition
+            public const nint m_trajectories = 0x40; // CFootTrajectories
         }
         // Parent: CNmEvent
         // Field count: 2
@@ -5473,10 +5473,10 @@ namespace CS2Dumper.Schemas {
             public const nint m_flFPS = 0x28; // float32
             public const nint m_nSubCycles = 0x2C; // int16
             public const nint m_numLocalResults = 0x2E; // int16
-            public const nint m_cmdLayerArray = 0x30; // 
+            public const nint m_cmdLayerArray = 0x30; // CUtlVector<CSeqCmdLayer>
             public const nint m_eventArray = 0x48; // CUtlVector<CAnimEventDefinition>
             public const nint m_activityArray = 0x60; // CUtlVector<CAnimActivity>
-            public const nint m_poseSettingArray = 0x78; // 
+            public const nint m_poseSettingArray = 0x78; // CUtlVector<CSeqPoseSetting>
         }
         // Parent: CBinaryUpdateNode
         // Field count: 7
@@ -5568,7 +5568,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CFootTrajectories {
-            public const nint m_trajectories = 0x0; // 
+            public const nint m_trajectories = 0x0; // CUtlVector<CFootTrajectory>
         }
         // Parent: CNmBoolValueNode__CDefinition
         // Field count: 3
