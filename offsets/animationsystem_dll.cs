@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-10 23:07:48.140163900 UTC
+// 2025-05-12 23:11:56.934812200 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: animationsystem.dll
@@ -3735,7 +3735,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CAnimParameterManagerUpdater {
-            public const nint m_parameters = 0x18; // 
+            public const nint m_parameters = 0x18; // CUtlVector<CSmartPtr<CAnimParameterBase>>
             public const nint m_idToIndexMap = 0x30; // CUtlHashtable<AnimParamID,int32>
             public const nint m_nameToIndexMap = 0x50; // CUtlHashtable<CUtlString,int32>
             public const nint m_indexToHandle = 0x70; // CUtlVector<CAnimParamHandle>

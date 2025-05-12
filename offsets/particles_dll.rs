@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-10 23:07:48.140163900 UTC
+// 2025-05-12 23:11:56.934812200 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -866,7 +866,7 @@ pub mod cs2_dumper {
             // MPropertyCustomEditor
             // MParticleCustomFieldDefaultValue
             pub mod CParticleModelInput {
-                pub const m_nType: usize = 0x10; // ParticleModelType_t
+                pub const m_nType: usize = 0x10; // 
                 pub const m_NamedValue: usize = 0x18; // CParticleNamedValueRef
                 pub const m_nControlPoint: usize = 0x58; // int32
             }
@@ -2394,7 +2394,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             // MParticleCustomFieldDefaultValue
             pub mod CParticleVecInput {
-                pub const m_nType: usize = 0x10; // ParticleVecType_t
+                pub const m_nType: usize = 0x10; // 
                 pub const m_vLiteralValue: usize = 0x14; // Vector
                 pub const m_LiteralColor: usize = 0x20; // Color
                 pub const m_NamedValue: usize = 0x28; // CParticleNamedValueRef
@@ -3744,7 +3744,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             pub mod CParticleVariableRef {
-                pub const m_variableName: usize = 0x0; // CKV3MemberNameWithStorage
+                pub const m_variableName: usize = 0x0; // 
                 pub const m_variableType: usize = 0x38; // PulseValueType_t
             }
             // Parent: CParticleFunctionOperator
@@ -4168,9 +4168,9 @@ pub mod cs2_dumper {
                 pub const m_flInputScale1: usize = 0x1D0; // float32
                 pub const m_nFieldInput2: usize = 0x1D4; // ParticleAttributeIndex_t
                 pub const m_flInputScale2: usize = 0x1D8; // float32
-                pub const m_nControlPointInput1: usize = 0x1DC; // ControlPointReference_t
+                pub const m_nControlPointInput1: usize = 0x1DC; // 
                 pub const m_flControlPointScale1: usize = 0x1F0; // float32
-                pub const m_nControlPointInput2: usize = 0x1F4; // ControlPointReference_t
+                pub const m_nControlPointInput2: usize = 0x1F4; // 
                 pub const m_flControlPointScale2: usize = 0x208; // float32
                 pub const m_nFieldOutput: usize = 0x20C; // ParticleAttributeIndex_t
                 pub const m_vFinalOutputScale: usize = 0x210; // Vector
@@ -5848,7 +5848,7 @@ pub mod cs2_dumper {
             // MParticleCustomFieldDefaultValue
             pub mod CParticleFloatInput {
                 pub const m_nType: usize = 0x10; // ParticleFloatType_t
-                pub const m_nMapType: usize = 0x14; // 
+                pub const m_nMapType: usize = 0x14; // ParticleFloatMapType_t
                 pub const m_flLiteralValue: usize = 0x18; // float32
                 pub const m_NamedValue: usize = 0x20; // CParticleNamedValueRef
                 pub const m_nControlPoint: usize = 0x60; // int32
@@ -5890,7 +5890,7 @@ pub mod cs2_dumper {
                 pub const m_flNotchedRangeMax: usize = 0x104; // float32
                 pub const m_flNotchedOutputOutside: usize = 0x108; // float32
                 pub const m_flNotchedOutputInside: usize = 0x10C; // float32
-                pub const m_nRoundType: usize = 0x110; // 
+                pub const m_nRoundType: usize = 0x110; // ParticleFloatRoundType_t
                 pub const m_nBiasType: usize = 0x114; // ParticleFloatBiasType_t
                 pub const m_flBiasParameter: usize = 0x118; // float32
                 pub const m_Curve: usize = 0x120; // CPiecewiseCurve
