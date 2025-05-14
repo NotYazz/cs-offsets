@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-12 23:11:56.934812200 UTC
+// 2025-05-14 00:01:41.360626500 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -1644,7 +1644,7 @@ pub mod cs2_dumper {
                 pub const m_bLoop: usize = 0x1D0; // bool
                 pub const m_bCPPairs: usize = 0x1D1; // bool
                 pub const m_bSaveOffset: usize = 0x1D2; // bool
-                pub const m_PathParams: usize = 0x1E0; // CPathParameters
+                pub const m_PathParams: usize = 0x1E0; // 
             }
             // Parent: CParticleFunctionOperator
             // Field count: 1
@@ -2394,7 +2394,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             // MParticleCustomFieldDefaultValue
             pub mod CParticleVecInput {
-                pub const m_nType: usize = 0x10; // 
+                pub const m_nType: usize = 0x10; // ParticleVecType_t
                 pub const m_vLiteralValue: usize = 0x14; // Vector
                 pub const m_LiteralColor: usize = 0x20; // Color
                 pub const m_NamedValue: usize = 0x28; // CParticleNamedValueRef
@@ -3523,7 +3523,7 @@ pub mod cs2_dumper {
                 pub const m_flMaxDistance0: usize = 0x1C4; // float32
                 pub const m_flMaxDistanceMid: usize = 0x1C8; // float32
                 pub const m_flMaxDistance1: usize = 0x1CC; // float32
-                pub const m_PathParameters: usize = 0x1D0; // CPathParameters
+                pub const m_PathParameters: usize = 0x1D0; // 
                 pub const m_flTravelTime: usize = 0x210; // float32
                 pub const m_nFieldScale: usize = 0x214; // ParticleAttributeIndex_t
                 pub const m_nManualTField: usize = 0x218; // ParticleAttributeIndex_t
@@ -3561,7 +3561,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod C_INIT_CreateAlongPath {
                 pub const m_fMaxDistance: usize = 0x1C8; // float32
-                pub const m_PathParams: usize = 0x1D0; // CPathParameters
+                pub const m_PathParams: usize = 0x1D0; // 
                 pub const m_bUseRandomCPs: usize = 0x210; // bool
                 pub const m_vEndOffset: usize = 0x214; // Vector
                 pub const m_bSaveOffset: usize = 0x220; // bool
@@ -3744,7 +3744,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             pub mod CParticleVariableRef {
-                pub const m_variableName: usize = 0x0; // 
+                pub const m_variableName: usize = 0x0; // CKV3MemberNameWithStorage
                 pub const m_variableType: usize = 0x38; // PulseValueType_t
             }
             // Parent: CParticleFunctionOperator
@@ -3793,7 +3793,7 @@ pub mod cs2_dumper {
                 pub const m_bLoop: usize = 0x488; // bool
                 pub const m_bCPPairs: usize = 0x489; // bool
                 pub const m_bSaveOffset: usize = 0x48A; // bool
-                pub const m_PathParams: usize = 0x490; // CPathParameters
+                pub const m_PathParams: usize = 0x490; // 
             }
             // Parent: None
             // Field count: 2
@@ -3827,7 +3827,7 @@ pub mod cs2_dumper {
                 pub const m_flFadeStart: usize = 0x1C0; // float32
                 pub const m_flFadeEnd: usize = 0x1C4; // float32
                 pub const m_bCPPairs: usize = 0x1C8; // bool
-                pub const m_PathParams: usize = 0x1D0; // CPathParameters
+                pub const m_PathParams: usize = 0x1D0; // 
             }
             // Parent: CParticleFunctionOperator
             // Field count: 1
@@ -4168,9 +4168,9 @@ pub mod cs2_dumper {
                 pub const m_flInputScale1: usize = 0x1D0; // float32
                 pub const m_nFieldInput2: usize = 0x1D4; // ParticleAttributeIndex_t
                 pub const m_flInputScale2: usize = 0x1D8; // float32
-                pub const m_nControlPointInput1: usize = 0x1DC; // 
+                pub const m_nControlPointInput1: usize = 0x1DC; // ControlPointReference_t
                 pub const m_flControlPointScale1: usize = 0x1F0; // float32
-                pub const m_nControlPointInput2: usize = 0x1F4; // 
+                pub const m_nControlPointInput2: usize = 0x1F4; // ControlPointReference_t
                 pub const m_flControlPointScale2: usize = 0x208; // float32
                 pub const m_nFieldOutput: usize = 0x20C; // ParticleAttributeIndex_t
                 pub const m_vFinalOutputScale: usize = 0x210; // Vector
@@ -5152,7 +5152,7 @@ pub mod cs2_dumper {
                 pub const m_flTolerance: usize = 0x1CC; // float32
                 pub const m_bLoop: usize = 0x1D0; // bool
                 pub const m_bUseParticleCount: usize = 0x1D1; // bool
-                pub const m_PathParams: usize = 0x1E0; // CPathParameters
+                pub const m_PathParams: usize = 0x1E0; // 
             }
             // Parent: C_OP_RemapNamedModelElementEndCap
             // Field count: 0
@@ -5192,7 +5192,7 @@ pub mod cs2_dumper {
                 pub const m_flFadeStart: usize = 0x1C4; // float32
                 pub const m_flFadeEnd: usize = 0x1C8; // float32
                 pub const m_bCPPairs: usize = 0x1CC; // bool
-                pub const m_PathParams: usize = 0x1D0; // CPathParameters
+                pub const m_PathParams: usize = 0x1D0; // 
             }
             // Parent: CParticleFunctionInitializer
             // Field count: 7
@@ -5890,7 +5890,7 @@ pub mod cs2_dumper {
                 pub const m_flNotchedRangeMax: usize = 0x104; // float32
                 pub const m_flNotchedOutputOutside: usize = 0x108; // float32
                 pub const m_flNotchedOutputInside: usize = 0x10C; // float32
-                pub const m_nRoundType: usize = 0x110; // ParticleFloatRoundType_t
+                pub const m_nRoundType: usize = 0x110; // 
                 pub const m_nBiasType: usize = 0x114; // ParticleFloatBiasType_t
                 pub const m_flBiasParameter: usize = 0x118; // float32
                 pub const m_Curve: usize = 0x120; // CPiecewiseCurve

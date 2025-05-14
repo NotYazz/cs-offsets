@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-12 23:11:56.934812200 UTC
+// 2025-05-14 00:01:41.360626500 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: vphysics2.dll
@@ -440,7 +440,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_vMin = 0x0; // Vector
             public const nint m_vMax = 0xC; // Vector
             public const nint m_Nodes = 0x18; // 
-            public const nint m_Vertices = 0x30; // 
+            public const nint m_Vertices = 0x30; // CUtlVectorSIMDPaddedVector
             public const nint m_Triangles = 0x48; // CUtlVector<RnTriangle_t>
             public const nint m_Wings = 0x60; // CUtlVector<RnWing_t>
             public const nint m_Materials = 0x78; // CUtlVector<uint8>
@@ -947,11 +947,11 @@ namespace CS2Dumper.Schemas {
             public const nint m_flSurfaceArea = 0x68; // float32
             public const nint m_Vertices = 0x70; // CUtlVector<RnVertex_t>
             public const nint m_VertexPositions = 0x88; // CUtlVector<Vector>
-            public const nint m_Edges = 0xA0; // CUtlVector<RnHalfEdge_t>
+            public const nint m_Edges = 0xA0; // 
             public const nint m_Faces = 0xB8; // 
             public const nint m_FacePlanes = 0xD0; // CUtlVector<RnPlane_t>
             public const nint m_nFlags = 0xE8; // uint32
-            public const nint m_pRegionSVM = 0xF0; // 
+            public const nint m_pRegionSVM = 0xF0; // CRegionSVM*
         }
         // Parent: None
         // Field count: 4

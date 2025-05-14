@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-12 23:11:56.934812200 UTC
+// 2025-05-14 00:01:41.360626500 UTC
 
 #pragma once
 
@@ -445,7 +445,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_vMin = 0x0; // Vector
                 constexpr std::ptrdiff_t m_vMax = 0xC; // Vector
                 constexpr std::ptrdiff_t m_Nodes = 0x18; // 
-                constexpr std::ptrdiff_t m_Vertices = 0x30; // 
+                constexpr std::ptrdiff_t m_Vertices = 0x30; // CUtlVectorSIMDPaddedVector
                 constexpr std::ptrdiff_t m_Triangles = 0x48; // CUtlVector<RnTriangle_t>
                 constexpr std::ptrdiff_t m_Wings = 0x60; // CUtlVector<RnWing_t>
                 constexpr std::ptrdiff_t m_Materials = 0x78; // CUtlVector<uint8>
@@ -952,11 +952,11 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flSurfaceArea = 0x68; // float32
                 constexpr std::ptrdiff_t m_Vertices = 0x70; // CUtlVector<RnVertex_t>
                 constexpr std::ptrdiff_t m_VertexPositions = 0x88; // CUtlVector<Vector>
-                constexpr std::ptrdiff_t m_Edges = 0xA0; // CUtlVector<RnHalfEdge_t>
+                constexpr std::ptrdiff_t m_Edges = 0xA0; // 
                 constexpr std::ptrdiff_t m_Faces = 0xB8; // 
                 constexpr std::ptrdiff_t m_FacePlanes = 0xD0; // CUtlVector<RnPlane_t>
                 constexpr std::ptrdiff_t m_nFlags = 0xE8; // uint32
-                constexpr std::ptrdiff_t m_pRegionSVM = 0xF0; // 
+                constexpr std::ptrdiff_t m_pRegionSVM = 0xF0; // CRegionSVM*
             }
             // Parent: None
             // Field count: 4

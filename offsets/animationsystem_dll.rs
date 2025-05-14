@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-12 23:11:56.934812200 UTC
+// 2025-05-14 00:01:41.360626500 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -5138,7 +5138,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod CAnimGraphModelBinding {
                 pub const m_modelName: usize = 0x8; // CUtlString
-                pub const m_pSharedData: usize = 0x10; // CSmartPtr<CAnimUpdateSharedData>
+                pub const m_pSharedData: usize = 0x10; // 
             }
             // Parent: CBaseConstraint
             // Field count: 1

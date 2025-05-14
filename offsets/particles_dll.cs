@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-12 23:11:56.934812200 UTC
+// 2025-05-14 00:01:41.360626500 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: particles.dll
@@ -1565,7 +1565,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_bLoop = 0x1D0; // bool
             public const nint m_bCPPairs = 0x1D1; // bool
             public const nint m_bSaveOffset = 0x1D2; // bool
-            public const nint m_PathParams = 0x1E0; // CPathParameters
+            public const nint m_PathParams = 0x1E0; // 
         }
         // Parent: CParticleFunctionOperator
         // Field count: 1
@@ -2315,7 +2315,7 @@ namespace CS2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MParticleCustomFieldDefaultValue
         public static class CParticleVecInput {
-            public const nint m_nType = 0x10; // 
+            public const nint m_nType = 0x10; // ParticleVecType_t
             public const nint m_vLiteralValue = 0x14; // Vector
             public const nint m_LiteralColor = 0x20; // Color
             public const nint m_NamedValue = 0x28; // CParticleNamedValueRef
@@ -3444,7 +3444,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flMaxDistance0 = 0x1C4; // float32
             public const nint m_flMaxDistanceMid = 0x1C8; // float32
             public const nint m_flMaxDistance1 = 0x1CC; // float32
-            public const nint m_PathParameters = 0x1D0; // CPathParameters
+            public const nint m_PathParameters = 0x1D0; // 
             public const nint m_flTravelTime = 0x210; // float32
             public const nint m_nFieldScale = 0x214; // ParticleAttributeIndex_t
             public const nint m_nManualTField = 0x218; // ParticleAttributeIndex_t
@@ -3482,7 +3482,7 @@ namespace CS2Dumper.Schemas {
         // MGetKV3ClassDefaults
         public static class C_INIT_CreateAlongPath {
             public const nint m_fMaxDistance = 0x1C8; // float32
-            public const nint m_PathParams = 0x1D0; // CPathParameters
+            public const nint m_PathParams = 0x1D0; // 
             public const nint m_bUseRandomCPs = 0x210; // bool
             public const nint m_vEndOffset = 0x214; // Vector
             public const nint m_bSaveOffset = 0x220; // bool
@@ -3665,7 +3665,7 @@ namespace CS2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyCustomEditor
         public static class CParticleVariableRef {
-            public const nint m_variableName = 0x0; // 
+            public const nint m_variableName = 0x0; // CKV3MemberNameWithStorage
             public const nint m_variableType = 0x38; // PulseValueType_t
         }
         // Parent: CParticleFunctionOperator
@@ -3714,7 +3714,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_bLoop = 0x488; // bool
             public const nint m_bCPPairs = 0x489; // bool
             public const nint m_bSaveOffset = 0x48A; // bool
-            public const nint m_PathParams = 0x490; // CPathParameters
+            public const nint m_PathParams = 0x490; // 
         }
         // Parent: None
         // Field count: 2
@@ -3748,7 +3748,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flFadeStart = 0x1C0; // float32
             public const nint m_flFadeEnd = 0x1C4; // float32
             public const nint m_bCPPairs = 0x1C8; // bool
-            public const nint m_PathParams = 0x1D0; // CPathParameters
+            public const nint m_PathParams = 0x1D0; // 
         }
         // Parent: CParticleFunctionOperator
         // Field count: 1
@@ -4089,9 +4089,9 @@ namespace CS2Dumper.Schemas {
             public const nint m_flInputScale1 = 0x1D0; // float32
             public const nint m_nFieldInput2 = 0x1D4; // ParticleAttributeIndex_t
             public const nint m_flInputScale2 = 0x1D8; // float32
-            public const nint m_nControlPointInput1 = 0x1DC; // 
+            public const nint m_nControlPointInput1 = 0x1DC; // ControlPointReference_t
             public const nint m_flControlPointScale1 = 0x1F0; // float32
-            public const nint m_nControlPointInput2 = 0x1F4; // 
+            public const nint m_nControlPointInput2 = 0x1F4; // ControlPointReference_t
             public const nint m_flControlPointScale2 = 0x208; // float32
             public const nint m_nFieldOutput = 0x20C; // ParticleAttributeIndex_t
             public const nint m_vFinalOutputScale = 0x210; // Vector
@@ -5073,7 +5073,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flTolerance = 0x1CC; // float32
             public const nint m_bLoop = 0x1D0; // bool
             public const nint m_bUseParticleCount = 0x1D1; // bool
-            public const nint m_PathParams = 0x1E0; // CPathParameters
+            public const nint m_PathParams = 0x1E0; // 
         }
         // Parent: C_OP_RemapNamedModelElementEndCap
         // Field count: 0
@@ -5113,7 +5113,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flFadeStart = 0x1C4; // float32
             public const nint m_flFadeEnd = 0x1C8; // float32
             public const nint m_bCPPairs = 0x1CC; // bool
-            public const nint m_PathParams = 0x1D0; // CPathParameters
+            public const nint m_PathParams = 0x1D0; // 
         }
         // Parent: CParticleFunctionInitializer
         // Field count: 7
@@ -5811,7 +5811,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flNotchedRangeMax = 0x104; // float32
             public const nint m_flNotchedOutputOutside = 0x108; // float32
             public const nint m_flNotchedOutputInside = 0x10C; // float32
-            public const nint m_nRoundType = 0x110; // ParticleFloatRoundType_t
+            public const nint m_nRoundType = 0x110; // 
             public const nint m_nBiasType = 0x114; // ParticleFloatBiasType_t
             public const nint m_flBiasParameter = 0x118; // float32
             public const nint m_Curve = 0x120; // CPiecewiseCurve

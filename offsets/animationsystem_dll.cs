@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-12 23:11:56.934812200 UTC
+// 2025-05-14 00:01:41.360626500 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: animationsystem.dll
@@ -5041,7 +5041,7 @@ namespace CS2Dumper.Schemas {
         // MGetKV3ClassDefaults
         public static class CAnimGraphModelBinding {
             public const nint m_modelName = 0x8; // CUtlString
-            public const nint m_pSharedData = 0x10; // CSmartPtr<CAnimUpdateSharedData>
+            public const nint m_pSharedData = 0x10; // 
         }
         // Parent: CBaseConstraint
         // Field count: 1
