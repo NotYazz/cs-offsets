@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-14 00:01:41.360626500 UTC
+// 2025-05-16 11:53:09.413317 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -741,9 +741,9 @@ pub mod cs2_dumper {
             pub mod PGDInstruction_t {
                 pub const m_nCode: usize = 0x0; // PulseInstructionCode_t
                 pub const m_nVar: usize = 0x4; // PulseRuntimeVarIndex_t
-                pub const m_nReg0: usize = 0x8; // 
-                pub const m_nReg1: usize = 0xA; // 
-                pub const m_nReg2: usize = 0xC; // 
+                pub const m_nReg0: usize = 0x8; // PulseRuntimeRegisterIndex_t
+                pub const m_nReg1: usize = 0xA; // PulseRuntimeRegisterIndex_t
+                pub const m_nReg2: usize = 0xC; // PulseRuntimeRegisterIndex_t
                 pub const m_nInvokeBindingIndex: usize = 0x10; // PulseRuntimeInvokeIndex_t
                 pub const m_nChunk: usize = 0x14; // 
                 pub const m_nDestInstruction: usize = 0x18; // int32
@@ -1028,7 +1028,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CPulse_RegisterInfo {
-                pub const m_nReg: usize = 0x0; // 
+                pub const m_nReg: usize = 0x0; // PulseRuntimeRegisterIndex_t
                 pub const m_Type: usize = 0x8; // CPulseValueFullType
                 pub const m_OriginName: usize = 0x18; // CKV3MemberNameWithStorage
                 pub const m_nWrittenByInstruction: usize = 0x50; // int32

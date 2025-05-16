@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-14 00:01:41.360626500 UTC
+// 2025-05-16 11:53:09.413317 UTC
 
 #pragma once
 
@@ -1570,7 +1570,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bLoop = 0x1D0; // bool
                 constexpr std::ptrdiff_t m_bCPPairs = 0x1D1; // bool
                 constexpr std::ptrdiff_t m_bSaveOffset = 0x1D2; // bool
-                constexpr std::ptrdiff_t m_PathParams = 0x1E0; // 
+                constexpr std::ptrdiff_t m_PathParams = 0x1E0; // CPathParameters
             }
             // Parent: CParticleFunctionOperator
             // Field count: 1
@@ -2799,7 +2799,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_Emitters = 0x28; // CUtlVector<CParticleFunctionEmitter*>
                 constexpr std::ptrdiff_t m_Initializers = 0x40; // CUtlVector<CParticleFunctionInitializer*>
                 constexpr std::ptrdiff_t m_Operators = 0x58; // CUtlVector<CParticleFunctionOperator*>
-                constexpr std::ptrdiff_t m_ForceGenerators = 0x70; // CUtlVector<CParticleFunctionForce*>
+                constexpr std::ptrdiff_t m_ForceGenerators = 0x70; // 
                 constexpr std::ptrdiff_t m_Constraints = 0x88; // CUtlVector<CParticleFunctionConstraint*>
                 constexpr std::ptrdiff_t m_Renderers = 0xA0; // CUtlVector<CParticleFunctionRenderer*>
                 constexpr std::ptrdiff_t m_Children = 0xB8; // CUtlVector<ParticleChildrenInfo_t>
@@ -3449,7 +3449,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flMaxDistance0 = 0x1C4; // float32
                 constexpr std::ptrdiff_t m_flMaxDistanceMid = 0x1C8; // float32
                 constexpr std::ptrdiff_t m_flMaxDistance1 = 0x1CC; // float32
-                constexpr std::ptrdiff_t m_PathParameters = 0x1D0; // 
+                constexpr std::ptrdiff_t m_PathParameters = 0x1D0; // CPathParameters
                 constexpr std::ptrdiff_t m_flTravelTime = 0x210; // float32
                 constexpr std::ptrdiff_t m_nFieldScale = 0x214; // ParticleAttributeIndex_t
                 constexpr std::ptrdiff_t m_nManualTField = 0x218; // ParticleAttributeIndex_t
@@ -3487,7 +3487,7 @@ namespace cs2_dumper {
             // MGetKV3ClassDefaults
             namespace C_INIT_CreateAlongPath {
                 constexpr std::ptrdiff_t m_fMaxDistance = 0x1C8; // float32
-                constexpr std::ptrdiff_t m_PathParams = 0x1D0; // 
+                constexpr std::ptrdiff_t m_PathParams = 0x1D0; // CPathParameters
                 constexpr std::ptrdiff_t m_bUseRandomCPs = 0x210; // bool
                 constexpr std::ptrdiff_t m_vEndOffset = 0x214; // Vector
                 constexpr std::ptrdiff_t m_bSaveOffset = 0x220; // bool
@@ -3719,7 +3719,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bLoop = 0x488; // bool
                 constexpr std::ptrdiff_t m_bCPPairs = 0x489; // bool
                 constexpr std::ptrdiff_t m_bSaveOffset = 0x48A; // bool
-                constexpr std::ptrdiff_t m_PathParams = 0x490; // 
+                constexpr std::ptrdiff_t m_PathParams = 0x490; // CPathParameters
             }
             // Parent: None
             // Field count: 2
@@ -3753,7 +3753,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flFadeStart = 0x1C0; // float32
                 constexpr std::ptrdiff_t m_flFadeEnd = 0x1C4; // float32
                 constexpr std::ptrdiff_t m_bCPPairs = 0x1C8; // bool
-                constexpr std::ptrdiff_t m_PathParams = 0x1D0; // 
+                constexpr std::ptrdiff_t m_PathParams = 0x1D0; // CPathParameters
             }
             // Parent: CParticleFunctionOperator
             // Field count: 1
@@ -4933,7 +4933,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bEnableProjectedDepthControls = 0x214; // bool
                 constexpr std::ptrdiff_t m_flMinProjectionDepth = 0x218; // float32
                 constexpr std::ptrdiff_t m_flMaxProjectionDepth = 0x21C; // float32
-                constexpr std::ptrdiff_t m_vecProjectedMaterials = 0x220; // CUtlVector<RenderProjectedMaterial_t>
+                constexpr std::ptrdiff_t m_vecProjectedMaterials = 0x220; // 
                 constexpr std::ptrdiff_t m_flMaterialSelection = 0x238; // CPerParticleFloatInput
                 constexpr std::ptrdiff_t m_flAnimationTimeScale = 0x398; // float32
                 constexpr std::ptrdiff_t m_bOrientToNormal = 0x39C; // bool
@@ -5078,7 +5078,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flTolerance = 0x1CC; // float32
                 constexpr std::ptrdiff_t m_bLoop = 0x1D0; // bool
                 constexpr std::ptrdiff_t m_bUseParticleCount = 0x1D1; // bool
-                constexpr std::ptrdiff_t m_PathParams = 0x1E0; // 
+                constexpr std::ptrdiff_t m_PathParams = 0x1E0; // CPathParameters
             }
             // Parent: C_OP_RemapNamedModelElementEndCap
             // Field count: 0
@@ -5118,7 +5118,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flFadeStart = 0x1C4; // float32
                 constexpr std::ptrdiff_t m_flFadeEnd = 0x1C8; // float32
                 constexpr std::ptrdiff_t m_bCPPairs = 0x1CC; // bool
-                constexpr std::ptrdiff_t m_PathParams = 0x1D0; // 
+                constexpr std::ptrdiff_t m_PathParams = 0x1D0; // CPathParameters
             }
             // Parent: CParticleFunctionInitializer
             // Field count: 7

@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-14 00:01:41.360626500 UTC
+// 2025-05-16 11:53:09.413317 UTC
 
 #pragma once
 
@@ -959,7 +959,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_name = 0x18; // CGlobalSymbol
                 constexpr std::ptrdiff_t m_sComment = 0x20; // CUtlString
                 constexpr std::ptrdiff_t m_group = 0x28; // CUtlString
-                constexpr std::ptrdiff_t m_id = 0x30; // AnimParamID
+                constexpr std::ptrdiff_t m_id = 0x30; // 
                 constexpr std::ptrdiff_t m_componentName = 0x48; // CUtlString
                 constexpr std::ptrdiff_t m_bNetworkingRequested = 0x68; // bool
                 constexpr std::ptrdiff_t m_bIsReferenced = 0x69; // bool
@@ -2138,7 +2138,7 @@ namespace cs2_dumper {
             // MGetKV3ClassDefaults
             namespace MaterialGroup_t {
                 constexpr std::ptrdiff_t m_name = 0x0; // CUtlString
-                constexpr std::ptrdiff_t m_materials = 0x8; // 
+                constexpr std::ptrdiff_t m_materials = 0x8; // CUtlVector<CStrongHandle<InfoForResourceTypeIMaterial2>>
             }
             // Parent: None
             // Field count: 4
@@ -2468,7 +2468,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_children = 0x58; // CUtlVector<CAnimUpdateNodeRef>
                 constexpr std::ptrdiff_t m_weights = 0x70; // CUtlVector<float32>
                 constexpr std::ptrdiff_t m_blendTimes = 0x88; // CUtlVector<float32>
-                constexpr std::ptrdiff_t m_choiceMethod = 0xA0; // 
+                constexpr std::ptrdiff_t m_choiceMethod = 0xA0; // ChoiceMethod
                 constexpr std::ptrdiff_t m_choiceChangeMethod = 0xA4; // ChoiceChangeMethod
                 constexpr std::ptrdiff_t m_blendMethod = 0xA8; // ChoiceBlendMethod
                 constexpr std::ptrdiff_t m_blendTime = 0xAC; // float32
@@ -3072,8 +3072,8 @@ namespace cs2_dumper {
             // Field count: 17
             namespace CCompressorGroup {
                 constexpr std::ptrdiff_t m_nTotalElementCount = 0x0; // int32
-                constexpr std::ptrdiff_t m_szChannelClass = 0x8; // CUtlVector<char*>
-                constexpr std::ptrdiff_t m_szVariableName = 0x20; // CUtlVector<char*>
+                constexpr std::ptrdiff_t m_szChannelClass = 0x8; // 
+                constexpr std::ptrdiff_t m_szVariableName = 0x20; // 
                 constexpr std::ptrdiff_t m_nType = 0x38; // CUtlVector<fieldtype_t>
                 constexpr std::ptrdiff_t m_nFlags = 0x50; // CUtlVector<int32>
                 constexpr std::ptrdiff_t m_szGrouping = 0x68; // CUtlVector<CUtlString>
@@ -3087,7 +3087,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_boolCompressor = 0x140; // CUtlVector<CCompressor<bool>*>
                 constexpr std::ptrdiff_t m_colorCompressor = 0x158; // CUtlVector<CCompressor<Color>*>
                 constexpr std::ptrdiff_t m_vector2DCompressor = 0x170; // CUtlVector<CCompressor<Vector2D>*>
-                constexpr std::ptrdiff_t m_vector4DCompressor = 0x188; // CUtlVector<CCompressor<Vector4D>*>
+                constexpr std::ptrdiff_t m_vector4DCompressor = 0x188; // 
             }
             // Parent: CAnimUpdateNodeBase
             // Field count: 10
@@ -3561,7 +3561,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_remappingTable = 0x230; // CUtlVector<int16>
                 constexpr std::ptrdiff_t m_remappingTableStarts = 0x248; // CUtlVector<uint16>
                 constexpr std::ptrdiff_t m_boneFlexDrivers = 0x260; // CUtlVector<ModelBoneFlexDriver_t>
-                constexpr std::ptrdiff_t m_pModelConfigList = 0x278; // CModelConfigList*
+                constexpr std::ptrdiff_t m_pModelConfigList = 0x278; // 
                 constexpr std::ptrdiff_t m_BodyGroupsHiddenInTools = 0x280; // CUtlVector<CUtlString>
                 constexpr std::ptrdiff_t m_refAnimIncludeModels = 0x298; // CUtlVector<CStrongHandle<InfoForResourceTypeCModel>>
                 constexpr std::ptrdiff_t m_AnimatedMaterialAttributes = 0x2B0; // CUtlVector<PermModelDataAnimatedMaterialAttribute_t>
@@ -5046,7 +5046,7 @@ namespace cs2_dumper {
             // MGetKV3ClassDefaults
             namespace CAnimGraphModelBinding {
                 constexpr std::ptrdiff_t m_modelName = 0x8; // CUtlString
-                constexpr std::ptrdiff_t m_pSharedData = 0x10; // 
+                constexpr std::ptrdiff_t m_pSharedData = 0x10; // CSmartPtr<CAnimUpdateSharedData>
             }
             // Parent: CBaseConstraint
             // Field count: 1
@@ -5777,8 +5777,8 @@ namespace cs2_dumper {
             namespace IKTargetSettings_t {
                 constexpr std::ptrdiff_t m_TargetSource = 0x0; // 
                 constexpr std::ptrdiff_t m_Bone = 0x8; // IKBoneNameAndIndex_t
-                constexpr std::ptrdiff_t m_AnimgraphParameterNamePosition = 0x18; // AnimParamID
-                constexpr std::ptrdiff_t m_AnimgraphParameterNameOrientation = 0x1C; // AnimParamID
+                constexpr std::ptrdiff_t m_AnimgraphParameterNamePosition = 0x18; // 
+                constexpr std::ptrdiff_t m_AnimgraphParameterNameOrientation = 0x1C; // 
                 constexpr std::ptrdiff_t m_TargetCoordSystem = 0x20; // IKTargetCoordinateSystem
             }
             // Parent: CNmFloatValueNode__CDefinition

@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-14 00:01:41.360626500 UTC
+// 2025-05-16 11:53:09.413317 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -1644,7 +1644,7 @@ pub mod cs2_dumper {
                 pub const m_bLoop: usize = 0x1D0; // bool
                 pub const m_bCPPairs: usize = 0x1D1; // bool
                 pub const m_bSaveOffset: usize = 0x1D2; // bool
-                pub const m_PathParams: usize = 0x1E0; // 
+                pub const m_PathParams: usize = 0x1E0; // CPathParameters
             }
             // Parent: CParticleFunctionOperator
             // Field count: 1
@@ -2873,7 +2873,7 @@ pub mod cs2_dumper {
                 pub const m_Emitters: usize = 0x28; // CUtlVector<CParticleFunctionEmitter*>
                 pub const m_Initializers: usize = 0x40; // CUtlVector<CParticleFunctionInitializer*>
                 pub const m_Operators: usize = 0x58; // CUtlVector<CParticleFunctionOperator*>
-                pub const m_ForceGenerators: usize = 0x70; // CUtlVector<CParticleFunctionForce*>
+                pub const m_ForceGenerators: usize = 0x70; // 
                 pub const m_Constraints: usize = 0x88; // CUtlVector<CParticleFunctionConstraint*>
                 pub const m_Renderers: usize = 0xA0; // CUtlVector<CParticleFunctionRenderer*>
                 pub const m_Children: usize = 0xB8; // CUtlVector<ParticleChildrenInfo_t>
@@ -3523,7 +3523,7 @@ pub mod cs2_dumper {
                 pub const m_flMaxDistance0: usize = 0x1C4; // float32
                 pub const m_flMaxDistanceMid: usize = 0x1C8; // float32
                 pub const m_flMaxDistance1: usize = 0x1CC; // float32
-                pub const m_PathParameters: usize = 0x1D0; // 
+                pub const m_PathParameters: usize = 0x1D0; // CPathParameters
                 pub const m_flTravelTime: usize = 0x210; // float32
                 pub const m_nFieldScale: usize = 0x214; // ParticleAttributeIndex_t
                 pub const m_nManualTField: usize = 0x218; // ParticleAttributeIndex_t
@@ -3561,7 +3561,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod C_INIT_CreateAlongPath {
                 pub const m_fMaxDistance: usize = 0x1C8; // float32
-                pub const m_PathParams: usize = 0x1D0; // 
+                pub const m_PathParams: usize = 0x1D0; // CPathParameters
                 pub const m_bUseRandomCPs: usize = 0x210; // bool
                 pub const m_vEndOffset: usize = 0x214; // Vector
                 pub const m_bSaveOffset: usize = 0x220; // bool
@@ -3793,7 +3793,7 @@ pub mod cs2_dumper {
                 pub const m_bLoop: usize = 0x488; // bool
                 pub const m_bCPPairs: usize = 0x489; // bool
                 pub const m_bSaveOffset: usize = 0x48A; // bool
-                pub const m_PathParams: usize = 0x490; // 
+                pub const m_PathParams: usize = 0x490; // CPathParameters
             }
             // Parent: None
             // Field count: 2
@@ -3827,7 +3827,7 @@ pub mod cs2_dumper {
                 pub const m_flFadeStart: usize = 0x1C0; // float32
                 pub const m_flFadeEnd: usize = 0x1C4; // float32
                 pub const m_bCPPairs: usize = 0x1C8; // bool
-                pub const m_PathParams: usize = 0x1D0; // 
+                pub const m_PathParams: usize = 0x1D0; // CPathParameters
             }
             // Parent: CParticleFunctionOperator
             // Field count: 1
@@ -5007,7 +5007,7 @@ pub mod cs2_dumper {
                 pub const m_bEnableProjectedDepthControls: usize = 0x214; // bool
                 pub const m_flMinProjectionDepth: usize = 0x218; // float32
                 pub const m_flMaxProjectionDepth: usize = 0x21C; // float32
-                pub const m_vecProjectedMaterials: usize = 0x220; // CUtlVector<RenderProjectedMaterial_t>
+                pub const m_vecProjectedMaterials: usize = 0x220; // 
                 pub const m_flMaterialSelection: usize = 0x238; // CPerParticleFloatInput
                 pub const m_flAnimationTimeScale: usize = 0x398; // float32
                 pub const m_bOrientToNormal: usize = 0x39C; // bool
@@ -5152,7 +5152,7 @@ pub mod cs2_dumper {
                 pub const m_flTolerance: usize = 0x1CC; // float32
                 pub const m_bLoop: usize = 0x1D0; // bool
                 pub const m_bUseParticleCount: usize = 0x1D1; // bool
-                pub const m_PathParams: usize = 0x1E0; // 
+                pub const m_PathParams: usize = 0x1E0; // CPathParameters
             }
             // Parent: C_OP_RemapNamedModelElementEndCap
             // Field count: 0
@@ -5192,7 +5192,7 @@ pub mod cs2_dumper {
                 pub const m_flFadeStart: usize = 0x1C4; // float32
                 pub const m_flFadeEnd: usize = 0x1C8; // float32
                 pub const m_bCPPairs: usize = 0x1CC; // bool
-                pub const m_PathParams: usize = 0x1D0; // 
+                pub const m_PathParams: usize = 0x1D0; // CPathParameters
             }
             // Parent: CParticleFunctionInitializer
             // Field count: 7
