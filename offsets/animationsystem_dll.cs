@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-16 11:53:09.413317 UTC
+// 2025-05-18 14:16:41.865032500 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: animationsystem.dll
@@ -954,7 +954,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_name = 0x18; // CGlobalSymbol
             public const nint m_sComment = 0x20; // CUtlString
             public const nint m_group = 0x28; // CUtlString
-            public const nint m_id = 0x30; // 
+            public const nint m_id = 0x30; // AnimParamID
             public const nint m_componentName = 0x48; // CUtlString
             public const nint m_bNetworkingRequested = 0x68; // bool
             public const nint m_bIsReferenced = 0x69; // bool
@@ -1430,7 +1430,7 @@ namespace CS2Dumper.Schemas {
         // MGetKV3ClassDefaults
         public static class CAnimGraphDebugReplay {
             public const nint m_animGraphFileName = 0x40; // CUtlString
-            public const nint m_frameList = 0x48; // CUtlVector<CSmartPtr<CAnimReplayFrame>>
+            public const nint m_frameList = 0x48; // 
             public const nint m_startIndex = 0x60; // int32
             public const nint m_writeIndex = 0x64; // int32
             public const nint m_frameCount = 0x68; // int32
@@ -2463,7 +2463,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_children = 0x58; // CUtlVector<CAnimUpdateNodeRef>
             public const nint m_weights = 0x70; // CUtlVector<float32>
             public const nint m_blendTimes = 0x88; // CUtlVector<float32>
-            public const nint m_choiceMethod = 0xA0; // ChoiceMethod
+            public const nint m_choiceMethod = 0xA0; // 
             public const nint m_choiceChangeMethod = 0xA4; // ChoiceChangeMethod
             public const nint m_blendMethod = 0xA8; // ChoiceBlendMethod
             public const nint m_blendTime = 0xAC; // float32
@@ -3067,8 +3067,8 @@ namespace CS2Dumper.Schemas {
         // Field count: 17
         public static class CCompressorGroup {
             public const nint m_nTotalElementCount = 0x0; // int32
-            public const nint m_szChannelClass = 0x8; // 
-            public const nint m_szVariableName = 0x20; // 
+            public const nint m_szChannelClass = 0x8; // CUtlVector<char*>
+            public const nint m_szVariableName = 0x20; // CUtlVector<char*>
             public const nint m_nType = 0x38; // CUtlVector<fieldtype_t>
             public const nint m_nFlags = 0x50; // CUtlVector<int32>
             public const nint m_szGrouping = 0x68; // CUtlVector<CUtlString>
@@ -3082,7 +3082,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_boolCompressor = 0x140; // CUtlVector<CCompressor<bool>*>
             public const nint m_colorCompressor = 0x158; // CUtlVector<CCompressor<Color>*>
             public const nint m_vector2DCompressor = 0x170; // CUtlVector<CCompressor<Vector2D>*>
-            public const nint m_vector4DCompressor = 0x188; // 
+            public const nint m_vector4DCompressor = 0x188; // CUtlVector<CCompressor<Vector4D>*>
         }
         // Parent: CAnimUpdateNodeBase
         // Field count: 10
@@ -3556,7 +3556,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_remappingTable = 0x230; // CUtlVector<int16>
             public const nint m_remappingTableStarts = 0x248; // CUtlVector<uint16>
             public const nint m_boneFlexDrivers = 0x260; // CUtlVector<ModelBoneFlexDriver_t>
-            public const nint m_pModelConfigList = 0x278; // 
+            public const nint m_pModelConfigList = 0x278; // CModelConfigList*
             public const nint m_BodyGroupsHiddenInTools = 0x280; // CUtlVector<CUtlString>
             public const nint m_refAnimIncludeModels = 0x298; // CUtlVector<CStrongHandle<InfoForResourceTypeCModel>>
             public const nint m_AnimatedMaterialAttributes = 0x2B0; // CUtlVector<PermModelDataAnimatedMaterialAttribute_t>
@@ -4895,7 +4895,7 @@ namespace CS2Dumper.Schemas {
         // MGetKV3ClassDefaults
         public static class CFlexRule {
             public const nint m_nFlex = 0x0; // int32
-            public const nint m_FlexOps = 0x8; // CUtlVector<CFlexOp>
+            public const nint m_FlexOps = 0x8; // 
         }
         // Parent: None
         // Field count: 5
@@ -5772,8 +5772,8 @@ namespace CS2Dumper.Schemas {
         public static class IKTargetSettings_t {
             public const nint m_TargetSource = 0x0; // 
             public const nint m_Bone = 0x8; // IKBoneNameAndIndex_t
-            public const nint m_AnimgraphParameterNamePosition = 0x18; // 
-            public const nint m_AnimgraphParameterNameOrientation = 0x1C; // 
+            public const nint m_AnimgraphParameterNamePosition = 0x18; // AnimParamID
+            public const nint m_AnimgraphParameterNameOrientation = 0x1C; // AnimParamID
             public const nint m_TargetCoordSystem = 0x20; // IKTargetCoordinateSystem
         }
         // Parent: CNmFloatValueNode__CDefinition

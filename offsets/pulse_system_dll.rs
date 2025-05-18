@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-16 11:53:09.413317 UTC
+// 2025-05-18 14:16:41.865032500 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -760,7 +760,7 @@ pub mod cs2_dumper {
             pub mod CPulse_InvokeBinding {
                 pub const m_RegisterMap: usize = 0x0; // PulseRegisterMap_t
                 pub const m_FuncName: usize = 0x20; // CUtlSymbolLarge
-                pub const m_nCellIndex: usize = 0x28; // PulseRuntimeCellIndex_t
+                pub const m_nCellIndex: usize = 0x28; // 
                 pub const m_nSrcChunk: usize = 0x2C; // 
                 pub const m_nSrcInstruction: usize = 0x30; // int32
             }
@@ -1083,7 +1083,7 @@ pub mod cs2_dumper {
                 pub const m_ParentMapName: usize = 0x10; // CUtlSymbolLarge
                 pub const m_ParentXmlName: usize = 0x18; // CUtlSymbolLarge
                 pub const m_vecGameBlackboards: usize = 0x20; // 
-                pub const m_Chunks: usize = 0x38; // 
+                pub const m_Chunks: usize = 0x38; // CUtlVector<CPulse_Chunk*>
                 pub const m_Cells: usize = 0x50; // CUtlVector<CPulseCell_Base*>
                 pub const m_Vars: usize = 0x68; // CUtlVector<CPulse_Variable>
                 pub const m_PublicOutputs: usize = 0x80; // CUtlVector<CPulse_PublicOutput>

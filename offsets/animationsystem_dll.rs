@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-16 11:53:09.413317 UTC
+// 2025-05-18 14:16:41.865032500 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -1051,7 +1051,7 @@ pub mod cs2_dumper {
                 pub const m_name: usize = 0x18; // CGlobalSymbol
                 pub const m_sComment: usize = 0x20; // CUtlString
                 pub const m_group: usize = 0x28; // CUtlString
-                pub const m_id: usize = 0x30; // 
+                pub const m_id: usize = 0x30; // AnimParamID
                 pub const m_componentName: usize = 0x48; // CUtlString
                 pub const m_bNetworkingRequested: usize = 0x68; // bool
                 pub const m_bIsReferenced: usize = 0x69; // bool
@@ -1527,7 +1527,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod CAnimGraphDebugReplay {
                 pub const m_animGraphFileName: usize = 0x40; // CUtlString
-                pub const m_frameList: usize = 0x48; // CUtlVector<CSmartPtr<CAnimReplayFrame>>
+                pub const m_frameList: usize = 0x48; // 
                 pub const m_startIndex: usize = 0x60; // int32
                 pub const m_writeIndex: usize = 0x64; // int32
                 pub const m_frameCount: usize = 0x68; // int32
@@ -2560,7 +2560,7 @@ pub mod cs2_dumper {
                 pub const m_children: usize = 0x58; // CUtlVector<CAnimUpdateNodeRef>
                 pub const m_weights: usize = 0x70; // CUtlVector<float32>
                 pub const m_blendTimes: usize = 0x88; // CUtlVector<float32>
-                pub const m_choiceMethod: usize = 0xA0; // ChoiceMethod
+                pub const m_choiceMethod: usize = 0xA0; // 
                 pub const m_choiceChangeMethod: usize = 0xA4; // ChoiceChangeMethod
                 pub const m_blendMethod: usize = 0xA8; // ChoiceBlendMethod
                 pub const m_blendTime: usize = 0xAC; // float32
@@ -3164,8 +3164,8 @@ pub mod cs2_dumper {
             // Field count: 17
             pub mod CCompressorGroup {
                 pub const m_nTotalElementCount: usize = 0x0; // int32
-                pub const m_szChannelClass: usize = 0x8; // 
-                pub const m_szVariableName: usize = 0x20; // 
+                pub const m_szChannelClass: usize = 0x8; // CUtlVector<char*>
+                pub const m_szVariableName: usize = 0x20; // CUtlVector<char*>
                 pub const m_nType: usize = 0x38; // CUtlVector<fieldtype_t>
                 pub const m_nFlags: usize = 0x50; // CUtlVector<int32>
                 pub const m_szGrouping: usize = 0x68; // CUtlVector<CUtlString>
@@ -3179,7 +3179,7 @@ pub mod cs2_dumper {
                 pub const m_boolCompressor: usize = 0x140; // CUtlVector<CCompressor<bool>*>
                 pub const m_colorCompressor: usize = 0x158; // CUtlVector<CCompressor<Color>*>
                 pub const m_vector2DCompressor: usize = 0x170; // CUtlVector<CCompressor<Vector2D>*>
-                pub const m_vector4DCompressor: usize = 0x188; // 
+                pub const m_vector4DCompressor: usize = 0x188; // CUtlVector<CCompressor<Vector4D>*>
             }
             // Parent: CAnimUpdateNodeBase
             // Field count: 10
@@ -3653,7 +3653,7 @@ pub mod cs2_dumper {
                 pub const m_remappingTable: usize = 0x230; // CUtlVector<int16>
                 pub const m_remappingTableStarts: usize = 0x248; // CUtlVector<uint16>
                 pub const m_boneFlexDrivers: usize = 0x260; // CUtlVector<ModelBoneFlexDriver_t>
-                pub const m_pModelConfigList: usize = 0x278; // 
+                pub const m_pModelConfigList: usize = 0x278; // CModelConfigList*
                 pub const m_BodyGroupsHiddenInTools: usize = 0x280; // CUtlVector<CUtlString>
                 pub const m_refAnimIncludeModels: usize = 0x298; // CUtlVector<CStrongHandle<InfoForResourceTypeCModel>>
                 pub const m_AnimatedMaterialAttributes: usize = 0x2B0; // CUtlVector<PermModelDataAnimatedMaterialAttribute_t>
@@ -4992,7 +4992,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod CFlexRule {
                 pub const m_nFlex: usize = 0x0; // int32
-                pub const m_FlexOps: usize = 0x8; // CUtlVector<CFlexOp>
+                pub const m_FlexOps: usize = 0x8; // 
             }
             // Parent: None
             // Field count: 5
@@ -5869,8 +5869,8 @@ pub mod cs2_dumper {
             pub mod IKTargetSettings_t {
                 pub const m_TargetSource: usize = 0x0; // 
                 pub const m_Bone: usize = 0x8; // IKBoneNameAndIndex_t
-                pub const m_AnimgraphParameterNamePosition: usize = 0x18; // 
-                pub const m_AnimgraphParameterNameOrientation: usize = 0x1C; // 
+                pub const m_AnimgraphParameterNamePosition: usize = 0x18; // AnimParamID
+                pub const m_AnimgraphParameterNameOrientation: usize = 0x1C; // AnimParamID
                 pub const m_TargetCoordSystem: usize = 0x20; // IKTargetCoordinateSystem
             }
             // Parent: CNmFloatValueNode__CDefinition

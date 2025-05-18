@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-16 11:53:09.413317 UTC
+// 2025-05-18 14:16:41.865032500 UTC
 
 #pragma once
 
@@ -753,7 +753,7 @@ namespace cs2_dumper {
             namespace CPulse_InvokeBinding {
                 constexpr std::ptrdiff_t m_RegisterMap = 0x0; // PulseRegisterMap_t
                 constexpr std::ptrdiff_t m_FuncName = 0x20; // CUtlSymbolLarge
-                constexpr std::ptrdiff_t m_nCellIndex = 0x28; // PulseRuntimeCellIndex_t
+                constexpr std::ptrdiff_t m_nCellIndex = 0x28; // 
                 constexpr std::ptrdiff_t m_nSrcChunk = 0x2C; // 
                 constexpr std::ptrdiff_t m_nSrcInstruction = 0x30; // int32
             }
@@ -1076,7 +1076,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_ParentMapName = 0x10; // CUtlSymbolLarge
                 constexpr std::ptrdiff_t m_ParentXmlName = 0x18; // CUtlSymbolLarge
                 constexpr std::ptrdiff_t m_vecGameBlackboards = 0x20; // 
-                constexpr std::ptrdiff_t m_Chunks = 0x38; // 
+                constexpr std::ptrdiff_t m_Chunks = 0x38; // CUtlVector<CPulse_Chunk*>
                 constexpr std::ptrdiff_t m_Cells = 0x50; // CUtlVector<CPulseCell_Base*>
                 constexpr std::ptrdiff_t m_Vars = 0x68; // CUtlVector<CPulse_Variable>
                 constexpr std::ptrdiff_t m_PublicOutputs = 0x80; // CUtlVector<CPulse_PublicOutput>

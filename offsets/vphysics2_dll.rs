@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-16 11:53:09.413317 UTC
+// 2025-05-18 14:16:41.865032500 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -444,7 +444,7 @@ pub mod cs2_dumper {
             pub mod RnMesh_t {
                 pub const m_vMin: usize = 0x0; // Vector
                 pub const m_vMax: usize = 0xC; // Vector
-                pub const m_Nodes: usize = 0x18; // 
+                pub const m_Nodes: usize = 0x18; // CUtlVector<RnNode_t>
                 pub const m_Vertices: usize = 0x30; // CUtlVectorSIMDPaddedVector
                 pub const m_Triangles: usize = 0x48; // CUtlVector<RnTriangle_t>
                 pub const m_Wings: usize = 0x60; // CUtlVector<RnWing_t>
@@ -950,7 +950,7 @@ pub mod cs2_dumper {
                 pub const m_MassProperties: usize = 0x34; // matrix3x4_t
                 pub const m_flVolume: usize = 0x64; // float32
                 pub const m_flSurfaceArea: usize = 0x68; // float32
-                pub const m_Vertices: usize = 0x70; // CUtlVector<RnVertex_t>
+                pub const m_Vertices: usize = 0x70; // 
                 pub const m_VertexPositions: usize = 0x88; // CUtlVector<Vector>
                 pub const m_Edges: usize = 0xA0; // 
                 pub const m_Faces: usize = 0xB8; // 

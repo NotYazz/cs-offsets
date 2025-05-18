@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-16 11:53:09.413317 UTC
+// 2025-05-18 14:16:41.865032500 UTC
 
 #pragma once
 
@@ -792,7 +792,7 @@ namespace cs2_dumper {
             // MPropertyCustomEditor
             // MParticleCustomFieldDefaultValue
             namespace CParticleModelInput {
-                constexpr std::ptrdiff_t m_nType = 0x10; // 
+                constexpr std::ptrdiff_t m_nType = 0x10; // ParticleModelType_t
                 constexpr std::ptrdiff_t m_NamedValue = 0x18; // CParticleNamedValueRef
                 constexpr std::ptrdiff_t m_nControlPoint = 0x58; // int32
             }
@@ -2799,7 +2799,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_Emitters = 0x28; // CUtlVector<CParticleFunctionEmitter*>
                 constexpr std::ptrdiff_t m_Initializers = 0x40; // CUtlVector<CParticleFunctionInitializer*>
                 constexpr std::ptrdiff_t m_Operators = 0x58; // CUtlVector<CParticleFunctionOperator*>
-                constexpr std::ptrdiff_t m_ForceGenerators = 0x70; // 
+                constexpr std::ptrdiff_t m_ForceGenerators = 0x70; // CUtlVector<CParticleFunctionForce*>
                 constexpr std::ptrdiff_t m_Constraints = 0x88; // CUtlVector<CParticleFunctionConstraint*>
                 constexpr std::ptrdiff_t m_Renderers = 0xA0; // CUtlVector<CParticleFunctionRenderer*>
                 constexpr std::ptrdiff_t m_Children = 0xB8; // CUtlVector<ParticleChildrenInfo_t>
@@ -4933,7 +4933,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bEnableProjectedDepthControls = 0x214; // bool
                 constexpr std::ptrdiff_t m_flMinProjectionDepth = 0x218; // float32
                 constexpr std::ptrdiff_t m_flMaxProjectionDepth = 0x21C; // float32
-                constexpr std::ptrdiff_t m_vecProjectedMaterials = 0x220; // 
+                constexpr std::ptrdiff_t m_vecProjectedMaterials = 0x220; // CUtlVector<RenderProjectedMaterial_t>
                 constexpr std::ptrdiff_t m_flMaterialSelection = 0x238; // CPerParticleFloatInput
                 constexpr std::ptrdiff_t m_flAnimationTimeScale = 0x398; // float32
                 constexpr std::ptrdiff_t m_bOrientToNormal = 0x39C; // bool
@@ -5774,7 +5774,7 @@ namespace cs2_dumper {
             // MParticleCustomFieldDefaultValue
             namespace CParticleFloatInput {
                 constexpr std::ptrdiff_t m_nType = 0x10; // ParticleFloatType_t
-                constexpr std::ptrdiff_t m_nMapType = 0x14; // ParticleFloatMapType_t
+                constexpr std::ptrdiff_t m_nMapType = 0x14; // 
                 constexpr std::ptrdiff_t m_flLiteralValue = 0x18; // float32
                 constexpr std::ptrdiff_t m_NamedValue = 0x20; // CParticleNamedValueRef
                 constexpr std::ptrdiff_t m_nControlPoint = 0x60; // int32
@@ -6060,7 +6060,7 @@ namespace cs2_dumper {
             // MGetKV3ClassDefaults
             namespace ParticleControlPointConfiguration_t {
                 constexpr std::ptrdiff_t m_name = 0x0; // CUtlString
-                constexpr std::ptrdiff_t m_drivers = 0x8; // CUtlVector<ParticleControlPointDriver_t>
+                constexpr std::ptrdiff_t m_drivers = 0x8; // 
                 constexpr std::ptrdiff_t m_previewState = 0x20; // ParticlePreviewState_t
             }
             // Parent: CParticleFunctionInitializer

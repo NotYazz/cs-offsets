@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-16 11:53:09.413317 UTC
+// 2025-05-18 14:16:41.865032500 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -866,7 +866,7 @@ pub mod cs2_dumper {
             // MPropertyCustomEditor
             // MParticleCustomFieldDefaultValue
             pub mod CParticleModelInput {
-                pub const m_nType: usize = 0x10; // 
+                pub const m_nType: usize = 0x10; // ParticleModelType_t
                 pub const m_NamedValue: usize = 0x18; // CParticleNamedValueRef
                 pub const m_nControlPoint: usize = 0x58; // int32
             }
@@ -2873,7 +2873,7 @@ pub mod cs2_dumper {
                 pub const m_Emitters: usize = 0x28; // CUtlVector<CParticleFunctionEmitter*>
                 pub const m_Initializers: usize = 0x40; // CUtlVector<CParticleFunctionInitializer*>
                 pub const m_Operators: usize = 0x58; // CUtlVector<CParticleFunctionOperator*>
-                pub const m_ForceGenerators: usize = 0x70; // 
+                pub const m_ForceGenerators: usize = 0x70; // CUtlVector<CParticleFunctionForce*>
                 pub const m_Constraints: usize = 0x88; // CUtlVector<CParticleFunctionConstraint*>
                 pub const m_Renderers: usize = 0xA0; // CUtlVector<CParticleFunctionRenderer*>
                 pub const m_Children: usize = 0xB8; // CUtlVector<ParticleChildrenInfo_t>
@@ -5007,7 +5007,7 @@ pub mod cs2_dumper {
                 pub const m_bEnableProjectedDepthControls: usize = 0x214; // bool
                 pub const m_flMinProjectionDepth: usize = 0x218; // float32
                 pub const m_flMaxProjectionDepth: usize = 0x21C; // float32
-                pub const m_vecProjectedMaterials: usize = 0x220; // 
+                pub const m_vecProjectedMaterials: usize = 0x220; // CUtlVector<RenderProjectedMaterial_t>
                 pub const m_flMaterialSelection: usize = 0x238; // CPerParticleFloatInput
                 pub const m_flAnimationTimeScale: usize = 0x398; // float32
                 pub const m_bOrientToNormal: usize = 0x39C; // bool
@@ -5848,7 +5848,7 @@ pub mod cs2_dumper {
             // MParticleCustomFieldDefaultValue
             pub mod CParticleFloatInput {
                 pub const m_nType: usize = 0x10; // ParticleFloatType_t
-                pub const m_nMapType: usize = 0x14; // ParticleFloatMapType_t
+                pub const m_nMapType: usize = 0x14; // 
                 pub const m_flLiteralValue: usize = 0x18; // float32
                 pub const m_NamedValue: usize = 0x20; // CParticleNamedValueRef
                 pub const m_nControlPoint: usize = 0x60; // int32
@@ -6134,7 +6134,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod ParticleControlPointConfiguration_t {
                 pub const m_name: usize = 0x0; // CUtlString
-                pub const m_drivers: usize = 0x8; // CUtlVector<ParticleControlPointDriver_t>
+                pub const m_drivers: usize = 0x8; // 
                 pub const m_previewState: usize = 0x20; // ParticlePreviewState_t
             }
             // Parent: CParticleFunctionInitializer

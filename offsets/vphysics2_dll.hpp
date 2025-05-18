@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-16 11:53:09.413317 UTC
+// 2025-05-18 14:16:41.865032500 UTC
 
 #pragma once
 
@@ -444,7 +444,7 @@ namespace cs2_dumper {
             namespace RnMesh_t {
                 constexpr std::ptrdiff_t m_vMin = 0x0; // Vector
                 constexpr std::ptrdiff_t m_vMax = 0xC; // Vector
-                constexpr std::ptrdiff_t m_Nodes = 0x18; // 
+                constexpr std::ptrdiff_t m_Nodes = 0x18; // CUtlVector<RnNode_t>
                 constexpr std::ptrdiff_t m_Vertices = 0x30; // CUtlVectorSIMDPaddedVector
                 constexpr std::ptrdiff_t m_Triangles = 0x48; // CUtlVector<RnTriangle_t>
                 constexpr std::ptrdiff_t m_Wings = 0x60; // CUtlVector<RnWing_t>
@@ -950,7 +950,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_MassProperties = 0x34; // matrix3x4_t
                 constexpr std::ptrdiff_t m_flVolume = 0x64; // float32
                 constexpr std::ptrdiff_t m_flSurfaceArea = 0x68; // float32
-                constexpr std::ptrdiff_t m_Vertices = 0x70; // CUtlVector<RnVertex_t>
+                constexpr std::ptrdiff_t m_Vertices = 0x70; // 
                 constexpr std::ptrdiff_t m_VertexPositions = 0x88; // CUtlVector<Vector>
                 constexpr std::ptrdiff_t m_Edges = 0xA0; // 
                 constexpr std::ptrdiff_t m_Faces = 0xB8; // 
