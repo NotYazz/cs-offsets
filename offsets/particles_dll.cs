@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-18 14:16:41.865032500 UTC
+// 2025-06-05 22:55:55.851618600 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: particles.dll
@@ -4104,7 +4104,7 @@ namespace CS2Dumper.Schemas {
         // MPropertyCustomEditor
         // MParticleCustomFieldDefaultValue
         public static class CParticleTransformInput {
-            public const nint m_nType = 0x10; // 
+            public const nint m_nType = 0x10; // ParticleTransformType_t
             public const nint m_NamedValue = 0x18; // CParticleNamedValueRef
             public const nint m_bFollowNamedValue = 0x58; // bool
             public const nint m_bSupportsDisabled = 0x59; // bool
@@ -5801,7 +5801,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_bNoiseImgPreviewLive = 0xD4; // bool
             public const nint m_flNoCameraFallback = 0xE0; // float32
             public const nint m_bUseBoundsCenter = 0xE4; // bool
-            public const nint m_nInputMode = 0xE8; // ParticleFloatInputMode_t
+            public const nint m_nInputMode = 0xE8; // 
             public const nint m_flMultFactor = 0xEC; // float32
             public const nint m_flInput0 = 0xF0; // float32
             public const nint m_flInput1 = 0xF4; // float32
@@ -6055,7 +6055,7 @@ namespace CS2Dumper.Schemas {
         // MGetKV3ClassDefaults
         public static class ParticleControlPointConfiguration_t {
             public const nint m_name = 0x0; // CUtlString
-            public const nint m_drivers = 0x8; // 
+            public const nint m_drivers = 0x8; // CUtlVector<ParticleControlPointDriver_t>
             public const nint m_previewState = 0x20; // ParticlePreviewState_t
         }
         // Parent: CParticleFunctionInitializer

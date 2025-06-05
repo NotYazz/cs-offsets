@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-18 14:16:41.865032500 UTC
+// 2025-06-05 22:55:55.851618600 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -4183,7 +4183,7 @@ pub mod cs2_dumper {
             // MPropertyCustomEditor
             // MParticleCustomFieldDefaultValue
             pub mod CParticleTransformInput {
-                pub const m_nType: usize = 0x10; // 
+                pub const m_nType: usize = 0x10; // ParticleTransformType_t
                 pub const m_NamedValue: usize = 0x18; // CParticleNamedValueRef
                 pub const m_bFollowNamedValue: usize = 0x58; // bool
                 pub const m_bSupportsDisabled: usize = 0x59; // bool
@@ -5880,7 +5880,7 @@ pub mod cs2_dumper {
                 pub const m_bNoiseImgPreviewLive: usize = 0xD4; // bool
                 pub const m_flNoCameraFallback: usize = 0xE0; // float32
                 pub const m_bUseBoundsCenter: usize = 0xE4; // bool
-                pub const m_nInputMode: usize = 0xE8; // ParticleFloatInputMode_t
+                pub const m_nInputMode: usize = 0xE8; // 
                 pub const m_flMultFactor: usize = 0xEC; // float32
                 pub const m_flInput0: usize = 0xF0; // float32
                 pub const m_flInput1: usize = 0xF4; // float32
@@ -6134,7 +6134,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod ParticleControlPointConfiguration_t {
                 pub const m_name: usize = 0x0; // CUtlString
-                pub const m_drivers: usize = 0x8; // 
+                pub const m_drivers: usize = 0x8; // CUtlVector<ParticleControlPointDriver_t>
                 pub const m_previewState: usize = 0x20; // ParticlePreviewState_t
             }
             // Parent: CParticleFunctionInitializer

@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-05-18 14:16:41.865032500 UTC
+// 2025-06-05 22:55:55.851618600 UTC
 
 #pragma once
 
@@ -4109,7 +4109,7 @@ namespace cs2_dumper {
             // MPropertyCustomEditor
             // MParticleCustomFieldDefaultValue
             namespace CParticleTransformInput {
-                constexpr std::ptrdiff_t m_nType = 0x10; // 
+                constexpr std::ptrdiff_t m_nType = 0x10; // ParticleTransformType_t
                 constexpr std::ptrdiff_t m_NamedValue = 0x18; // CParticleNamedValueRef
                 constexpr std::ptrdiff_t m_bFollowNamedValue = 0x58; // bool
                 constexpr std::ptrdiff_t m_bSupportsDisabled = 0x59; // bool
@@ -5806,7 +5806,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bNoiseImgPreviewLive = 0xD4; // bool
                 constexpr std::ptrdiff_t m_flNoCameraFallback = 0xE0; // float32
                 constexpr std::ptrdiff_t m_bUseBoundsCenter = 0xE4; // bool
-                constexpr std::ptrdiff_t m_nInputMode = 0xE8; // ParticleFloatInputMode_t
+                constexpr std::ptrdiff_t m_nInputMode = 0xE8; // 
                 constexpr std::ptrdiff_t m_flMultFactor = 0xEC; // float32
                 constexpr std::ptrdiff_t m_flInput0 = 0xF0; // float32
                 constexpr std::ptrdiff_t m_flInput1 = 0xF4; // float32
@@ -6060,7 +6060,7 @@ namespace cs2_dumper {
             // MGetKV3ClassDefaults
             namespace ParticleControlPointConfiguration_t {
                 constexpr std::ptrdiff_t m_name = 0x0; // CUtlString
-                constexpr std::ptrdiff_t m_drivers = 0x8; // 
+                constexpr std::ptrdiff_t m_drivers = 0x8; // CUtlVector<ParticleControlPointDriver_t>
                 constexpr std::ptrdiff_t m_previewState = 0x20; // ParticlePreviewState_t
             }
             // Parent: CParticleFunctionInitializer
