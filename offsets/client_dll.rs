@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-06-05 22:55:55.851618600 UTC
+// 2025-06-11 02:40:22.217583100 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -1596,7 +1596,7 @@ pub mod cs2_dumper {
             // NetworkVarNames: m_iScore (int32)
             // NetworkVarNames: m_szTeamname (char)
             pub mod C_Team {
-                pub const m_aPlayerControllers: usize = 0x568; // C_NetworkUtlVectorBase<CHandle<CBasePlayerController>>
+                pub const m_aPlayerControllers: usize = 0x568; // 
                 pub const m_aPlayers: usize = 0x580; // C_NetworkUtlVectorBase<CHandle<C_BasePlayerPawn>>
                 pub const m_iScore: usize = 0x598; // int32
                 pub const m_szTeamname: usize = 0x59C; // char[129]
@@ -1652,7 +1652,7 @@ pub mod cs2_dumper {
             // Field count: 2
             pub mod CSkyboxReference {
                 pub const m_worldGroupId: usize = 0x568; // WorldGroupId_t
-                pub const m_hSkyCamera: usize = 0x56C; // 
+                pub const m_hSkyCamera: usize = 0x56C; // CHandle<C_SkyCamera>
             }
             // Parent: C_TonemapController2
             // Field count: 0
@@ -2343,7 +2343,7 @@ pub mod cs2_dumper {
                 pub const m_hSplitOwner: usize = 0x63C; // CHandle<CBasePlayerController>
                 pub const m_hSplitScreenPlayers: usize = 0x640; // CUtlVector<CHandle<CBasePlayerController>>
                 pub const m_bIsHLTV: usize = 0x658; // bool
-                pub const m_iConnected: usize = 0x65C; // PlayerConnectedState
+                pub const m_iConnected: usize = 0x65C; // 
                 pub const m_iszPlayerName: usize = 0x660; // char[128]
                 pub const m_steamID: usize = 0x6E8; // uint64
                 pub const m_bIsLocalPlayerController: usize = 0x6F0; // bool
@@ -2491,7 +2491,7 @@ pub mod cs2_dumper {
                 pub const m_bStartActive: usize = 0x570; // bool
                 pub const m_flMaxSimulationTime: usize = 0x574; // float32
                 pub const m_iszEffectName: usize = 0x578; // CUtlSymbolLarge
-                pub const m_PathNodes_Name: usize = 0x580; // 
+                pub const m_PathNodes_Name: usize = 0x580; // CUtlVector<CUtlSymbolLarge>
                 pub const m_flParticleSpacing: usize = 0x598; // float32
                 pub const m_flSlack: usize = 0x59C; // float32
                 pub const m_flRadius: usize = 0x5A0; // float32
@@ -2726,7 +2726,7 @@ pub mod cs2_dumper {
                 pub const m_iReapplyProvisionParity: usize = 0x20; // int32
                 pub const m_hOuter: usize = 0x24; // CHandle<C_BaseEntity>
                 pub const m_bPreventLoopback: usize = 0x28; // bool
-                pub const m_ProviderType: usize = 0x2C; // 
+                pub const m_ProviderType: usize = 0x2C; // attributeprovidertypes_t
                 pub const m_CachedResults: usize = 0x30; // CUtlVector<CAttributeManager::cached_attribute_float_t>
             }
             // Parent: C_BaseEntity
@@ -3426,7 +3426,7 @@ pub mod cs2_dumper {
                 pub const m_iEffectIndex: usize = 0xF38; // CStrongHandle<InfoForResourceTypeIParticleSystemDefinition>
                 pub const m_flStartTime: usize = 0xF40; // GameTime_t
                 pub const m_flPreSimTime: usize = 0xF44; // float32
-                pub const m_vServerControlPoints: usize = 0xF48; // Vector[4]
+                pub const m_vServerControlPoints: usize = 0xF48; // 
                 pub const m_iServerControlPointAssignments: usize = 0xF78; // uint8[4]
                 pub const m_hControlPointEnts: usize = 0xF7C; // CHandle<C_BaseEntity>[64]
                 pub const m_bNoSave: usize = 0x107C; // bool
@@ -5613,8 +5613,8 @@ pub mod cs2_dumper {
                 pub const m_hCurrentThirdPersonSequence: usize = 0x1718; // HSequence
                 pub const m_nSilencerBoneIndex: usize = 0x171C; // int32
                 pub const m_thirdPersonSequences: usize = 0x1720; // HSequence[7]
-                pub const m_ClientPreviousWeaponState: usize = 0x1758; // CSWeaponState_t
-                pub const m_iState: usize = 0x175C; // CSWeaponState_t
+                pub const m_ClientPreviousWeaponState: usize = 0x1758; // 
+                pub const m_iState: usize = 0x175C; // 
                 pub const m_flCrosshairDistance: usize = 0x1760; // float32
                 pub const m_iAmmoLastCheck: usize = 0x1764; // int32
                 pub const m_iAlpha: usize = 0x1768; // int32
@@ -6574,7 +6574,7 @@ pub mod cs2_dumper {
             // MPulseLibraryBindings
             // MPulseDomainOptInFeatureTag
             pub mod CCSPointScript {
-                pub const m_pParent: usize = 0xF8; // CCSPointScriptEntity*
+                pub const m_pParent: usize = 0xF8; // 
             }
             // Parent: C_CSPlayerPawnBase
             // Field count: 1

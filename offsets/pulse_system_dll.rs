@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-06-05 22:55:55.851618600 UTC
+// 2025-06-11 02:40:22.217583100 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -252,7 +252,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CPulse_Chunk {
-                pub const m_Instructions: usize = 0x0; // 
+                pub const m_Instructions: usize = 0x0; // CUtlLeanVector<PGDInstruction_t>
                 pub const m_Registers: usize = 0x10; // CUtlLeanVector<CPulse_RegisterInfo>
                 pub const m_InstructionEditorIDs: usize = 0x20; // CUtlLeanVector<PulseDocNodeID_t>
             }
@@ -306,7 +306,7 @@ pub mod cs2_dumper {
             // Field count: 4
             pub mod CPulse_OutflowConnection {
                 pub const m_SourceOutflowName: usize = 0x0; // CUtlSymbolLarge
-                pub const m_nDestChunk: usize = 0x8; // 
+                pub const m_nDestChunk: usize = 0x8; // PulseRuntimeChunkIndex_t
                 pub const m_nInstruction: usize = 0xC; // int32
                 pub const m_OutflowRegisterMap: usize = 0x10; // 
             }
@@ -328,7 +328,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Base {
-                pub const m_nEditorNodeID: usize = 0x8; // 
+                pub const m_nEditorNodeID: usize = 0x8; // PulseDocNodeID_t
             }
             // Parent: None
             // Field count: 1
@@ -345,8 +345,8 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod PulseGraphExecutionHistoryCursorDesc_t {
                 pub const vecAncestorCursorIDs: usize = 0x0; // CUtlVector<PulseCursorID_t>
-                pub const nSpawnNodeID: usize = 0x18; // 
-                pub const nRetiredAtNodeID: usize = 0x1C; // 
+                pub const nSpawnNodeID: usize = 0x18; // PulseDocNodeID_t
+                pub const nRetiredAtNodeID: usize = 0x1C; // PulseDocNodeID_t
                 pub const flLastReferenced: usize = 0x20; // float32
                 pub const nLastValidEntryIdx: usize = 0x24; // int32
             }
@@ -679,7 +679,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod PulseGraphExecutionHistoryEntry_t {
                 pub const nCursorID: usize = 0x0; // PulseCursorID_t
-                pub const nEditorID: usize = 0x4; // 
+                pub const nEditorID: usize = 0x4; // PulseDocNodeID_t
                 pub const flExecTime: usize = 0x8; // float32
                 pub const unFlags: usize = 0xC; // uint32
                 pub const tagName: usize = 0x10; // CUtlSymbolLarge
@@ -745,7 +745,7 @@ pub mod cs2_dumper {
                 pub const m_nReg1: usize = 0xA; // PulseRuntimeRegisterIndex_t
                 pub const m_nReg2: usize = 0xC; // PulseRuntimeRegisterIndex_t
                 pub const m_nInvokeBindingIndex: usize = 0x10; // PulseRuntimeInvokeIndex_t
-                pub const m_nChunk: usize = 0x14; // 
+                pub const m_nChunk: usize = 0x14; // PulseRuntimeChunkIndex_t
                 pub const m_nDestInstruction: usize = 0x18; // int32
                 pub const m_nCallInfoIndex: usize = 0x1C; // PulseRuntimeCallInfoIndex_t
                 pub const m_nConstIdx: usize = 0x20; // PulseRuntimeConstantIndex_t
@@ -760,8 +760,8 @@ pub mod cs2_dumper {
             pub mod CPulse_InvokeBinding {
                 pub const m_RegisterMap: usize = 0x0; // 
                 pub const m_FuncName: usize = 0x20; // CUtlSymbolLarge
-                pub const m_nCellIndex: usize = 0x28; // 
-                pub const m_nSrcChunk: usize = 0x2C; // 
+                pub const m_nCellIndex: usize = 0x28; // PulseRuntimeCellIndex_t
+                pub const m_nSrcChunk: usize = 0x2C; // PulseRuntimeChunkIndex_t
                 pub const m_nSrcInstruction: usize = 0x30; // int32
             }
             // Parent: None
@@ -776,7 +776,7 @@ pub mod cs2_dumper {
                 pub const m_DefaultValue: usize = 0x20; // KeyValues3
                 pub const m_bIsPublic: usize = 0x32; // bool
                 pub const m_bIsObservable: usize = 0x33; // bool
-                pub const m_nEditorNodeID: usize = 0x34; // 
+                pub const m_nEditorNodeID: usize = 0x34; // PulseDocNodeID_t
             }
             // Parent: CPulseCell_Inflow_BaseEntrypoint
             // Field count: 5
@@ -987,7 +987,7 @@ pub mod cs2_dumper {
             pub mod CPulse_BlackboardReference {
                 pub const m_hBlackboardResource: usize = 0x0; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIPulseGraphDef>>
                 pub const m_BlackboardResource: usize = 0xE0; // CUtlSymbolLarge
-                pub const m_nNodeID: usize = 0xE8; // 
+                pub const m_nNodeID: usize = 0xE8; // PulseDocNodeID_t
                 pub const m_NodeName: usize = 0xF0; // CGlobalSymbol
             }
             // Parent: None
@@ -1016,10 +1016,10 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod CPulse_CallInfo {
                 pub const m_PortName: usize = 0x0; // CUtlSymbolLarge
-                pub const m_nEditorNodeID: usize = 0x8; // 
+                pub const m_nEditorNodeID: usize = 0x8; // PulseDocNodeID_t
                 pub const m_RegisterMap: usize = 0x10; // 
-                pub const m_CallMethodID: usize = 0x30; // 
-                pub const m_nSrcChunk: usize = 0x34; // 
+                pub const m_CallMethodID: usize = 0x30; // PulseDocNodeID_t
+                pub const m_nSrcChunk: usize = 0x34; // PulseRuntimeChunkIndex_t
                 pub const m_nSrcInstruction: usize = 0x38; // int32
             }
             // Parent: None
@@ -1126,7 +1126,7 @@ pub mod cs2_dumper {
             // MPulseEditorHeaderIcon
             pub mod CPulseCell_WaitForCursorsWithTag {
                 pub const m_bTagSelfWhenComplete: usize = 0x80; // bool
-                pub const m_nDesiredKillPriority: usize = 0x84; // PulseCursorCancelPriority_t
+                pub const m_nDesiredKillPriority: usize = 0x84; // 
             }
             // Parent: CPulseCell_BaseFlow
             // Field count: 2
@@ -1134,7 +1134,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CPulseCell_Inflow_BaseEntrypoint {
-                pub const m_EntryChunk: usize = 0x48; // 
+                pub const m_EntryChunk: usize = 0x48; // PulseRuntimeChunkIndex_t
                 pub const m_RegisterMap: usize = 0x50; // 
             }
             // Parent: None

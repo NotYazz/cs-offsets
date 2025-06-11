@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-06-05 22:55:55.851618600 UTC
+// 2025-06-11 02:40:22.217583100 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -866,7 +866,7 @@ pub mod cs2_dumper {
             // MPropertyCustomEditor
             // MParticleCustomFieldDefaultValue
             pub mod CParticleModelInput {
-                pub const m_nType: usize = 0x10; // ParticleModelType_t
+                pub const m_nType: usize = 0x10; // 
                 pub const m_NamedValue: usize = 0x18; // CParticleNamedValueRef
                 pub const m_nControlPoint: usize = 0x58; // int32
             }
@@ -5848,7 +5848,7 @@ pub mod cs2_dumper {
             // MParticleCustomFieldDefaultValue
             pub mod CParticleFloatInput {
                 pub const m_nType: usize = 0x10; // ParticleFloatType_t
-                pub const m_nMapType: usize = 0x14; // 
+                pub const m_nMapType: usize = 0x14; // ParticleFloatMapType_t
                 pub const m_flLiteralValue: usize = 0x18; // float32
                 pub const m_NamedValue: usize = 0x20; // CParticleNamedValueRef
                 pub const m_nControlPoint: usize = 0x60; // int32
@@ -5859,7 +5859,7 @@ pub mod cs2_dumper {
                 pub const m_flRandomMax: usize = 0x74; // float32
                 pub const m_bHasRandomSignFlip: usize = 0x78; // bool
                 pub const m_nRandomSeed: usize = 0x7C; // int32
-                pub const m_nRandomMode: usize = 0x80; // ParticleFloatRandomMode_t
+                pub const m_nRandomMode: usize = 0x80; // 
                 pub const m_flLOD0: usize = 0x88; // float32
                 pub const m_flLOD1: usize = 0x8C; // float32
                 pub const m_flLOD2: usize = 0x90; // float32
@@ -5871,7 +5871,7 @@ pub mod cs2_dumper {
                 pub const m_vecNoiseOffsetRate: usize = 0xA8; // Vector
                 pub const m_flNoiseOffset: usize = 0xB4; // float32
                 pub const m_nNoiseOctaves: usize = 0xB8; // int32
-                pub const m_nNoiseTurbulence: usize = 0xBC; // PFNoiseTurbulence_t
+                pub const m_nNoiseTurbulence: usize = 0xBC; // 
                 pub const m_nNoiseType: usize = 0xC0; // PFNoiseType_t
                 pub const m_nNoiseModifier: usize = 0xC4; // PFNoiseModifier_t
                 pub const m_flNoiseTurbulenceScale: usize = 0xC8; // float32
@@ -5890,7 +5890,7 @@ pub mod cs2_dumper {
                 pub const m_flNotchedRangeMax: usize = 0x104; // float32
                 pub const m_flNotchedOutputOutside: usize = 0x108; // float32
                 pub const m_flNotchedOutputInside: usize = 0x10C; // float32
-                pub const m_nRoundType: usize = 0x110; // 
+                pub const m_nRoundType: usize = 0x110; // ParticleFloatRoundType_t
                 pub const m_nBiasType: usize = 0x114; // ParticleFloatBiasType_t
                 pub const m_flBiasParameter: usize = 0x118; // float32
                 pub const m_Curve: usize = 0x120; // CPiecewiseCurve

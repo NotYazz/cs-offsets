@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-06-05 22:55:55.851618600 UTC
+// 2025-06-11 02:40:22.217583100 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -326,7 +326,7 @@ pub mod cs2_dumper {
                 pub const m_flDuration: usize = 0x14; // float32
                 pub const m_Sentences: usize = 0x18; // CUtlVector<CAudioSentence>
                 pub const m_nStreamingSize: usize = 0x30; // uint32
-                pub const m_nSeekTable: usize = 0x38; // CUtlVector<int32>
+                pub const m_nSeekTable: usize = 0x38; // 
                 pub const m_nLoopEnd: usize = 0x50; // int32
                 pub const m_encodedHeader: usize = 0x58; // CUtlBinaryBlock
             }

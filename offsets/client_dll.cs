@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-06-05 22:55:55.851618600 UTC
+// 2025-06-11 02:40:22.217583100 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: client.dll
@@ -1586,7 +1586,7 @@ namespace CS2Dumper.Schemas {
         // NetworkVarNames: m_iScore (int32)
         // NetworkVarNames: m_szTeamname (char)
         public static class C_Team {
-            public const nint m_aPlayerControllers = 0x568; // C_NetworkUtlVectorBase<CHandle<CBasePlayerController>>
+            public const nint m_aPlayerControllers = 0x568; // 
             public const nint m_aPlayers = 0x580; // C_NetworkUtlVectorBase<CHandle<C_BasePlayerPawn>>
             public const nint m_iScore = 0x598; // int32
             public const nint m_szTeamname = 0x59C; // char[129]
@@ -1642,7 +1642,7 @@ namespace CS2Dumper.Schemas {
         // Field count: 2
         public static class CSkyboxReference {
             public const nint m_worldGroupId = 0x568; // WorldGroupId_t
-            public const nint m_hSkyCamera = 0x56C; // 
+            public const nint m_hSkyCamera = 0x56C; // CHandle<C_SkyCamera>
         }
         // Parent: C_TonemapController2
         // Field count: 0
@@ -2333,7 +2333,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_hSplitOwner = 0x63C; // CHandle<CBasePlayerController>
             public const nint m_hSplitScreenPlayers = 0x640; // CUtlVector<CHandle<CBasePlayerController>>
             public const nint m_bIsHLTV = 0x658; // bool
-            public const nint m_iConnected = 0x65C; // PlayerConnectedState
+            public const nint m_iConnected = 0x65C; // 
             public const nint m_iszPlayerName = 0x660; // char[128]
             public const nint m_steamID = 0x6E8; // uint64
             public const nint m_bIsLocalPlayerController = 0x6F0; // bool
@@ -2481,7 +2481,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_bStartActive = 0x570; // bool
             public const nint m_flMaxSimulationTime = 0x574; // float32
             public const nint m_iszEffectName = 0x578; // CUtlSymbolLarge
-            public const nint m_PathNodes_Name = 0x580; // 
+            public const nint m_PathNodes_Name = 0x580; // CUtlVector<CUtlSymbolLarge>
             public const nint m_flParticleSpacing = 0x598; // float32
             public const nint m_flSlack = 0x59C; // float32
             public const nint m_flRadius = 0x5A0; // float32
@@ -2716,7 +2716,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_iReapplyProvisionParity = 0x20; // int32
             public const nint m_hOuter = 0x24; // CHandle<C_BaseEntity>
             public const nint m_bPreventLoopback = 0x28; // bool
-            public const nint m_ProviderType = 0x2C; // 
+            public const nint m_ProviderType = 0x2C; // attributeprovidertypes_t
             public const nint m_CachedResults = 0x30; // CUtlVector<CAttributeManager::cached_attribute_float_t>
         }
         // Parent: C_BaseEntity
@@ -3416,7 +3416,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_iEffectIndex = 0xF38; // CStrongHandle<InfoForResourceTypeIParticleSystemDefinition>
             public const nint m_flStartTime = 0xF40; // GameTime_t
             public const nint m_flPreSimTime = 0xF44; // float32
-            public const nint m_vServerControlPoints = 0xF48; // Vector[4]
+            public const nint m_vServerControlPoints = 0xF48; // 
             public const nint m_iServerControlPointAssignments = 0xF78; // uint8[4]
             public const nint m_hControlPointEnts = 0xF7C; // CHandle<C_BaseEntity>[64]
             public const nint m_bNoSave = 0x107C; // bool
@@ -5603,8 +5603,8 @@ namespace CS2Dumper.Schemas {
             public const nint m_hCurrentThirdPersonSequence = 0x1718; // HSequence
             public const nint m_nSilencerBoneIndex = 0x171C; // int32
             public const nint m_thirdPersonSequences = 0x1720; // HSequence[7]
-            public const nint m_ClientPreviousWeaponState = 0x1758; // CSWeaponState_t
-            public const nint m_iState = 0x175C; // CSWeaponState_t
+            public const nint m_ClientPreviousWeaponState = 0x1758; // 
+            public const nint m_iState = 0x175C; // 
             public const nint m_flCrosshairDistance = 0x1760; // float32
             public const nint m_iAmmoLastCheck = 0x1764; // int32
             public const nint m_iAlpha = 0x1768; // int32
@@ -6564,7 +6564,7 @@ namespace CS2Dumper.Schemas {
         // MPulseLibraryBindings
         // MPulseDomainOptInFeatureTag
         public static class CCSPointScript {
-            public const nint m_pParent = 0xF8; // CCSPointScriptEntity*
+            public const nint m_pParent = 0xF8; // 
         }
         // Parent: C_CSPlayerPawnBase
         // Field count: 1

@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-06-05 22:55:55.851618600 UTC
+// 2025-06-11 02:40:22.217583100 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: particles.dll
@@ -787,7 +787,7 @@ namespace CS2Dumper.Schemas {
         // MPropertyCustomEditor
         // MParticleCustomFieldDefaultValue
         public static class CParticleModelInput {
-            public const nint m_nType = 0x10; // ParticleModelType_t
+            public const nint m_nType = 0x10; // 
             public const nint m_NamedValue = 0x18; // CParticleNamedValueRef
             public const nint m_nControlPoint = 0x58; // int32
         }
@@ -5769,7 +5769,7 @@ namespace CS2Dumper.Schemas {
         // MParticleCustomFieldDefaultValue
         public static class CParticleFloatInput {
             public const nint m_nType = 0x10; // ParticleFloatType_t
-            public const nint m_nMapType = 0x14; // 
+            public const nint m_nMapType = 0x14; // ParticleFloatMapType_t
             public const nint m_flLiteralValue = 0x18; // float32
             public const nint m_NamedValue = 0x20; // CParticleNamedValueRef
             public const nint m_nControlPoint = 0x60; // int32
@@ -5780,7 +5780,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flRandomMax = 0x74; // float32
             public const nint m_bHasRandomSignFlip = 0x78; // bool
             public const nint m_nRandomSeed = 0x7C; // int32
-            public const nint m_nRandomMode = 0x80; // ParticleFloatRandomMode_t
+            public const nint m_nRandomMode = 0x80; // 
             public const nint m_flLOD0 = 0x88; // float32
             public const nint m_flLOD1 = 0x8C; // float32
             public const nint m_flLOD2 = 0x90; // float32
@@ -5792,7 +5792,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_vecNoiseOffsetRate = 0xA8; // Vector
             public const nint m_flNoiseOffset = 0xB4; // float32
             public const nint m_nNoiseOctaves = 0xB8; // int32
-            public const nint m_nNoiseTurbulence = 0xBC; // PFNoiseTurbulence_t
+            public const nint m_nNoiseTurbulence = 0xBC; // 
             public const nint m_nNoiseType = 0xC0; // PFNoiseType_t
             public const nint m_nNoiseModifier = 0xC4; // PFNoiseModifier_t
             public const nint m_flNoiseTurbulenceScale = 0xC8; // float32
@@ -5811,7 +5811,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flNotchedRangeMax = 0x104; // float32
             public const nint m_flNotchedOutputOutside = 0x108; // float32
             public const nint m_flNotchedOutputInside = 0x10C; // float32
-            public const nint m_nRoundType = 0x110; // 
+            public const nint m_nRoundType = 0x110; // ParticleFloatRoundType_t
             public const nint m_nBiasType = 0x114; // ParticleFloatBiasType_t
             public const nint m_flBiasParameter = 0x118; // float32
             public const nint m_Curve = 0x120; // CPiecewiseCurve

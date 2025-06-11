@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-06-05 22:55:55.851618600 UTC
+// 2025-06-11 02:40:22.217583100 UTC
 
 #pragma once
 
@@ -792,7 +792,7 @@ namespace cs2_dumper {
             // MPropertyCustomEditor
             // MParticleCustomFieldDefaultValue
             namespace CParticleModelInput {
-                constexpr std::ptrdiff_t m_nType = 0x10; // ParticleModelType_t
+                constexpr std::ptrdiff_t m_nType = 0x10; // 
                 constexpr std::ptrdiff_t m_NamedValue = 0x18; // CParticleNamedValueRef
                 constexpr std::ptrdiff_t m_nControlPoint = 0x58; // int32
             }
@@ -5774,7 +5774,7 @@ namespace cs2_dumper {
             // MParticleCustomFieldDefaultValue
             namespace CParticleFloatInput {
                 constexpr std::ptrdiff_t m_nType = 0x10; // ParticleFloatType_t
-                constexpr std::ptrdiff_t m_nMapType = 0x14; // 
+                constexpr std::ptrdiff_t m_nMapType = 0x14; // ParticleFloatMapType_t
                 constexpr std::ptrdiff_t m_flLiteralValue = 0x18; // float32
                 constexpr std::ptrdiff_t m_NamedValue = 0x20; // CParticleNamedValueRef
                 constexpr std::ptrdiff_t m_nControlPoint = 0x60; // int32
@@ -5785,7 +5785,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flRandomMax = 0x74; // float32
                 constexpr std::ptrdiff_t m_bHasRandomSignFlip = 0x78; // bool
                 constexpr std::ptrdiff_t m_nRandomSeed = 0x7C; // int32
-                constexpr std::ptrdiff_t m_nRandomMode = 0x80; // ParticleFloatRandomMode_t
+                constexpr std::ptrdiff_t m_nRandomMode = 0x80; // 
                 constexpr std::ptrdiff_t m_flLOD0 = 0x88; // float32
                 constexpr std::ptrdiff_t m_flLOD1 = 0x8C; // float32
                 constexpr std::ptrdiff_t m_flLOD2 = 0x90; // float32
@@ -5797,7 +5797,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_vecNoiseOffsetRate = 0xA8; // Vector
                 constexpr std::ptrdiff_t m_flNoiseOffset = 0xB4; // float32
                 constexpr std::ptrdiff_t m_nNoiseOctaves = 0xB8; // int32
-                constexpr std::ptrdiff_t m_nNoiseTurbulence = 0xBC; // PFNoiseTurbulence_t
+                constexpr std::ptrdiff_t m_nNoiseTurbulence = 0xBC; // 
                 constexpr std::ptrdiff_t m_nNoiseType = 0xC0; // PFNoiseType_t
                 constexpr std::ptrdiff_t m_nNoiseModifier = 0xC4; // PFNoiseModifier_t
                 constexpr std::ptrdiff_t m_flNoiseTurbulenceScale = 0xC8; // float32
@@ -5816,7 +5816,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flNotchedRangeMax = 0x104; // float32
                 constexpr std::ptrdiff_t m_flNotchedOutputOutside = 0x108; // float32
                 constexpr std::ptrdiff_t m_flNotchedOutputInside = 0x10C; // float32
-                constexpr std::ptrdiff_t m_nRoundType = 0x110; // 
+                constexpr std::ptrdiff_t m_nRoundType = 0x110; // ParticleFloatRoundType_t
                 constexpr std::ptrdiff_t m_nBiasType = 0x114; // ParticleFloatBiasType_t
                 constexpr std::ptrdiff_t m_flBiasParameter = 0x118; // float32
                 constexpr std::ptrdiff_t m_Curve = 0x120; // CPiecewiseCurve
