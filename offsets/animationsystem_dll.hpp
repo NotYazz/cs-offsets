@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-06-11 02:40:22.217583100 UTC
+// 2025-06-13 16:39:02.026673200 UTC
 
 #pragma once
 
@@ -2468,7 +2468,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_children = 0x58; // CUtlVector<CAnimUpdateNodeRef>
                 constexpr std::ptrdiff_t m_weights = 0x70; // CUtlVector<float32>
                 constexpr std::ptrdiff_t m_blendTimes = 0x88; // CUtlVector<float32>
-                constexpr std::ptrdiff_t m_choiceMethod = 0xA0; // ChoiceMethod
+                constexpr std::ptrdiff_t m_choiceMethod = 0xA0; // 
                 constexpr std::ptrdiff_t m_choiceChangeMethod = 0xA4; // ChoiceChangeMethod
                 constexpr std::ptrdiff_t m_blendMethod = 0xA8; // ChoiceBlendMethod
                 constexpr std::ptrdiff_t m_blendTime = 0xAC; // float32
@@ -3074,7 +3074,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nTotalElementCount = 0x0; // int32
                 constexpr std::ptrdiff_t m_szChannelClass = 0x8; // CUtlVector<char*>
                 constexpr std::ptrdiff_t m_szVariableName = 0x20; // CUtlVector<char*>
-                constexpr std::ptrdiff_t m_nType = 0x38; // CUtlVector<fieldtype_t>
+                constexpr std::ptrdiff_t m_nType = 0x38; // 
                 constexpr std::ptrdiff_t m_nFlags = 0x50; // CUtlVector<int32>
                 constexpr std::ptrdiff_t m_szGrouping = 0x68; // CUtlVector<CUtlString>
                 constexpr std::ptrdiff_t m_nCompressorIndex = 0x80; // CUtlVector<int32>
@@ -3839,7 +3839,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace CAnimReplayFrame {
-                constexpr std::ptrdiff_t m_inputDataBlocks = 0x10; // 
+                constexpr std::ptrdiff_t m_inputDataBlocks = 0x10; // CUtlVector<CUtlBinaryBlock>
                 constexpr std::ptrdiff_t m_instanceData = 0x28; // CUtlBinaryBlock
                 constexpr std::ptrdiff_t m_startingLocalToWorldTransform = 0x40; // CTransform
                 constexpr std::ptrdiff_t m_localToWorldTransform = 0x60; // CTransform
@@ -3984,7 +3984,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace CDemoSettingsComponentUpdater {
-                constexpr std::ptrdiff_t m_settings = 0x30; // 
+                constexpr std::ptrdiff_t m_settings = 0x30; // CAnimDemoCaptureSettings
             }
             // Parent: None
             // Field count: 3
@@ -5138,7 +5138,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace CAnimParamHandleMap {
-                constexpr std::ptrdiff_t m_list = 0x0; // CUtlHashtable<uint16,int16>
+                constexpr std::ptrdiff_t m_list = 0x0; // 
             }
             // Parent: CNmFloatValueNode__CDefinition
             // Field count: 2

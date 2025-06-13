@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-06-11 02:40:22.217583100 UTC
+// 2025-06-13 16:39:02.026673200 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -492,7 +492,7 @@ pub mod cs2_dumper {
                 pub const m_Name: usize = 0x0; // CUtlString
                 pub const m_nNameHash: usize = 0x8; // uint32
                 pub const m_Nodes: usize = 0x10; // CUtlVector<uint16>
-                pub const m_InitPos: usize = 0x28; // 
+                pub const m_InitPos: usize = 0x28; // CUtlVector<Vector>
                 pub const m_Gravity: usize = 0x40; // CUtlVector<float32>
                 pub const m_GoalStrength: usize = 0x58; // CUtlVector<float32>
                 pub const m_GoalDamping: usize = 0x70; // CUtlVector<float32>
@@ -644,7 +644,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CRegionSVM {
-                pub const m_Planes: usize = 0x0; // 
+                pub const m_Planes: usize = 0x0; // CUtlVector<RnPlane_t>
                 pub const m_Nodes: usize = 0x18; // CUtlVector<uint32>
             }
             // Parent: None
@@ -870,7 +870,7 @@ pub mod cs2_dumper {
                 pub const m_Name: usize = 0x0; // CUtlString
                 pub const m_nNameHash: usize = 0x8; // uint32
                 pub const m_Nodes: usize = 0x10; // CUtlVector<uint16>
-                pub const m_InitPos: usize = 0x28; // 
+                pub const m_InitPos: usize = 0x28; // CUtlVector<Vector>
                 pub const m_Gravity: usize = 0x40; // CUtlVector<float32>
                 pub const m_GoalStrength: usize = 0x58; // CUtlVector<float32>
                 pub const m_GoalDamping: usize = 0x70; // CUtlVector<float32>
@@ -950,11 +950,11 @@ pub mod cs2_dumper {
                 pub const m_MassProperties: usize = 0x34; // matrix3x4_t
                 pub const m_flVolume: usize = 0x64; // float32
                 pub const m_flSurfaceArea: usize = 0x68; // float32
-                pub const m_Vertices: usize = 0x70; // CUtlVector<RnVertex_t>
-                pub const m_VertexPositions: usize = 0x88; // 
-                pub const m_Edges: usize = 0xA0; // CUtlVector<RnHalfEdge_t>
-                pub const m_Faces: usize = 0xB8; // CUtlVector<RnFace_t>
-                pub const m_FacePlanes: usize = 0xD0; // 
+                pub const m_Vertices: usize = 0x70; // 
+                pub const m_VertexPositions: usize = 0x88; // CUtlVector<Vector>
+                pub const m_Edges: usize = 0xA0; // 
+                pub const m_Faces: usize = 0xB8; // 
+                pub const m_FacePlanes: usize = 0xD0; // CUtlVector<RnPlane_t>
                 pub const m_nFlags: usize = 0xE8; // uint32
                 pub const m_pRegionSVM: usize = 0xF0; // CRegionSVM*
             }

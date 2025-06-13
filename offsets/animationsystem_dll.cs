@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-06-11 02:40:22.217583100 UTC
+// 2025-06-13 16:39:02.026673200 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: animationsystem.dll
@@ -2463,7 +2463,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_children = 0x58; // CUtlVector<CAnimUpdateNodeRef>
             public const nint m_weights = 0x70; // CUtlVector<float32>
             public const nint m_blendTimes = 0x88; // CUtlVector<float32>
-            public const nint m_choiceMethod = 0xA0; // ChoiceMethod
+            public const nint m_choiceMethod = 0xA0; // 
             public const nint m_choiceChangeMethod = 0xA4; // ChoiceChangeMethod
             public const nint m_blendMethod = 0xA8; // ChoiceBlendMethod
             public const nint m_blendTime = 0xAC; // float32
@@ -3069,7 +3069,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_nTotalElementCount = 0x0; // int32
             public const nint m_szChannelClass = 0x8; // CUtlVector<char*>
             public const nint m_szVariableName = 0x20; // CUtlVector<char*>
-            public const nint m_nType = 0x38; // CUtlVector<fieldtype_t>
+            public const nint m_nType = 0x38; // 
             public const nint m_nFlags = 0x50; // CUtlVector<int32>
             public const nint m_szGrouping = 0x68; // CUtlVector<CUtlString>
             public const nint m_nCompressorIndex = 0x80; // CUtlVector<int32>
@@ -3834,7 +3834,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CAnimReplayFrame {
-            public const nint m_inputDataBlocks = 0x10; // 
+            public const nint m_inputDataBlocks = 0x10; // CUtlVector<CUtlBinaryBlock>
             public const nint m_instanceData = 0x28; // CUtlBinaryBlock
             public const nint m_startingLocalToWorldTransform = 0x40; // CTransform
             public const nint m_localToWorldTransform = 0x60; // CTransform
@@ -3979,7 +3979,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CDemoSettingsComponentUpdater {
-            public const nint m_settings = 0x30; // 
+            public const nint m_settings = 0x30; // CAnimDemoCaptureSettings
         }
         // Parent: None
         // Field count: 3
@@ -5133,7 +5133,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CAnimParamHandleMap {
-            public const nint m_list = 0x0; // CUtlHashtable<uint16,int16>
+            public const nint m_list = 0x0; // 
         }
         // Parent: CNmFloatValueNode__CDefinition
         // Field count: 2

@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-06-11 02:40:22.217583100 UTC
+// 2025-06-13 16:39:02.026673200 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -2560,7 +2560,7 @@ pub mod cs2_dumper {
                 pub const m_children: usize = 0x58; // CUtlVector<CAnimUpdateNodeRef>
                 pub const m_weights: usize = 0x70; // CUtlVector<float32>
                 pub const m_blendTimes: usize = 0x88; // CUtlVector<float32>
-                pub const m_choiceMethod: usize = 0xA0; // ChoiceMethod
+                pub const m_choiceMethod: usize = 0xA0; // 
                 pub const m_choiceChangeMethod: usize = 0xA4; // ChoiceChangeMethod
                 pub const m_blendMethod: usize = 0xA8; // ChoiceBlendMethod
                 pub const m_blendTime: usize = 0xAC; // float32
@@ -3166,7 +3166,7 @@ pub mod cs2_dumper {
                 pub const m_nTotalElementCount: usize = 0x0; // int32
                 pub const m_szChannelClass: usize = 0x8; // CUtlVector<char*>
                 pub const m_szVariableName: usize = 0x20; // CUtlVector<char*>
-                pub const m_nType: usize = 0x38; // CUtlVector<fieldtype_t>
+                pub const m_nType: usize = 0x38; // 
                 pub const m_nFlags: usize = 0x50; // CUtlVector<int32>
                 pub const m_szGrouping: usize = 0x68; // CUtlVector<CUtlString>
                 pub const m_nCompressorIndex: usize = 0x80; // CUtlVector<int32>
@@ -3931,7 +3931,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CAnimReplayFrame {
-                pub const m_inputDataBlocks: usize = 0x10; // 
+                pub const m_inputDataBlocks: usize = 0x10; // CUtlVector<CUtlBinaryBlock>
                 pub const m_instanceData: usize = 0x28; // CUtlBinaryBlock
                 pub const m_startingLocalToWorldTransform: usize = 0x40; // CTransform
                 pub const m_localToWorldTransform: usize = 0x60; // CTransform
@@ -4076,7 +4076,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CDemoSettingsComponentUpdater {
-                pub const m_settings: usize = 0x30; // 
+                pub const m_settings: usize = 0x30; // CAnimDemoCaptureSettings
             }
             // Parent: None
             // Field count: 3
@@ -5230,7 +5230,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CAnimParamHandleMap {
-                pub const m_list: usize = 0x0; // CUtlHashtable<uint16,int16>
+                pub const m_list: usize = 0x0; // 
             }
             // Parent: CNmFloatValueNode__CDefinition
             // Field count: 2

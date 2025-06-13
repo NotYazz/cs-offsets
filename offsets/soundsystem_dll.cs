@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-06-11 02:40:22.217583100 UTC
+// 2025-06-13 16:39:02.026673200 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: soundsystem.dll
@@ -310,7 +310,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flDuration = 0x14; // float32
             public const nint m_Sentences = 0x18; // CUtlVector<CAudioSentence>
             public const nint m_nStreamingSize = 0x30; // uint32
-            public const nint m_nSeekTable = 0x38; // 
+            public const nint m_nSeekTable = 0x38; // CUtlVector<int32>
             public const nint m_nLoopEnd = 0x50; // int32
             public const nint m_encodedHeader = 0x58; // CUtlBinaryBlock
         }
