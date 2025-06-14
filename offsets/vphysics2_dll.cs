@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-06-13 16:39:02.026673200 UTC
+// 2025-06-14 11:59:50.336010900 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: vphysics2.dll
@@ -239,7 +239,7 @@ namespace CS2Dumper.Schemas {
             public const nint nNode = 0x0; // uint16[2]
             public const nint nCollisionMask = 0x4; // uint16
             public const nint nDummy = 0x6; // uint16
-            public const nint flRadius = 0x8; // float32[2]
+            public const nint flRadius = 0x8; // 
         }
         // Parent: None
         // Field count: 4
@@ -487,7 +487,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_Name = 0x0; // CUtlString
             public const nint m_nNameHash = 0x8; // uint32
             public const nint m_Nodes = 0x10; // CUtlVector<uint16>
-            public const nint m_InitPos = 0x28; // CUtlVector<Vector>
+            public const nint m_InitPos = 0x28; // 
             public const nint m_Gravity = 0x40; // CUtlVector<float32>
             public const nint m_GoalStrength = 0x58; // CUtlVector<float32>
             public const nint m_GoalDamping = 0x70; // CUtlVector<float32>
@@ -639,7 +639,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CRegionSVM {
-            public const nint m_Planes = 0x0; // CUtlVector<RnPlane_t>
+            public const nint m_Planes = 0x0; // 
             public const nint m_Nodes = 0x18; // CUtlVector<uint32>
         }
         // Parent: None
@@ -865,7 +865,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_Name = 0x0; // CUtlString
             public const nint m_nNameHash = 0x8; // uint32
             public const nint m_Nodes = 0x10; // CUtlVector<uint16>
-            public const nint m_InitPos = 0x28; // CUtlVector<Vector>
+            public const nint m_InitPos = 0x28; // 
             public const nint m_Gravity = 0x40; // CUtlVector<float32>
             public const nint m_GoalStrength = 0x58; // CUtlVector<float32>
             public const nint m_GoalDamping = 0x70; // CUtlVector<float32>
@@ -945,11 +945,11 @@ namespace CS2Dumper.Schemas {
             public const nint m_MassProperties = 0x34; // matrix3x4_t
             public const nint m_flVolume = 0x64; // float32
             public const nint m_flSurfaceArea = 0x68; // float32
-            public const nint m_Vertices = 0x70; // 
-            public const nint m_VertexPositions = 0x88; // CUtlVector<Vector>
-            public const nint m_Edges = 0xA0; // 
-            public const nint m_Faces = 0xB8; // 
-            public const nint m_FacePlanes = 0xD0; // CUtlVector<RnPlane_t>
+            public const nint m_Vertices = 0x70; // CUtlVector<RnVertex_t>
+            public const nint m_VertexPositions = 0x88; // 
+            public const nint m_Edges = 0xA0; // CUtlVector<RnHalfEdge_t>
+            public const nint m_Faces = 0xB8; // CUtlVector<RnFace_t>
+            public const nint m_FacePlanes = 0xD0; // 
             public const nint m_nFlags = 0xE8; // uint32
             public const nint m_pRegionSVM = 0xF0; // CRegionSVM*
         }
@@ -1071,7 +1071,7 @@ namespace CS2Dumper.Schemas {
             public const nint strength = 0x0; // float32
             public const nint forceLimit = 0x4; // float32
             public const nint torqueLimit = 0x8; // float32
-            public const nint bodyMassScale = 0xC; // float32[2]
+            public const nint bodyMassScale = 0xC; // 
             public const nint isActive = 0x14; // bool
         }
         // Parent: None

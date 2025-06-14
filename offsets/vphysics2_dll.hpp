@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-06-13 16:39:02.026673200 UTC
+// 2025-06-14 11:59:50.336010900 UTC
 
 #pragma once
 
@@ -244,7 +244,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t nNode = 0x0; // uint16[2]
                 constexpr std::ptrdiff_t nCollisionMask = 0x4; // uint16
                 constexpr std::ptrdiff_t nDummy = 0x6; // uint16
-                constexpr std::ptrdiff_t flRadius = 0x8; // float32[2]
+                constexpr std::ptrdiff_t flRadius = 0x8; // 
             }
             // Parent: None
             // Field count: 4
@@ -492,7 +492,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_Name = 0x0; // CUtlString
                 constexpr std::ptrdiff_t m_nNameHash = 0x8; // uint32
                 constexpr std::ptrdiff_t m_Nodes = 0x10; // CUtlVector<uint16>
-                constexpr std::ptrdiff_t m_InitPos = 0x28; // CUtlVector<Vector>
+                constexpr std::ptrdiff_t m_InitPos = 0x28; // 
                 constexpr std::ptrdiff_t m_Gravity = 0x40; // CUtlVector<float32>
                 constexpr std::ptrdiff_t m_GoalStrength = 0x58; // CUtlVector<float32>
                 constexpr std::ptrdiff_t m_GoalDamping = 0x70; // CUtlVector<float32>
@@ -644,7 +644,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace CRegionSVM {
-                constexpr std::ptrdiff_t m_Planes = 0x0; // CUtlVector<RnPlane_t>
+                constexpr std::ptrdiff_t m_Planes = 0x0; // 
                 constexpr std::ptrdiff_t m_Nodes = 0x18; // CUtlVector<uint32>
             }
             // Parent: None
@@ -870,7 +870,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_Name = 0x0; // CUtlString
                 constexpr std::ptrdiff_t m_nNameHash = 0x8; // uint32
                 constexpr std::ptrdiff_t m_Nodes = 0x10; // CUtlVector<uint16>
-                constexpr std::ptrdiff_t m_InitPos = 0x28; // CUtlVector<Vector>
+                constexpr std::ptrdiff_t m_InitPos = 0x28; // 
                 constexpr std::ptrdiff_t m_Gravity = 0x40; // CUtlVector<float32>
                 constexpr std::ptrdiff_t m_GoalStrength = 0x58; // CUtlVector<float32>
                 constexpr std::ptrdiff_t m_GoalDamping = 0x70; // CUtlVector<float32>
@@ -950,11 +950,11 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_MassProperties = 0x34; // matrix3x4_t
                 constexpr std::ptrdiff_t m_flVolume = 0x64; // float32
                 constexpr std::ptrdiff_t m_flSurfaceArea = 0x68; // float32
-                constexpr std::ptrdiff_t m_Vertices = 0x70; // 
-                constexpr std::ptrdiff_t m_VertexPositions = 0x88; // CUtlVector<Vector>
-                constexpr std::ptrdiff_t m_Edges = 0xA0; // 
-                constexpr std::ptrdiff_t m_Faces = 0xB8; // 
-                constexpr std::ptrdiff_t m_FacePlanes = 0xD0; // CUtlVector<RnPlane_t>
+                constexpr std::ptrdiff_t m_Vertices = 0x70; // CUtlVector<RnVertex_t>
+                constexpr std::ptrdiff_t m_VertexPositions = 0x88; // 
+                constexpr std::ptrdiff_t m_Edges = 0xA0; // CUtlVector<RnHalfEdge_t>
+                constexpr std::ptrdiff_t m_Faces = 0xB8; // CUtlVector<RnFace_t>
+                constexpr std::ptrdiff_t m_FacePlanes = 0xD0; // 
                 constexpr std::ptrdiff_t m_nFlags = 0xE8; // uint32
                 constexpr std::ptrdiff_t m_pRegionSVM = 0xF0; // CRegionSVM*
             }
@@ -1076,7 +1076,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t strength = 0x0; // float32
                 constexpr std::ptrdiff_t forceLimit = 0x4; // float32
                 constexpr std::ptrdiff_t torqueLimit = 0x8; // float32
-                constexpr std::ptrdiff_t bodyMassScale = 0xC; // float32[2]
+                constexpr std::ptrdiff_t bodyMassScale = 0xC; // 
                 constexpr std::ptrdiff_t isActive = 0x14; // bool
             }
             // Parent: None

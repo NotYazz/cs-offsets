@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-06-13 16:39:02.026673200 UTC
+// 2025-06-14 11:59:50.336010900 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -326,7 +326,7 @@ pub mod cs2_dumper {
                 pub const m_flDuration: usize = 0x14; // float32
                 pub const m_Sentences: usize = 0x18; // CUtlVector<CAudioSentence>
                 pub const m_nStreamingSize: usize = 0x30; // uint32
-                pub const m_nSeekTable: usize = 0x38; // CUtlVector<int32>
+                pub const m_nSeekTable: usize = 0x38; // 
                 pub const m_nLoopEnd: usize = 0x50; // int32
                 pub const m_encodedHeader: usize = 0x58; // CUtlBinaryBlock
             }
@@ -374,7 +374,7 @@ pub mod cs2_dumper {
             // MPropertyDescription
             pub mod CSoundContainerReference {
                 pub const m_bUseReference: usize = 0x0; // bool
-                pub const m_sound: usize = 0x8; // CStrongHandle<InfoForResourceTypeCVoiceContainerBase>
+                pub const m_sound: usize = 0x8; // 
                 pub const m_pSound: usize = 0x10; // CVoiceContainerBase*
             }
             // Parent: CVoiceContainerBase
@@ -649,7 +649,7 @@ pub mod cs2_dumper {
                 pub const m_flGrainCrossfadeAmount: usize = 0xC4; // float32
                 pub const m_flStartJitter: usize = 0xC8; // float32
                 pub const m_flPlaybackJitter: usize = 0xCC; // float32
-                pub const m_sourceAudio: usize = 0xD0; // CStrongHandle<InfoForResourceTypeCVoiceContainerBase>
+                pub const m_sourceAudio: usize = 0xD0; // 
             }
             // Parent: None
             // Field count: 7
@@ -919,7 +919,7 @@ pub mod cs2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             pub mod CVoiceContainerEnvelope {
-                pub const m_sound: usize = 0xC0; // CStrongHandle<InfoForResourceTypeCVoiceContainerBase>
+                pub const m_sound: usize = 0xC0; // 
                 pub const m_analysisContainer: usize = 0xC8; // CVoiceContainerAnalysisBase*
             }
             // Parent: None
@@ -1002,8 +1002,8 @@ pub mod cs2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             pub mod CTestBlendContainer {
-                pub const m_firstSound: usize = 0xC0; // CStrongHandle<InfoForResourceTypeCVoiceContainerBase>
-                pub const m_secondSound: usize = 0xC8; // CStrongHandle<InfoForResourceTypeCVoiceContainerBase>
+                pub const m_firstSound: usize = 0xC0; // 
+                pub const m_secondSound: usize = 0xC8; // 
             }
             // Parent: CSosGroupActionSchema
             // Field count: 8

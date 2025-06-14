@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-06-13 16:39:02.026673200 UTC
+// 2025-06-14 11:59:50.336010900 UTC
 
 #pragma once
 
@@ -315,7 +315,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flDuration = 0x14; // float32
                 constexpr std::ptrdiff_t m_Sentences = 0x18; // CUtlVector<CAudioSentence>
                 constexpr std::ptrdiff_t m_nStreamingSize = 0x30; // uint32
-                constexpr std::ptrdiff_t m_nSeekTable = 0x38; // CUtlVector<int32>
+                constexpr std::ptrdiff_t m_nSeekTable = 0x38; // 
                 constexpr std::ptrdiff_t m_nLoopEnd = 0x50; // int32
                 constexpr std::ptrdiff_t m_encodedHeader = 0x58; // CUtlBinaryBlock
             }
@@ -363,7 +363,7 @@ namespace cs2_dumper {
             // MPropertyDescription
             namespace CSoundContainerReference {
                 constexpr std::ptrdiff_t m_bUseReference = 0x0; // bool
-                constexpr std::ptrdiff_t m_sound = 0x8; // CStrongHandle<InfoForResourceTypeCVoiceContainerBase>
+                constexpr std::ptrdiff_t m_sound = 0x8; // 
                 constexpr std::ptrdiff_t m_pSound = 0x10; // CVoiceContainerBase*
             }
             // Parent: CVoiceContainerBase
@@ -638,7 +638,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flGrainCrossfadeAmount = 0xC4; // float32
                 constexpr std::ptrdiff_t m_flStartJitter = 0xC8; // float32
                 constexpr std::ptrdiff_t m_flPlaybackJitter = 0xCC; // float32
-                constexpr std::ptrdiff_t m_sourceAudio = 0xD0; // CStrongHandle<InfoForResourceTypeCVoiceContainerBase>
+                constexpr std::ptrdiff_t m_sourceAudio = 0xD0; // 
             }
             // Parent: None
             // Field count: 7
@@ -908,7 +908,7 @@ namespace cs2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             namespace CVoiceContainerEnvelope {
-                constexpr std::ptrdiff_t m_sound = 0xC0; // CStrongHandle<InfoForResourceTypeCVoiceContainerBase>
+                constexpr std::ptrdiff_t m_sound = 0xC0; // 
                 constexpr std::ptrdiff_t m_analysisContainer = 0xC8; // CVoiceContainerAnalysisBase*
             }
             // Parent: None
@@ -991,8 +991,8 @@ namespace cs2_dumper {
             // MPropertyFriendlyName
             // MPropertyDescription
             namespace CTestBlendContainer {
-                constexpr std::ptrdiff_t m_firstSound = 0xC0; // CStrongHandle<InfoForResourceTypeCVoiceContainerBase>
-                constexpr std::ptrdiff_t m_secondSound = 0xC8; // CStrongHandle<InfoForResourceTypeCVoiceContainerBase>
+                constexpr std::ptrdiff_t m_firstSound = 0xC0; // 
+                constexpr std::ptrdiff_t m_secondSound = 0xC8; // 
             }
             // Parent: CSosGroupActionSchema
             // Field count: 8

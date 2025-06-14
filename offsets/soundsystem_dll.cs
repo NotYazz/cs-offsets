@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-06-13 16:39:02.026673200 UTC
+// 2025-06-14 11:59:50.336010900 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: soundsystem.dll
@@ -310,7 +310,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flDuration = 0x14; // float32
             public const nint m_Sentences = 0x18; // CUtlVector<CAudioSentence>
             public const nint m_nStreamingSize = 0x30; // uint32
-            public const nint m_nSeekTable = 0x38; // CUtlVector<int32>
+            public const nint m_nSeekTable = 0x38; // 
             public const nint m_nLoopEnd = 0x50; // int32
             public const nint m_encodedHeader = 0x58; // CUtlBinaryBlock
         }
@@ -358,7 +358,7 @@ namespace CS2Dumper.Schemas {
         // MPropertyDescription
         public static class CSoundContainerReference {
             public const nint m_bUseReference = 0x0; // bool
-            public const nint m_sound = 0x8; // CStrongHandle<InfoForResourceTypeCVoiceContainerBase>
+            public const nint m_sound = 0x8; // 
             public const nint m_pSound = 0x10; // CVoiceContainerBase*
         }
         // Parent: CVoiceContainerBase
@@ -633,7 +633,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flGrainCrossfadeAmount = 0xC4; // float32
             public const nint m_flStartJitter = 0xC8; // float32
             public const nint m_flPlaybackJitter = 0xCC; // float32
-            public const nint m_sourceAudio = 0xD0; // CStrongHandle<InfoForResourceTypeCVoiceContainerBase>
+            public const nint m_sourceAudio = 0xD0; // 
         }
         // Parent: None
         // Field count: 7
@@ -903,7 +903,7 @@ namespace CS2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         public static class CVoiceContainerEnvelope {
-            public const nint m_sound = 0xC0; // CStrongHandle<InfoForResourceTypeCVoiceContainerBase>
+            public const nint m_sound = 0xC0; // 
             public const nint m_analysisContainer = 0xC8; // CVoiceContainerAnalysisBase*
         }
         // Parent: None
@@ -986,8 +986,8 @@ namespace CS2Dumper.Schemas {
         // MPropertyFriendlyName
         // MPropertyDescription
         public static class CTestBlendContainer {
-            public const nint m_firstSound = 0xC0; // CStrongHandle<InfoForResourceTypeCVoiceContainerBase>
-            public const nint m_secondSound = 0xC8; // CStrongHandle<InfoForResourceTypeCVoiceContainerBase>
+            public const nint m_firstSound = 0xC0; // 
+            public const nint m_secondSound = 0xC8; // 
         }
         // Parent: CSosGroupActionSchema
         // Field count: 8
